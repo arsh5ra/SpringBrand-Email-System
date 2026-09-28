@@ -1,379 +1,179 @@
 # LinkedIn outreach: day 1 (20 companies)
 
-Twenty High-fit YC S2026 companies, four or so per category. For each: who to contact, a connection note (under 200 characters, LinkedIn's limit for personalised invites) and a DM to send once they accept.
+One message per contact, each at most 300 characters. Send it as the connection note (fits LinkedIn Premium's 300-character limit), or as a DM if you're already connected. Free accounts are limited to 200 characters per note, so on a free account send a blank invite and paste the message as a DM once they accept.
 
-**How to run it:** send 20 invites today. When someone accepts, send the DM the same day. If there's no reply after 4–5 days, like or thoughtfully comment on one of their posts, then send one short nudge: "Hi {name}, just bumping this. Happy to send the free sample whenever it's useful." Log everything in the tracker CSV.
+**How to run it:** send the 20 today. If there's no reply after 4–5 days, like or comment on one of their posts, then send one short nudge: "Hi {name}, just bumping this. Happy to send the free sample whenever it's useful." Log everything in the tracker CSV.
 
-**Profiles:** each contact has a LinkedIn link. Ones marked *Check* were matched indirectly, so glance at the profile before sending. If a link is wrong, search LinkedIn for the name plus the company, or try the backup founder.
+**Profiles:** ones marked *Check* were matched indirectly, so glance at the profile before sending. If a link is wrong, search LinkedIn for the name plus the company, or try the backup founder.
 
 ## GTM & growth builders
 
-### 1. LemonLime
+### 1. LemonLime: Daniela Muñoz
 
-**Contact:** Daniela Muñoz (backup: Jordan Zietz)
+**LinkedIn:** https://www.linkedin.com/in/danielamunoz12/ (Verified) · backup: Jordan Zietz
 
-**LinkedIn:** https://www.linkedin.com/in/danielamunoz12/ (Verified)
+**Message** (273 chars):
 
-**Connection note** (169 chars):
+> Hi Daniela, Arsham from SpringBrand. Congrats on S26! LemonLime runs on GTM data, and we give AI agents lead, traffic, social and content tools at under a cent per call, no subscription. Happy to load free credits and build a sample for one of your workflows. Worth a look?
 
-> Hi Daniela, Arsham from SpringBrand. Fully automated GTM for small business is a big swing. We build GTM tools for AI agents and I'd love to swap notes. Congrats on S26!
+### 2. Nex: Nazz Mohammad
 
-**DM after they accept:**
+**LinkedIn:** https://www.linkedin.com/in/najmuzzaman/ (Verified) · backup: Francisco Dias
 
-> Thanks for connecting, Daniela!
->
-> LemonLime caught my eye because it sits right where we work. SpringBrand gives AI agents GTM tools (lead and contact discovery, traffic and SEO research, social listening, content generation) through one connection, at under a cent per call with no subscription.
->
-> Could be useful for your own pipeline, or as a data layer inside LemonLime. Happy to load free credits and build a sample around one workflow. Worth a look?
+**Message** (265 chars):
 
-### 2. Nex
+> Hi Nazz, Arsham from SpringBrand. Claude Cowork for GTM is a great wedge. We give agents GTM tools (leads, competitor traffic, social, content) at under a cent per call, no subscription. Could be the data layer under Nex. Want free credits to test it in a workflow?
 
-**Contact:** Nazz Mohammad (backup: Francisco Dias)
+### 3. TryNearby: Obaida Albaroudi
 
-**LinkedIn:** https://www.linkedin.com/in/najmuzzaman/ (Verified)
+**LinkedIn:** https://www.linkedin.com/in/obaida-albaroudi-b7b366279/ (Check: taken from one of Obaida's TryNearby posts) · backup: Ahmad Ibrahim
 
-**Connection note** (181 chars):
+**Message** (261 chars):
 
-> Hi Nazz, Arsham here from SpringBrand. Claude Cowork for GTM workflows is a great wedge. We give agents GTM tools per call and I think there's overlap worth a chat. Congrats on S26!
+> Hi Obaida, Arsham from SpringBrand. Local creators for local businesses is such a smart market. Our AI tools find creators on TikTok, Instagram and YouTube at under a cent per call. Want a free list of local creators in a city you're launching in? Just name it.
 
-**DM after they accept:**
+### 4. Osmaura: Jity Woldemichael
 
-> Thanks for connecting, Nazz!
->
-> Nex's GTM-first angle is exactly what we're building for. SpringBrand plugs GTM capabilities into AI agents: find companies and contacts, research competitor traffic, monitor social, generate content. It's pay per call, typically under a cent.
->
-> If your workflows ever need that data, we could be the layer underneath. Want free credits to test it inside a Nex workflow?
+**LinkedIn:** https://www.linkedin.com/in/tselote/ (Verified) · backup: Kali Abeje
 
-### 3. TryNearby
+**Message** (259 chars):
 
-**Contact:** Obaida Albaroudi (backup: Ahmad Ibrahim)
-
-**LinkedIn:** https://www.linkedin.com/in/obaida-albaroudi-b7b366279/ (Check: taken from one of Obaida's TryNearby posts)
-
-**Connection note** (168 chars):
-
-> Hi Obaida, Arsham from SpringBrand. Local creators for local businesses is such a smart market. We help AI agents find creators and make content. Would love to connect!
-
-**DM after they accept:**
-
-> Thanks for connecting, Obaida!
->
-> TryNearby's model lines up with what SpringBrand does well: creator discovery across TikTok, Instagram and YouTube, plus turning a brief into short video and copy. It's pay per call, usually under a cent, with no subscription.
->
-> I'd be happy to pull a free list of local creators in a city you're launching in, to see if it speeds up your matching. Which city should I try?
-
-### 4. Osmaura
-
-**Contact:** Jity Woldemichael (backup: Kali Abeje)
-
-**LinkedIn:** https://www.linkedin.com/in/tselote/ (Verified)
-
-**Connection note** (183 chars):
-
-> Hi Jity, Arsham from SpringBrand. An AI growth engine for law firms is a sharp niche. We give AI agents SEO and content tools, so I'd love to connect and trade notes. Congrats on S26!
-
-**DM after they accept:**
-
-> Thanks for connecting, Jity!
->
-> Growth for law firms is mostly search, which is where SpringBrand helps: competitor keyword gaps, where rival firms get their traffic, cost per lead on Google vs. Meta, plus content generation. It's under a cent per typical call, with no subscription.
->
-> Happy to run a free keyword and traffic breakdown for one of your client markets. Want me to?
+> Hi Jity, Arsham from SpringBrand. Congrats on S26! Law firm growth lives on search, and our AI tools show where rival firms get their traffic and which keywords they miss, at under a cent per call. Want a free keyword breakdown for one of your client markets?
 
 ## AI agent infra & devtools
 
-### 5. HyperProbe
+### 5. HyperProbe: Shailendra Singh
 
-**Contact:** Shailendra Singh (backup: Karan Raina)
+**LinkedIn:** https://www.linkedin.com/in/shailendra-singh-6540b8b/ (Verified) · backup: Karan Raina
 
-**LinkedIn:** https://www.linkedin.com/in/shailendra-singh-6540b8b/ (Verified)
+**Message** (263 chars):
 
-**Connection note** (155 chars):
+> Hi Shailendra, Arsham from SpringBrand. "Let your coding agent fix prod too" is a great line. We put GTM tools inside coding agents: who's talking about your space on X and Reddit, plus competitor traffic, at under a cent per call. Can I send you a free snapshot?
 
-> Hi Shailendra, Arsham from SpringBrand. "Let your coding agent fix prod too" is a great line. We put GTM tools inside coding agents. Would love to connect!
+### 6. Agnost AI: Parth Ajmera
 
-**DM after they accept:**
+**LinkedIn:** https://www.linkedin.com/in/parthajmera/ (Verified) · backup: Shubham Palriwala
 
-> Thanks for connecting, Shailendra!
->
-> Devtools like HyperProbe get won on X, Reddit and Hacker News-style threads. SpringBrand lets you research that from inside Claude Code or Cursor: who's talking about prod debugging, where competitors get their traffic, which teams fit your ideal customer. Most calls cost under a cent.
->
-> Can I send you a free snapshot of this week's conversations in your space?
+**Message** (273 chars):
 
-### 6. Agnost AI
+> Hi Parth, Arsham from SpringBrand. Product analytics for AI agents is overdue. We build GTM tools agents call per use, right from Claude Code or Cursor. Happy to send a free breakdown of who's discussing agent analytics on X and Reddit, plus competitor traffic. Interested?
 
-**Contact:** Parth Ajmera (backup: Shubham Palriwala)
+### 7. Mentlio: Ashank Shah
 
-**LinkedIn:** https://www.linkedin.com/in/parthajmera/ (Verified)
+**LinkedIn:** https://www.linkedin.com/in/ashank-shah/ (Verified) · backup: Ahmet Demirbas
 
-**Connection note** (172 chars):
+**Message** (251 chars):
 
-> Hi Parth, Arsham from SpringBrand. Product analytics for AI agents is overdue. We build tools that agents call per use, so we think about this a lot. Would love to connect!
+> Hi Ashank, Arsham from SpringBrand. Token optimization for AI coding teams is a real pain point. Our AI tools find engineering leaders who fit your ideal customer, at under a cent per call with no subscription. Want a free list of 25 teams that match?
 
-**DM after they accept:**
+### 8. Conifer: Michael Jeffords
 
-> Thanks for connecting, Parth!
->
-> We're on the other side of your market: SpringBrand gives AI agents GTM tools (social listening, traffic and SEO research, lead discovery) that they call per use, all from inside Claude Code or Cursor.
->
-> For your launch, I'd be happy to pull a free breakdown of who's discussing agent analytics on X and Reddit, plus where competing tools get their traffic. Interested?
+**LinkedIn:** https://www.linkedin.com/in/michael-bryan-jeffords/ (Verified) · backup: Charles Muehlberger
 
-### 7. Mentlio
+**Message** (250 chars):
 
-**Contact:** Ashank Shah (backup: Ahmet Demirbas)
-
-**LinkedIn:** https://www.linkedin.com/in/ashank-shah/ (Verified)
-
-**Connection note** (158 chars):
-
-> Hi Ashank, Arsham from SpringBrand. Token optimization for AI coding teams is a real pain point. We run GTM tools inside coding agents. Would love to connect!
-
-**DM after they accept:**
-
-> Thanks for connecting, Ashank!
->
-> Engineering leaders are exactly who Mentlio sells to, and finding them is where SpringBrand helps. Your agent can pull companies and eng leads that fit your ideal customer, track token-cost conversations on X and Reddit, and see competitor traffic. Calls are typically under a cent, with no subscription.
->
-> Want a free sample list of 25 teams that match your ideal customer?
-
-### 8. Conifer
-
-**Contact:** Michael Jeffords (backup: Charles Muehlberger)
-
-**LinkedIn:** https://www.linkedin.com/in/michael-bryan-jeffords/ (Verified)
-
-**Connection note** (157 chars):
-
-> Hi Michael, Arsham from SpringBrand. Cutting token spend 80% will sell itself if the right devs hear about it. We help with that part. Would love to connect!
-
-**DM after they accept:**
-
-> Thanks for connecting, Michael!
->
-> We're pay-per-call too, so Conifer's cost story resonates. SpringBrand plugs GTM tools into the agent you already code in: find the Reddit and X threads where devs complain about token bills, see where competing routers get their traffic, and find teams worth reaching out to. Typical calls cost under a cent.
->
-> Want me to pull this week's token-cost threads for you, free?
+> Hi Michael, Arsham from SpringBrand. We're pay per call too, so Conifer's cost story resonates. Our tools run inside your coding agent and find the Reddit and X threads where devs complain about token bills. Want me to pull this week's for you, free?
 
 ## B2B / enterprise AI SaaS
 
-### 9. Litmus
+### 9. Litmus: Elena Zhao
 
-**Contact:** Elena Zhao (backup: Shaivi Rau)
+**LinkedIn:** https://www.linkedin.com/in/elena-zhao-015353217/ (Verified) · backup: Shaivi Rau
 
-**LinkedIn:** https://www.linkedin.com/in/elena-zhao-015353217/ (Verified)
+**Message** (244 chars):
 
-**Connection note** (159 chars):
+> Hi Elena, Arsham from SpringBrand. Async work trials for every engineer is a great hiring unlock. Our AI tools find companies hiring engineers right now, with the right decision-makers, at under a cent per call. Want a free list of 25 to start?
 
-> Hi Elena, Arsham from SpringBrand. Async work trials for every engineer is a great hiring unlock. We help S26 teams build pipeline fast. Would love to connect!
+### 10. Rence: Frans Paborn
 
-**DM after they accept:**
+**LinkedIn:** https://www.linkedin.com/in/frans-paborn-990120305/ (Verified) · backup: Jonas Rosengren
 
-> Thanks for connecting, Elena!
->
-> Litmus sells to engineering and talent leaders, and SpringBrand can find them for you: companies that are actively hiring engineers, with the right decision-makers, pushed straight into your CRM. It's pay as you go, under a cent per typical call, with everything on one bill.
->
-> Want a free sample list of 25 companies hiring engineers right now?
+**Message** (246 chars):
 
-### 10. Rence
-
-**Contact:** Frans Paborn (backup: Jonas Rosengren)
-
-**LinkedIn:** https://www.linkedin.com/in/frans-paborn-990120305/ (Verified)
-
-**Connection note** (155 chars):
-
-> Hi Frans, Arsham from SpringBrand. An AI coach that rides along every sales visit is a great idea. We build GTM tools for AI agents. Would love to connect!
-
-**DM after they accept:**
-
-> Thanks for connecting, Frans!
->
-> Field sales orgs are a specific crowd to find, which is where SpringBrand helps. Your AI agent can pull companies with in-person sales teams, find the sales leaders, and add them to your CRM, then draft follow-ups when deals go quiet. Calls are under a cent, with no subscription.
->
-> Want a free sample of 25 field-sales companies in Europe or the US?
+> Hi Frans, Arsham from SpringBrand. An AI coach that rides along every sales visit is a great idea. Our AI tools find companies with field sales teams and their sales leaders, at under a cent per call. Want a free sample of 25 in Europe or the US?
 
 ## Vertical AI for SMBs
 
-### 11. CarSignal
+### 11. CarSignal: Michael Muzzin
 
-**Contact:** Michael Muzzin (backup: Junaid Popalzai)
+**LinkedIn:** https://www.linkedin.com/in/mmuzzin/ (Verified) · backup: Junaid Popalzai
 
-**LinkedIn:** https://www.linkedin.com/in/mmuzzin/ (Verified)
+**Message** (245 chars):
 
-**Connection note** (158 chars):
+> Hi Michael, Arsham from SpringBrand. An OS for auto shops is a huge market. Our AI tools build lists of auto repair shops in any city with owner contacts, at under a cent per call. Pick a city and I'll send you a free list. Where should I start?
 
-> Hi Michael, Arsham from SpringBrand. An OS for auto shops is a huge, underserved market. We help AI agents build local lead lists fast. Would love to connect!
+### 12. Marble: Aakar Khanna
 
-**DM after they accept:**
+**LinkedIn:** https://www.linkedin.com/in/aakarkhanna/ (Check: headline says Truffle (YC S26), possibly Marble's new name) · backup: Arjun Chaliha
 
-> Thanks for connecting, Michael!
->
-> Selling to auto shops is a numbers game, and SpringBrand does the heavy lifting: lists of auto repair shops in any city with owner contacts, local keyword research, and short demo videos owners actually watch. Most calls cost under a cent.
->
-> Pick a city and I'll send you a free list of auto shops there, contacts included. Where should I start?
+**Message** (255 chars):
 
-### 12. Marble
+> Hi Aakar, Arsham from SpringBrand. An autonomous back-of-house for restaurants is a big idea. Our AI tools find restaurants by city and cuisine with owner contacts, at under a cent per call. Want a free list of 50 independent NYC restaurants to test with?
 
-**Contact:** Aakar Khanna (backup: Arjun Chaliha)
+### 13. RealPact: Erik Peterson
 
-**LinkedIn:** https://www.linkedin.com/in/aakarkhanna/ (Check: headline says Truffle (YC S26), possibly Marble's new name)
+**LinkedIn:** https://www.linkedin.com/in/erik-peterson-mn/ (Verified) · backup: Ranvir Deshmukh
 
-**Connection note** (166 chars):
+**Message** (243 chars):
 
-> Hi Aakar, Arsham from SpringBrand. An autonomous back-of-house for restaurants is a big idea. We help AI agents find and reach local operators. Would love to connect!
+> Hi Erik, Arsham from SpringBrand. An AI-native OS for brokerages is a smart wedge. Our AI tools build lists of brokerages in any metro with broker-owner contacts, at under a cent per call. Pick a metro and I'll send you a free list. Which one?
 
-**DM after they accept:**
+### 14. Zaplar: Douglas Solberg
 
-> Thanks for connecting, Aakar!
->
-> Restaurants are hard to reach at scale, and SpringBrand helps: lists of restaurants by city and cuisine with owner contacts, the local keywords competitors rank for, and short demo videos for Instagram. Most calls cost under a cent, with no subscription.
->
-> Want a free list of 50 independent restaurants in NYC to test with?
+**LinkedIn:** https://www.linkedin.com/in/douglas-solberg/ (Verified) · backup: Axel Andersson Lingbert
 
-### 13. RealPact
+**Message** (233 chars):
 
-**Contact:** Erik Peterson (backup: Ranvir Deshmukh)
-
-**LinkedIn:** https://www.linkedin.com/in/erik-peterson-mn/ (Verified)
-
-**Connection note** (161 chars):
-
-> Hi Erik, Arsham from SpringBrand. An AI-native OS for brokerages is a smart wedge. We help AI agents build broker lead lists city by city. Would love to connect!
-
-**DM after they accept:**
-
-> Thanks for connecting, Erik!
->
-> Brokerages are a volume sale, and SpringBrand can build the list: brokerages in any metro with broker-owner contacts, straight into your CRM, plus follow-up drafts. Most calls cost under a cent.
->
-> Pick a metro and I'll send you a free list of brokerages there, contacts included. Which one?
-
-### 14. Zaplar
-
-**Contact:** Douglas Solberg (backup: Axel Andersson Lingbert)
-
-**LinkedIn:** https://www.linkedin.com/in/douglas-solberg/ (Verified)
-
-**Connection note** (148 chars):
-
-> Hi Douglas, Arsham from SpringBrand. An agentic hotel OS is a great bet. We help AI agents find and reach independent hotels. Would love to connect!
-
-**DM after they accept:**
-
-> Thanks for connecting, Douglas!
->
-> Independent hotels are scattered and hard to reach, and SpringBrand helps your agent find them: hotels by city with GM and owner contacts, local search research, and short demo videos. Most calls cost under a cent, with no subscription.
->
-> Want a free list of independent hotels in Stockholm (or any city you're targeting) to start with?
+> Hi Douglas, Arsham from SpringBrand. An agentic hotel OS is a great bet. Our AI tools find independent hotels by city with GM and owner contacts, at under a cent per call. Want a free list for Stockholm, or any city you're targeting?
 
 ## AI-native service firms
 
-### 15. Wingman Law
+### 15. Wingman Law: Sunwoo Lee
 
-**Contact:** Sun Woo Lee (backup: Mohini Tangri)
+**LinkedIn:** https://www.linkedin.com/in/lsunwoo/ (Verified) · backup: Mohini Tangri
 
-**LinkedIn:** https://www.linkedin.com/in/lsunwoo/ (Verified)
+**Message** (257 chars):
 
-**Connection note** (154 chars):
+> Hi Sunwoo, Arsham from SpringBrand. An AI-native PI firm is bold, and PI lives on search. Our AI tools show where established PI firms get their traffic and which keywords you can win, at under a cent per call. Want a free breakdown of three in your market?
 
-> Hi Sun, Arsham from SpringBrand. An AI-native personal injury firm is bold. That market lives on search. We help with exactly that. Would love to connect!
+### 16. Billow AI Labs: Philip Moniaga
 
-**DM after they accept:**
+**LinkedIn:** https://www.linkedin.com/in/philipmon/ (Check: taken from Philip's Billow post; an older profile is at /in/philipmoniaga) · backup: Joanathan McIntosh
 
-> Thanks for connecting, Sun!
->
-> Personal injury is one of the most competitive search markets there is. SpringBrand shows you where established PI firms get their traffic and which keywords you can realistically win, and compares cost per lead on Google vs. Meta. At under a cent per call, it's cheap to find out.
->
-> Want a free breakdown of three established PI firms in your market?
+**Message** (266 chars):
 
-### 16. Billow AI Labs
-
-**Contact:** Philip Moniaga (backup: Joanathan McIntosh)
-
-**LinkedIn:** https://www.linkedin.com/in/philipmon/ (Check: taken from Philip's Billow post; an older profile is at /in/philipmoniaga)
-
-**Connection note** (161 chars):
-
-> Hi Philip, Arsham from SpringBrand. Replacing the Big-4 with an AI-native firm is a great mission. We help AI agents win search and leads. Would love to connect!
-
-**DM after they accept:**
-
-> Thanks for connecting, Philip!
->
-> Taking clients from the Big-4 comes down to being found. SpringBrand shows where traditional accounting firms get their traffic, which keywords you can win, and can build lead lists of companies that fit your ideal client. Calls are under a cent, with no subscription.
->
-> Want a free keyword breakdown of three accounting firms you compete with?
+> Hi Philip, Arsham from SpringBrand. Taking on the Big-4 comes down to being found. Our AI tools show where traditional accounting firms get their traffic and which keywords you can win, at under a cent per call. Want a free breakdown of three firms you compete with?
 
 ## Consumer & creator
 
-### 17. Snap Poker
+### 17. Snap Poker: Neel Gadde
 
-**Contact:** Neel Gadde (backup: Dillon Mehta)
+**LinkedIn:** https://www.linkedin.com/in/neel-gadde-491880377/ (Check: matches Neel's YC post, but the headline doesn't name Snap Poker) · backup: Dillon Mehta
 
-**LinkedIn:** https://www.linkedin.com/in/neel-gadde-491880377/ (Check: matches Neel's YC post, but the headline doesn't name Snap Poker)
+**Message** (247 chars):
 
-**Connection note** (145 chars):
+> Hi Neel, Arsham from SpringBrand. A social network for online poker is so fun. Our AI tools find poker creators with 20K–100K followers on TikTok, YouTube and X, at under a cent per call. Want a free list of 20 who'd be a great fit for Snap Poker?
 
-> Hi Neel, Arsham from SpringBrand. A social network for online poker is so fun. We help AI agents find creators and trends. Would love to connect!
+### 18. Lumeria: Anthea Guo
 
-**DM after they accept:**
+**LinkedIn:** https://www.linkedin.com/in/anthea-guo/ (Verified) · backup: Maryanne Alhallak
 
-> Thanks for connecting, Neel!
->
-> Poker content is huge on TikTok, YouTube and X, and SpringBrand's tools find creators with 20K–100K followers already in that world, spot trending formats, and turn clips into short ads. Most calls cost under a cent, with no subscription.
->
-> Want a free list of 20 poker creators who'd be a great fit for Snap Poker?
+**Message** (254 chars):
 
-### 18. Lumeria
+> Hi Anthea, Arsham from SpringBrand. An Oura Ring for skin is such a great pitch. Our AI tools find skincare creators with 20K–100K followers and turn product shots into short ads, at under a cent per call. Want a free list of 20 creators who fit Lumeria?
 
-**Contact:** Anthea Guo (backup: Maryanne Alhallak)
-
-**LinkedIn:** https://www.linkedin.com/in/anthea-guo/ (Verified)
-
-**Connection note** (152 chars):
-
-> Hi Anthea, Arsham from SpringBrand. An Oura Ring for skin is such a great pitch. We help brands find the right skincare creators. Would love to connect!
-
-**DM after they accept:**
-
-> Thanks for connecting, Anthea!
->
-> Skin tech lives on TikTok and Instagram, and SpringBrand finds skincare and wellness creators with 20K–100K followers, tracks what's trending, and turns a product shot into a 15-second ad. It can also benchmark your pricing against competitors. Most calls cost under a cent.
->
-> Want a free list of 20 skincare creators who fit Lumeria, plus three ad ideas?
-
-### 19. Audora
-
-**Contact:** Dhanush R
+### 19. Audora: Dhanush R.
 
 **LinkedIn:** https://www.linkedin.com/in/dhanushrv/ (Verified)
 
-**Connection note** (163 chars):
+**Message** (251 chars):
 
-> Hi Dhanush, Arsham from SpringBrand. Audiobooks with a unique voice per character is a lovely idea. We help with creators and voice content. Would love to connect!
+> Hi Dhanush, Arsham from SpringBrand. A unique voice per character is a lovely idea, and BookTok is made for it. Our AI tools find book creators and make short video ads with voiceover, at under a cent per call. Want a free list of 20 BookTok creators?
 
-**DM after they accept:**
+### 20. Tsenta: Agnay Srivastava
 
-> Thanks for connecting, Dhanush!
->
-> BookTok is made for Audora. SpringBrand finds book creators with 20K–100K followers on TikTok and Instagram, spots trending titles, and can turn a scene into a short video with voiceover for ads. Most calls cost under a cent, with no subscription.
->
-> Want a free list of 20 BookTok creators, plus three ad concepts?
+**LinkedIn:** https://www.linkedin.com/in/agnay/ (Verified) · backup: Pulkit Gupta
 
-### 20. Tsenta
+**Message** (261 chars):
 
-**Contact:** Agnay Srivastava (backup: Pulkit Gupta)
-
-**LinkedIn:** https://www.linkedin.com/in/agnay/ (Verified)
-
-**Connection note** (154 chars):
-
-> Hi Agnay, Arsham from SpringBrand. An AI agent that finds jobs and applies for you will spread fast. We help with the creator side. Would love to connect!
-
-**DM after they accept:**
-
-> Thanks for connecting, Agnay!
->
-> Career content is one of the biggest niches on TikTok and LinkedIn. SpringBrand finds career creators with 20K–100K followers, tracks what job seekers are complaining about on Reddit, and turns that into posts and short ads. Most calls cost under a cent.
->
-> Want a free list of 20 career creators who'd be a great fit for Tsenta?
+> Hi Agnay, Arsham from SpringBrand. An agent that finds jobs and applies for you will spread fast. Our AI tools find career creators with 20K–100K followers on TikTok and LinkedIn, at under a cent per call. Want a free list of 20 who'd be a great fit for Tsenta?
