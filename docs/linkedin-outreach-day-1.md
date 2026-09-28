@@ -2,6 +2,8 @@
 
 One message per contact, each at most 300 characters. Send it as the connection note (fits LinkedIn Premium's 300-character limit), or as a DM if you're already connected. Free accounts are limited to 200 characters per note, so on a free account send a blank invite and paste the message as a DM once they accept.
 
+**Subjects** show only where LinkedIn has a subject field: InMail and Sales Navigator messages. Connection notes and regular DMs have none, so there you can open the message with the subject line instead.
+
 **How to run it:** send the 20 today. If there's no reply after 4–5 days, like or comment on one of their posts, then send one short nudge: "Hi {name}, just bumping this. Happy to send the free sample whenever it's useful." Log everything in the tracker CSV.
 
 **Profiles:** ones marked *Check* were matched indirectly, so glance at the profile before sending. If a link is wrong, search LinkedIn for the name plus the company, or try the backup founder.
@@ -12,6 +14,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 
 **LinkedIn:** https://www.linkedin.com/in/danielamunoz12/ (Verified) · backup: Jordan Zietz
 
+**Subject:** A data layer for LemonLime's agents
+
 **Message** (273 chars):
 
 > Hi Daniela, Arsham from SpringBrand. Congrats on S26! LemonLime runs on GTM data, and we give AI agents lead, traffic, social and content tools at under a cent per call, no subscription. Happy to load free credits and build a sample for one of your workflows. Worth a look?
@@ -19,6 +23,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 ### 2. Nex: Nazz Mohammad
 
 **LinkedIn:** https://www.linkedin.com/in/najmuzzaman/ (Verified) · backup: Francisco Dias
+
+**Subject:** The GTM data under Nex
 
 **Message** (265 chars):
 
@@ -28,6 +34,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 
 **LinkedIn:** https://www.linkedin.com/in/obaida-albaroudi-b7b366279/ (Check: taken from one of Obaida's TryNearby posts) · backup: Ahmad Ibrahim
 
+**Subject:** Local creators for your next city
+
 **Message** (261 chars):
 
 > Hi Obaida, Arsham from SpringBrand. Local creators for local businesses is such a smart market. Our AI tools find creators on TikTok, Instagram and YouTube at under a cent per call. Want a free list of local creators in a city you're launching in? Just name it.
@@ -35,6 +43,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 ### 4. Osmaura: Jity Woldemichael
 
 **LinkedIn:** https://www.linkedin.com/in/tselote/ (Verified) · backup: Kali Abeje
+
+**Subject:** Where your law firms' rivals get clients
 
 **Message** (259 chars):
 
@@ -46,6 +56,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 
 **LinkedIn:** https://www.linkedin.com/in/shailendra-singh-6540b8b/ (Verified) · backup: Karan Raina
 
+**Subject:** Who's talking about prod debugging this week
+
 **Message** (263 chars):
 
 > Hi Shailendra, Arsham from SpringBrand. "Let your coding agent fix prod too" is a great line. We put GTM tools inside coding agents: who's talking about your space on X and Reddit, plus competitor traffic, at under a cent per call. Can I send you a free snapshot?
@@ -53,6 +65,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 ### 6. Agnost AI: Parth Ajmera
 
 **LinkedIn:** https://www.linkedin.com/in/parthajmera/ (Verified) · backup: Shubham Palriwala
+
+**Subject:** Who's discussing agent analytics right now
 
 **Message** (273 chars):
 
@@ -62,6 +76,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 
 **LinkedIn:** https://www.linkedin.com/in/ashank-shah/ (Verified) · backup: Ahmet Demirbas
 
+**Subject:** 25 AI coding teams that fit Mentlio
+
 **Message** (251 chars):
 
 > Hi Ashank, Arsham from SpringBrand. Token optimization for AI coding teams is a real pain point. Our AI tools find engineering leaders who fit your ideal customer, at under a cent per call with no subscription. Want a free list of 25 teams that match?
@@ -69,6 +85,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 ### 8. Conifer: Michael Jeffords
 
 **LinkedIn:** https://www.linkedin.com/in/michael-bryan-jeffords/ (Verified) · backup: Charles Muehlberger
+
+**Subject:** This week's token-bill complaints, free
 
 **Message** (250 chars):
 
@@ -80,6 +98,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 
 **LinkedIn:** https://www.linkedin.com/in/elena-zhao-015353217/ (Verified) · backup: Shaivi Rau
 
+**Subject:** 25 companies hiring engineers right now
+
 **Message** (244 chars):
 
 > Hi Elena, Arsham from SpringBrand. Async work trials for every engineer is a great hiring unlock. Our AI tools find companies hiring engineers right now, with the right decision-makers, at under a cent per call. Want a free list of 25 to start?
@@ -87,6 +107,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 ### 10. Rence: Frans Paborn
 
 **LinkedIn:** https://www.linkedin.com/in/frans-paborn-990120305/ (Verified) · backup: Jonas Rosengren
+
+**Subject:** 25 field sales teams for Rence
 
 **Message** (246 chars):
 
@@ -98,6 +120,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 
 **LinkedIn:** https://www.linkedin.com/in/mmuzzin/ (Verified) · backup: Junaid Popalzai
 
+**Subject:** Every auto shop in one city
+
 **Message** (245 chars):
 
 > Hi Michael, Arsham from SpringBrand. An OS for auto shops is a huge market. Our AI tools build lists of auto repair shops in any city with owner contacts, at under a cent per call. Pick a city and I'll send you a free list. Where should I start?
@@ -105,6 +129,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 ### 12. Marble: Aakar Khanna
 
 **LinkedIn:** https://www.linkedin.com/in/aakarkhanna/ (Check: headline says Truffle (YC S26), possibly Marble's new name) · backup: Arjun Chaliha
+
+**Subject:** 50 NYC restaurants for Marble
 
 **Message** (255 chars):
 
@@ -114,6 +140,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 
 **LinkedIn:** https://www.linkedin.com/in/erik-peterson-mn/ (Verified) · backup: Ranvir Deshmukh
 
+**Subject:** Every brokerage in one metro
+
 **Message** (243 chars):
 
 > Hi Erik, Arsham from SpringBrand. An AI-native OS for brokerages is a smart wedge. Our AI tools build lists of brokerages in any metro with broker-owner contacts, at under a cent per call. Pick a metro and I'll send you a free list. Which one?
@@ -121,6 +149,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 ### 14. Zaplar: Douglas Solberg
 
 **LinkedIn:** https://www.linkedin.com/in/douglas-solberg/ (Verified) · backup: Axel Andersson Lingbert
+
+**Subject:** Independent hotels, one city at a time
 
 **Message** (233 chars):
 
@@ -132,6 +162,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 
 **LinkedIn:** https://www.linkedin.com/in/lsunwoo/ (Verified) · backup: Mohini Tangri
 
+**Subject:** Where PI firms get their clients
+
 **Message** (257 chars):
 
 > Hi Sunwoo, Arsham from SpringBrand. An AI-native PI firm is bold, and PI lives on search. Our AI tools show where established PI firms get their traffic and which keywords you can win, at under a cent per call. Want a free breakdown of three in your market?
@@ -139,6 +171,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 ### 16. Billow AI Labs: Philip Moniaga
 
 **LinkedIn:** https://www.linkedin.com/in/philipmon/ (Check: taken from Philip's Billow post; an older profile is at /in/philipmoniaga) · backup: Joanathan McIntosh
+
+**Subject:** The keywords the Big-4 own
 
 **Message** (266 chars):
 
@@ -150,6 +184,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 
 **LinkedIn:** https://www.linkedin.com/in/neel-gadde-491880377/ (Check: matches Neel's YC post, but the headline doesn't name Snap Poker) · backup: Dillon Mehta
 
+**Subject:** 20 poker creators for Snap Poker
+
 **Message** (247 chars):
 
 > Hi Neel, Arsham from SpringBrand. A social network for online poker is so fun. Our AI tools find poker creators with 20K–100K followers on TikTok, YouTube and X, at under a cent per call. Want a free list of 20 who'd be a great fit for Snap Poker?
@@ -157,6 +193,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 ### 18. Lumeria: Anthea Guo
 
 **LinkedIn:** https://www.linkedin.com/in/anthea-guo/ (Verified) · backup: Maryanne Alhallak
+
+**Subject:** 20 skincare creators for Lumeria
 
 **Message** (254 chars):
 
@@ -166,6 +204,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 
 **LinkedIn:** https://www.linkedin.com/in/dhanushrv/ (Verified)
 
+**Subject:** BookTok, meet Audora
+
 **Message** (251 chars):
 
 > Hi Dhanush, Arsham from SpringBrand. A unique voice per character is a lovely idea, and BookTok is made for it. Our AI tools find book creators and make short video ads with voiceover, at under a cent per call. Want a free list of 20 BookTok creators?
@@ -173,6 +213,8 @@ One message per contact, each at most 300 characters. Send it as the connection 
 ### 20. Tsenta: Agnay Srivastava
 
 **LinkedIn:** https://www.linkedin.com/in/agnay/ (Verified) · backup: Pulkit Gupta
+
+**Subject:** 20 career creators for Tsenta
 
 **Message** (261 chars):
 
