@@ -36,14 +36,14 @@ merge = list(csv.DictReader(open(ROOT / 'private/mail-merge.csv')))
 doc = SimpleDocTemplate(str(ROOT / 'docs/springbrand-email-templates.pdf'), pagesize=letter, leftMargin=0.65 * inch, rightMargin=0.65 * inch,
                         topMargin=0.6 * inch, bottomMargin=0.65 * inch, title='SpringBrand Outreach Email Templates', author='SpringBrand')
 S = [Paragraph('SpringBrand Outreach Email Templates', H1), Spacer(1, 4),
-     Paragraph('One sequence per YC S2026 category, signed by the Marketing Director. Every sequence offers free starter credits plus a sample built for the company\'s needs, and makes the core point: <b>' + PRICE_LINE + '</b>', B), Spacer(1, 8),
+     Paragraph('One sequence per YC S2026 category, sent by Arsham (Marketing Director) with a short personal intro. Every sequence offers free starter credits plus a sample built for the company\'s needs, and makes the core point: <b>calls cost under a cent, with no subscription</b>. "One bill" is used only where replacing a stack of tools is the pitch (GTM builders, B2B SaaS, partners).', B), Spacer(1, 8),
      Paragraph('Sequence', H3),
      Paragraph('<b>Day 0:</b> Email 1, the offer. <b>Day 3:</b> Follow-up 1 in the same thread, adding one new use case and repeating the offer. <b>Day 7:</b> Follow-up 2, the break-up email, which asks for a referral if they\'re not the right person.', B),
      Paragraph('Merge fields', H3),
-     Paragraph('<font color="#0969DA">{first_name}</font> founder\'s first name · <font color="#0969DA">{company}</font> · <font color="#0969DA">{tagline}</font> the company\'s one-liner from the YC list · <font color="#0969DA">{target}</font> who they sell to (category 4) or the incumbents they compete with (category 5) · <font color="#0969DA">{sender_name}</font>. All fields are already filled for all 262 companies in the companion mail-merge CSV.', B),
+     Paragraph('<font color="#0969DA">{first_name}</font> founder\'s first name · <font color="#0969DA">{company}</font> · <font color="#0969DA">{tagline}</font> the company\'s one-liner from the YC list · <font color="#0969DA">{target}</font> who they sell to (category 4) or the incumbents they compete with (category 5). All fields are already filled for all 262 companies in the companion mail-merge CSV.', B),
      Paragraph('Writing rules', H3)]
-for r in ['Under ~120 words. It\'s written to be read on a phone between meetings.',
-          'Open with their company, not ours: the YC one-liner shows the email isn\'t a blast.',
+for r in ['Under ~110 words, readable on a phone between meetings.', 'Open with a one-line personal intro from Arsham. Vary it by category so it never feels templated.',
+          'Quote their YC one-liner right away: it shows the email isn\'t a blast.',
           'Name the specific GTM job the category struggles with, then show SpringBrand doing it.',
           'One offer only: a free sample built for them, plus starter credits.',
           'End on a question that can be answered in one word ("Which city?", "Want them?").',

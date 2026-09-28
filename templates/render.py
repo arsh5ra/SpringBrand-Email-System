@@ -22,7 +22,7 @@ TARGET = {
     "Vestris": "title and escrow companies", "Whitespace": "wholesale distributors", "Zaplar": "hotels",
     "Axelrod": "boutique hotels", "Dream": "rental and fleet operators", "HERA": "machine shops",
     "Torus": "engineering firms",
-    "Billow AI Labs": "Big-4 and traditional accounting firms", "Donkey": "traditional sourcing agents",
+    "Billow AI Labs": "Big-4 firms", "Donkey": "traditional sourcing agents",
     "Erinys": "traditional law firms", "Last Accounting Company": "traditional accounting firms",
     "Marker": "traditional consultancies", "Peer": "traditional freight brokers",
     "Wingman Law": "established personal injury firms", "Allia Health": "traditional behavioral health practices",
@@ -48,11 +48,12 @@ def fill(text, **kw):
 def render_md():
     L = ["# SpringBrand outreach email templates", "",
          "One sequence per YC S2026 category: first email, follow-up on day 3, break-up email on day 7.",
-         "Signed by the Marketing Director. Offer: free starter credits plus a sample built around the company's needs.",
+         "Sent by Arsham, Marketing Director, with a short personal intro. Offer: free starter credits plus a sample built around the company's needs.",
          "Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner from the YC list), "
-         "`{target}` (categories 4 and 5), `{sender_name}`.", "",
-         "**Writing rules used:** under ~120 words per email, one specific offer, one question as the call to action, "
-         "and the price line in every first email: *" + PRICE_LINE + "*", ""]
+         "`{target}` (categories 4 and 5).", "",
+         "**Writing rules used:** under ~110 words per email, a warm one-line intro, one specific offer, one question as the call to action. "
+         "Every first email makes the price point (under a cent per call, no subscription); \"one bill\" appears only where "
+         "consolidating tools is the pitch (GTM builders, B2B SaaS, partners).", ""]
     for t in TEMPLATES:
         L += [f"## {t['category']}", "", f"**Angle:** {t['angle']}", "",
               "**Subject lines (A/B):** " + " · ".join(f"`{s}`" for s in t["subjects"]), "",
@@ -99,7 +100,7 @@ def render_csv(sender):
 
 
 if __name__ == "__main__":
-    ap = argparse.ArgumentParser(); ap.add_argument("--sender", default="[Your Name]")
+    ap = argparse.ArgumentParser(); ap.add_argument("--sender", default="Arsham")
     a = ap.parse_args()
     render_md()
     rows = render_csv(a.sender)
