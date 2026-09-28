@@ -1,6 +1,6 @@
 # SpringBrand — Product Brief for Outreach Copy
 
-Reference notes used when writing outreach email templates. Sources: springbrand.ai,
+Reference notes used when writing outreach email templates. Sources: public listings of springbrand.ai,
 the official `springbrand-lab/springbrand-agent-setup` README, and the SpringBrand
 MCP connector catalog.
 
