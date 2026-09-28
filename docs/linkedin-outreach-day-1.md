@@ -4,13 +4,15 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 
 **How to run it:** send 20 invites today. When someone accepts, send the DM the same day. If there's no reply after 4–5 days, like or thoughtfully comment on one of their posts, then send one short nudge: "Hi {name}, just bumping this. Happy to send the free sample whenever it's useful." Log everything in the tracker CSV.
 
-**Finding them:** search LinkedIn for the contact's name plus the company. If they don't turn up, try the backup founder.
+**Profiles:** each contact has a LinkedIn link. Ones marked *Check* were matched indirectly, so glance at the profile before sending. If a link is wrong, search LinkedIn for the name plus the company, or try the backup founder.
 
 ## GTM & growth builders
 
 ### 1. LemonLime
 
 **Contact:** Daniela Muñoz (backup: Jordan Zietz)
+
+**LinkedIn:** https://www.linkedin.com/in/danielamunoz12/ (Verified)
 
 **Connection note** (169 chars):
 
@@ -28,6 +30,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 
 **Contact:** Nazz Mohammad (backup: Francisco Dias)
 
+**LinkedIn:** https://www.linkedin.com/in/najmuzzaman/ (Verified)
+
 **Connection note** (181 chars):
 
 > Hi Nazz, Arsham here from SpringBrand. Claude Cowork for GTM workflows is a great wedge. We give agents GTM tools per call and I think there's overlap worth a chat. Congrats on S26!
@@ -44,6 +48,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 
 **Contact:** Obaida Albaroudi (backup: Ahmad Ibrahim)
 
+**LinkedIn:** https://www.linkedin.com/in/obaida-albaroudi-b7b366279/ (Check: taken from one of Obaida's TryNearby posts)
+
 **Connection note** (168 chars):
 
 > Hi Obaida, Arsham from SpringBrand. Local creators for local businesses is such a smart market. We help AI agents find creators and make content. Would love to connect!
@@ -59,6 +65,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 ### 4. Osmaura
 
 **Contact:** Jity Woldemichael (backup: Kali Abeje)
+
+**LinkedIn:** https://www.linkedin.com/in/tselote/ (Verified)
 
 **Connection note** (183 chars):
 
@@ -78,6 +86,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 
 **Contact:** Shailendra Singh (backup: Karan Raina)
 
+**LinkedIn:** https://www.linkedin.com/in/shailendra-singh-6540b8b/ (Verified)
+
 **Connection note** (155 chars):
 
 > Hi Shailendra, Arsham from SpringBrand. "Let your coding agent fix prod too" is a great line. We put GTM tools inside coding agents. Would love to connect!
@@ -93,6 +103,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 ### 6. Agnost AI
 
 **Contact:** Parth Ajmera (backup: Shubham Palriwala)
+
+**LinkedIn:** https://www.linkedin.com/in/parthajmera/ (Verified)
 
 **Connection note** (172 chars):
 
@@ -110,6 +122,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 
 **Contact:** Ashank Shah (backup: Ahmet Demirbas)
 
+**LinkedIn:** https://www.linkedin.com/in/ashank-shah/ (Verified)
+
 **Connection note** (158 chars):
 
 > Hi Ashank, Arsham from SpringBrand. Token optimization for AI coding teams is a real pain point. We run GTM tools inside coding agents. Would love to connect!
@@ -125,6 +139,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 ### 8. Conifer
 
 **Contact:** Michael Jeffords (backup: Charles Muehlberger)
+
+**LinkedIn:** https://www.linkedin.com/in/michael-bryan-jeffords/ (Verified)
 
 **Connection note** (157 chars):
 
@@ -144,6 +160,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 
 **Contact:** Elena Zhao (backup: Shaivi Rau)
 
+**LinkedIn:** https://www.linkedin.com/in/elena-zhao-015353217/ (Verified)
+
 **Connection note** (159 chars):
 
 > Hi Elena, Arsham from SpringBrand. Async work trials for every engineer is a great hiring unlock. We help S26 teams build pipeline fast. Would love to connect!
@@ -159,6 +177,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 ### 10. Rence
 
 **Contact:** Frans Paborn (backup: Jonas Rosengren)
+
+**LinkedIn:** https://www.linkedin.com/in/frans-paborn-990120305/ (Verified)
 
 **Connection note** (155 chars):
 
@@ -178,6 +198,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 
 **Contact:** Michael Muzzin (backup: Junaid Popalzai)
 
+**LinkedIn:** https://www.linkedin.com/in/mmuzzin/ (Verified)
+
 **Connection note** (158 chars):
 
 > Hi Michael, Arsham from SpringBrand. An OS for auto shops is a huge, underserved market. We help AI agents build local lead lists fast. Would love to connect!
@@ -193,6 +215,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 ### 12. Marble
 
 **Contact:** Aakar Khanna (backup: Arjun Chaliha)
+
+**LinkedIn:** https://www.linkedin.com/in/aakarkhanna/ (Check: headline says Truffle (YC S26), possibly Marble's new name)
 
 **Connection note** (166 chars):
 
@@ -210,6 +234,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 
 **Contact:** Erik Peterson (backup: Ranvir Deshmukh)
 
+**LinkedIn:** https://www.linkedin.com/in/erik-peterson-mn/ (Verified)
+
 **Connection note** (161 chars):
 
 > Hi Erik, Arsham from SpringBrand. An AI-native OS for brokerages is a smart wedge. We help AI agents build broker lead lists city by city. Would love to connect!
@@ -225,6 +251,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 ### 14. Zaplar
 
 **Contact:** Douglas Solberg (backup: Axel Andersson Lingbert)
+
+**LinkedIn:** https://www.linkedin.com/in/douglas-solberg/ (Verified)
 
 **Connection note** (148 chars):
 
@@ -244,6 +272,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 
 **Contact:** Sun Woo Lee (backup: Mohini Tangri)
 
+**LinkedIn:** https://www.linkedin.com/in/lsunwoo/ (Verified)
+
 **Connection note** (154 chars):
 
 > Hi Sun, Arsham from SpringBrand. An AI-native personal injury firm is bold. That market lives on search. We help with exactly that. Would love to connect!
@@ -259,6 +289,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 ### 16. Billow AI Labs
 
 **Contact:** Philip Moniaga (backup: Joanathan McIntosh)
+
+**LinkedIn:** https://www.linkedin.com/in/philipmon/ (Check: taken from Philip's Billow post; an older profile is at /in/philipmoniaga)
 
 **Connection note** (161 chars):
 
@@ -278,6 +310,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 
 **Contact:** Neel Gadde (backup: Dillon Mehta)
 
+**LinkedIn:** https://www.linkedin.com/in/neel-gadde-491880377/ (Check: matches Neel's YC post, but the headline doesn't name Snap Poker)
+
 **Connection note** (145 chars):
 
 > Hi Neel, Arsham from SpringBrand. A social network for online poker is so fun. We help AI agents find creators and trends. Would love to connect!
@@ -293,6 +327,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 ### 18. Lumeria
 
 **Contact:** Anthea Guo (backup: Maryanne Alhallak)
+
+**LinkedIn:** https://www.linkedin.com/in/anthea-guo/ (Verified)
 
 **Connection note** (152 chars):
 
@@ -310,6 +346,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 
 **Contact:** Dhanush R
 
+**LinkedIn:** https://www.linkedin.com/in/dhanushrv/ (Verified)
+
 **Connection note** (163 chars):
 
 > Hi Dhanush, Arsham from SpringBrand. Audiobooks with a unique voice per character is a lovely idea. We help with creators and voice content. Would love to connect!
@@ -325,6 +363,8 @@ Twenty High-fit YC S2026 companies, four or so per category. For each: who to co
 ### 20. Tsenta
 
 **Contact:** Agnay Srivastava (backup: Pulkit Gupta)
+
+**LinkedIn:** https://www.linkedin.com/in/agnay/ (Verified)
 
 **Connection note** (154 chars):
 

@@ -79,8 +79,35 @@ LEADS = [
          dm="Thanks for connecting, Agnay!\n\nCareer content is one of the biggest niches on TikTok and LinkedIn. SpringBrand finds career creators with 20K–100K followers, tracks what job seekers are complaining about on Reddit, and turns that into posts and short ads. Most calls cost under a cent.\n\nWant a free list of 20 career creators who'd be a great fit for Tsenta?"),
 ]
 
+# LinkedIn profiles found via web search (September 2026). "Verified": the
+# profile headline names the company. "Check": matched from a post URL or the
+# headline differs, so glance at the profile before sending.
+LINKEDIN = {
+    "LemonLime": ("https://www.linkedin.com/in/danielamunoz12/", "Verified"),
+    "Nex": ("https://www.linkedin.com/in/najmuzzaman/", "Verified"),
+    "TryNearby": ("https://www.linkedin.com/in/obaida-albaroudi-b7b366279/", "Check: taken from one of Obaida's TryNearby posts"),
+    "Osmaura": ("https://www.linkedin.com/in/tselote/", "Verified"),
+    "HyperProbe": ("https://www.linkedin.com/in/shailendra-singh-6540b8b/", "Verified"),
+    "Agnost AI": ("https://www.linkedin.com/in/parthajmera/", "Verified"),
+    "Mentlio": ("https://www.linkedin.com/in/ashank-shah/", "Verified"),
+    "Conifer": ("https://www.linkedin.com/in/michael-bryan-jeffords/", "Verified"),
+    "Litmus": ("https://www.linkedin.com/in/elena-zhao-015353217/", "Verified"),
+    "Rence": ("https://www.linkedin.com/in/frans-paborn-990120305/", "Verified"),
+    "CarSignal": ("https://www.linkedin.com/in/mmuzzin/", "Verified"),
+    "Marble": ("https://www.linkedin.com/in/aakarkhanna/", "Check: headline says Truffle (YC S26), possibly Marble's new name"),
+    "RealPact": ("https://www.linkedin.com/in/erik-peterson-mn/", "Verified"),
+    "Zaplar": ("https://www.linkedin.com/in/douglas-solberg/", "Verified"),
+    "Wingman Law": ("https://www.linkedin.com/in/lsunwoo/", "Verified"),
+    "Billow AI Labs": ("https://www.linkedin.com/in/philipmon/", "Check: taken from Philip's Billow post; an older profile is at /in/philipmoniaga"),
+    "Snap Poker": ("https://www.linkedin.com/in/neel-gadde-491880377/", "Check: matches Neel's YC post, but the headline doesn't name Snap Poker"),
+    "Lumeria": ("https://www.linkedin.com/in/anthea-guo/", "Verified"),
+    "Audora": ("https://www.linkedin.com/in/dhanushrv/", "Verified"),
+    "Tsenta": ("https://www.linkedin.com/in/agnay/", "Verified"),
+}
+
 
 def main():
+    assert set(LINKEDIN) == {l["company"] for l in LEADS}
     over = [(l["company"], len(l["note"])) for l in LEADS if len(l["note"]) > 200]
     assert not over, f"notes over 200 chars: {over}"
     L = ["# LinkedIn outreach: day 1 (20 companies)", "",
@@ -90,22 +117,24 @@ def main():
          "If there's no reply after 4–5 days, like or thoughtfully comment on one of their posts, then send one short nudge: "
          "\"Hi {name}, just bumping this. Happy to send the free sample whenever it's useful.\" "
          "Log everything in the tracker CSV.", "",
-         "**Finding them:** search LinkedIn for the contact's name plus the company. If they don't turn up, try the backup founder.", ""]
+         "**Profiles:** each contact has a LinkedIn link. Ones marked *Check* were matched indirectly, so glance at the profile before sending. "
+         "If a link is wrong, search LinkedIn for the name plus the company, or try the backup founder.", ""]
     cat = None
     for i, l in enumerate(LEADS, 1):
         if l["category"] != cat:
             cat = l["category"]; L += [f"## {cat}", ""]
         L += [f"### {i}. {l['company']}", "",
               f"**Contact:** {l['contact']}" + (f" (backup: {l['backup']})" if l["backup"] else ""), "",
+              f"**LinkedIn:** {LINKEDIN[l['company']][0]} ({LINKEDIN[l['company']][1]})", "",
               f"**Connection note** ({len(l['note'])} chars):", "", "> " + l["note"], "",
               "**DM after they accept:**", "", "> " + l["dm"].replace("\n\n", "\n>\n> "), ""]
     (ROOT / "docs/linkedin-outreach-day-1.md").write_text("\n".join(L))
     with open(ROOT / "private/linkedin-tracker.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
-        w.writerow(["#", "Company", "Category", "Contact", "Backup contact", "Connection note", "DM after accept",
+        w.writerow(["#", "Company", "Category", "Contact", "LinkedIn profile", "Profile status", "Backup contact", "Connection note", "DM after accept",
                     "Invite sent", "Accepted", "DM sent", "Replied", "Next step"])
         for i, l in enumerate(LEADS, 1):
-            w.writerow([i, l["company"], l["category"], l["contact"], l["backup"], l["note"], l["dm"], "", "", "", "", ""])
+            w.writerow([i, l["company"], l["category"], l["contact"], *LINKEDIN[l["company"]], l["backup"], l["note"], l["dm"], "", "", "", "", ""])
     print(len(LEADS), "leads; longest note", max(len(l["note"]) for l in LEADS), "chars")
 
 
