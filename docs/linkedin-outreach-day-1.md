@@ -8,6 +8,8 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 
 **Research:** every note and follow-up cites specific, sourced facts about the company. Facts come from public web pages and LinkedIn as of September 2026, so skim the source before sending in case anything changed.
 
+**All-in-one message:** a third option that merges the note and the follow-up into one message of at most 300 characters. Use it instead of messages 1 and 2 when you can send a longer note (LinkedIn Premium) or are already connected.
+
 **Subjects** belong to the follow-up message and only show on InMail or Sales Navigator. Regular DMs have no subject field.
 
 **Profiles:** ones marked *Check* were matched indirectly, so glance at the profile before sending. If a link is wrong, search LinkedIn for the name plus the company, or try the backup founder.
@@ -32,6 +34,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Happy to load free credits so you can test it inside one of the agents LemonLime creates. Worth a try?
 
+**3. All-in-one message** (275 chars), to use instead of 1 + 2:
+
+> Hi Daniela, Arsham from SpringBrand. LemonLime spinning up custom agents from a business's own tools in minutes is great. We give agents lead, traffic, social and content tools at under a cent per call, no subscription. Want free credits to test us inside one of your agents?
+
 ### 2. Nex: Nazz Mohammad
 
 **LinkedIn:** https://www.linkedin.com/in/najmuzzaman/ (Verified) · backup: Francisco Dias
@@ -49,6 +55,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > List qualification and revenue recovery at Nex's volume need fresh data behind them. SpringBrand gives agents company and contact discovery, traffic and SEO research and social signals per call, typically under a cent, with no subscription.
 >
 > It could be a data source your agents call mid-workflow. Want free credits to test it on one list-qualification run?
+
+**3. All-in-one message** (264 chars), to use instead of 1 + 2:
+
+> Hi Nazz, Arsham from SpringBrand. Congrats on #1 Product of the Day! Nex auditing thousands of HubSpot records in one call is wild. We give agents company, contact and traffic data at under a cent per call. Want free credits to test it on a list-qualification run?
 
 ### 3. TryNearby: Obaida Albaroudi
 
@@ -68,6 +78,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Which city are you expanding to next? I'll send you a free list of local food creators there.
 
+**3. All-in-one message** (269 chars), to use instead of 1 + 2:
+
+> Hi Obaida, Arsham from SpringBrand. 120+ paying SoCal restaurants with 90%+ retention is a great start. Our AI tools find local food creators on TikTok, Instagram and YouTube at under a cent per call. Which city are you expanding to next? I'll send a free creator list.
+
 ### 4. Osmaura: Jity Woldemichael
 
 **LinkedIn:** https://www.linkedin.com/in/tselote/ (Verified) · backup: Kali Abeje
@@ -85,6 +99,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > Osmaura's agents already find demand signals for law firms. SpringBrand could add more fuel: traffic data on rival firms, keyword gaps and social listening, all callable by your agents at under a cent per call, with no subscription.
 >
 > Want free credits to test it on one of your client firms' markets?
+
+**3. All-in-one message** (251 chars), to use instead of 1 + 2:
+
+> Hi Jity, Arsham from SpringBrand. $0 to $144K run rate in a month is huge. We can feed Osmaura's agents rival-firm traffic, keyword gaps and social listening at under a cent per call, no subscription. Want free credits to test it on one client market?
 
 ### 5. Grocalo: David Hwang *(batch 2)*
 
@@ -104,6 +122,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want free credits to test it on one creator's content pipeline?
 
+**3. All-in-one message** (262 chars), to use instead of 1 + 2:
+
+> Hi David, Arsham from SpringBrand. 2B views and 4M followers for creators like King Bach in two months is wild. We can plug trend tracking, creator discovery and video generation into Grocalo at under a cent per call. Want free credits to test it on one creator?
+
 ### 6. Chromie: Akshay Mistry *(batch 2)*
 
 **LinkedIn:** https://www.linkedin.com/in/akshaymistry-/ (Verified) · backup: Ananth Sankaralingam
@@ -121,6 +143,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > Chromie's buyers are government contractors, a crowd that's hard to find by job title alone. SpringBrand's AI tools can build lists of contracting firms by sector and size, with their BD and capture leads, and push them into your CRM. Calls are under a cent, with no subscription.
 >
 > Want a free list of 25 contractors that look like your best customers?
+
+**3. All-in-one message** (262 chars), to use instead of 1 + 2:
+
+> Hi Akshay, Arsham from SpringBrand. Spotting expiring contracts months before the RFP is a real edge. Our AI tools find contracting firms by sector and size with their BD leads, at under a cent per call. Want a free list of 25 that look like your best customers?
 
 ## AI agent infra & devtools
 
@@ -142,6 +168,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Can I send you a free snapshot of this week's conversations?
 
+**3. All-in-one message** (266 chars), to use instead of 1 + 2:
+
+> Hi Shailendra, Arsham from SpringBrand. Live variable state at under 1% CPU overhead is a strong answer to agents guessing from logs. Our tools run in Claude Code and show who's discussing AI debugging on X and Reddit, at under a cent per call. Want a free snapshot?
+
 ### 8. Agnost AI: Parth Ajmera
 
 **LinkedIn:** https://www.linkedin.com/in/parthajmera/ (Verified) · backup: Shubham Palriwala
@@ -159,6 +189,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > Agnost's buyers are conversational AI teams, and SpringBrand can help you find them: companies shipping chat and voice agents with the right product leads, plus who's discussing agent churn on X and Reddit. It runs inside Claude Code or Cursor at under a cent per call.
 >
 > Want a free list of 25 conversational AI companies to start?
+
+**3. All-in-one message** (269 chars), to use instead of 1 + 2:
+
+> Hi Parth, Arsham from SpringBrand. Reading every agent conversation to find why users churn is a clear pitch. Our AI tools find conversational AI teams and their product leads, right from Claude Code, at under a cent per call. Want a free list of 25 companies to start?
 
 ### 9. Mentlio: Ashank Shah
 
@@ -178,6 +212,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 25 teams that match Mentlio's ideal customer?
 
+**3. All-in-one message** (259 chars), to use instead of 1 + 2:
+
+> Hi Ashank, Arsham from SpringBrand. Cutting ~30% of AI coding spend without touching prompts or code is a smart line. Our AI tools find eng leaders who fit your ideal customer at under a cent per call, no subscription. Want a free list of 25 teams that match?
+
 ### 10. Conifer: Michael Jeffords
 
 **LinkedIn:** https://www.linkedin.com/in/michael-bryan-jeffords/ (Verified) · backup: Charles Muehlberger
@@ -196,6 +234,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want me to pull this week's threads for you, free?
 
+**3. All-in-one message** (263 chars), to use instead of 1 + 2:
+
+> Hi Michael, Arsham from SpringBrand. A Rust engine decoding up to 60% faster than llama.cpp is impressive. We're pay per call too: our tools find the Reddit and X threads where devs complain about token bills, at under a cent each. Want this week's threads, free?
+
 ### 11. Agent FM: Mugdhaa Patankar *(batch 2)*
 
 **LinkedIn:** https://www.linkedin.com/in/mugdhaa-patankar/ (Verified) · backup: Aniket Deshpande
@@ -213,6 +255,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > Engineers running several coding agents at once are exactly who Agent FM is for, and they talk about it on X and Reddit. SpringBrand plugs GTM tools into Claude Code or Cursor: find those threads, see where competing tools get their traffic, and find eng teams that fit. Most calls cost under a cent.
 >
 > Can I send you a free snapshot of this week's conversations?
+
+**3. All-in-one message** (257 chars), to use instead of 1 + 2:
+
+> Hi Mugdhaa, Arsham from SpringBrand. Live audio updates from a fleet of coding agents is a fun take. Our tools run in Claude Code and find the X and Reddit threads where devs discuss agent workflows, at under a cent per call. Want a free snapshot this week?
 
 ## B2B / enterprise AI SaaS
 
@@ -234,6 +280,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 25 companies hiring engineers this week?
 
+**3. All-in-one message** (257 chars), to use instead of 1 + 2:
+
+> Hi Elena, Arsham from SpringBrand. $60K ARR in a month, with trials built from real codebases. Litmus is sharp. Our AI tools find startups hiring engineers right now, with the right decision-maker, at under a cent per call. Want a free list of 25 this week?
+
 ### 13. Rence: Frans Paborn
 
 **LinkedIn:** https://www.linkedin.com/in/frans-paborn-990120305/ (Verified) · backup: Jonas Rosengren
@@ -252,6 +302,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free sample of 25 field-sales companies to start with?
 
+**3. All-in-one message** (262 chars), to use instead of 1 + 2:
+
+> Hi Frans, Arsham from SpringBrand. Scoring every field visit against the playbook and writing the follow-up to the CRM is a smart loop. Our AI tools find companies with field sales teams and their sales leaders at under a cent per call. Want a free sample of 25?
+
 ### 14. Poth Labs: Matthew Wong *(batch 2)*
 
 **LinkedIn:** https://www.linkedin.com/in/matthew-wong-b56180277/ (Check: headline still shows Palantir, but Matthew's Poth launch posts come from this profile) · backup: Mojmír Horváth
@@ -269,6 +323,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > Poth's buyers are product and growth teams who know what users did but not why. SpringBrand's AI tools can find those teams at companies that fit your ideal customer, pull their product leads into your CRM, and track who's discussing churn and activation on X and Reddit. Calls are under a cent.
 >
 > Want a free list of 25 companies that fit?
+
+**3. All-in-one message** (250 chars), to use instead of 1 + 2:
+
+> Hi Matthew, Arsham from SpringBrand. Turning scattered tickets and CRM notes into tested reasons users churn is sharp. Our AI tools find product and growth teams that fit your ideal customer at under a cent per call. Want a free list of 25 companies?
 
 ## Vertical AI for SMBs
 
@@ -290,6 +348,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Pick a city and I'll send you a free list. Where should I start?
 
+**3. All-in-one message** (266 chars), to use instead of 1 + 2:
+
+> Hi Michael, Arsham from SpringBrand. An AI scan tool that plugs into the car is a great wedge into 300K+ US shops. Our AI tools build city-by-city lists of repair shops with owner contacts at under a cent per call. Pick a city and I'll send a free list. Where first?
+
 ### 16. Marble: Aakar Khanna
 
 **LinkedIn:** https://www.linkedin.com/in/aakarkhanna/ (Check: headline says Truffle (YC S26), possibly Marble's new name) · backup: Arjun Chaliha
@@ -307,6 +369,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > After growing up in your family's restaurants and covering the sector at Goldman, you know how hard operators are to reach. SpringBrand's AI tools build lists of independent and multi-unit restaurants by city with owner contacts, and make short demo videos for Instagram. Calls are under a cent, with no subscription.
 >
 > Want a free list of 50 NYC multi-unit operators to test with?
+
+**3. All-in-one message** (272 chars), to use instead of 1 + 2:
+
+> Hi Aakar, Arsham from SpringBrand. Counting inventory 90% faster and cutting food waste 40%+ is a big deal. Our AI tools build lists of restaurant operators by city with owner contacts at under a cent per call. Want a free list of 50 NYC multi-unit operators to test with?
 
 ### 17. RealPact: Erik Peterson
 
@@ -326,6 +392,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Pick a metro and I'll send you a free list. Which one?
 
+**3. All-in-one message** (261 chars), to use instead of 1 + 2:
+
+> Hi Erik, Arsham from SpringBrand. From CourseMe at 90% of Dartmouth to an oversubscribed pre-seed. Great run. Our AI tools build lists of brokerages by metro with broker-owner contacts at under a cent per call. Pick a metro and I'll send a free list. Which one?
+
 ### 18. Zaplar: Douglas Solberg
 
 **LinkedIn:** https://www.linkedin.com/in/douglas-solberg/ (Verified) · backup: Axel Andersson Lingbert
@@ -343,6 +413,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > Zaplar serves hotels and event venues, whose GMs and owners rarely answer cold outreach. SpringBrand's AI tools find independent hotels and venues by city with GM and owner contacts, and show which local keywords they compete on. Calls are under a cent, with no subscription.
 >
 > Want a free list for Stockholm, or any city you're expanding to?
+
+**3. All-in-one message** (258 chars), to use instead of 1 + 2:
+
+> Hi Douglas, Arsham from SpringBrand. One agentic system replacing PMS, MICE and POS, with staff approving every action, is a great design. Our AI tools find independent hotels by city with GM contacts at under a cent per call. Want a free list for Stockholm?
 
 ### 19. Pango: Lukasz Reszczynski *(batch 2)*
 
@@ -362,6 +436,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 25 brands to start?
 
+**3. All-in-one message** (259 chars), to use instead of 1 + 2:
+
+> Hi Lukasz, Arsham from SpringBrand. Agents running ~99% of deliveries and returns across 100+ carriers is a big unlock. Our AI tools find e-commerce brands with their ops leads at under a cent per call, no subscription. Want a free list of 25 brands to start?
+
 ### 20. Luca IQ: Angelo Policicchio *(batch 2)*
 
 **LinkedIn:** https://www.linkedin.com/in/angelo-policicchio/ (Verified) · backup: Akash Sadashivapeth
@@ -380,6 +458,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Pick a metro and I'll send you a free list. Which one?
 
+**3. All-in-one message** (258 chars), to use instead of 1 + 2:
+
+> Hi Angelo, Arsham from SpringBrand. A review-ready 1040 in 30 minutes, and now an authorized IRS e-file provider. Congrats! Our AI tools build lists of CPA firms by metro with partner contacts at under a cent per call. Pick a metro and I'll send a free list.
+
 ### 21. Bernard: Dan Katzman *(batch 2)*
 
 **LinkedIn:** https://www.linkedin.com/in/dankatzman/ (Verified) · backup: David Goodfellow
@@ -397,6 +479,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > Appliance repair companies are local, owner-run and hard to reach at scale. SpringBrand's AI tools build lists of repair companies by city with owner contacts, show which local keywords they compete on, and make short demo videos of Pre-ID in action. Calls are under a cent, with no subscription.
 >
 > Pick a city and I'll send you a free list. Where should I start?
+
+**3. All-in-one message** (267 chars), to use instead of 1 + 2:
+
+> Hi Dan, Arsham from SpringBrand. Pre-ID sending techs out with the right parts for a first-visit fix is a practical wedge. Our AI tools build city lists of appliance repair companies with owner contacts at under a cent per call. Pick a city and I'll send a free list.
 
 ## AI-native service firms
 
@@ -418,6 +504,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free breakdown of three PI firms in your market?
 
+**3. All-in-one message** (269 chars), to use instead of 1 + 2:
+
+> Hi Sunwoo, Arsham from SpringBrand. Agents running a PI firm's back office from intake to litigation is bold. PI growth lives on search: we show where established firms get their traffic, at under a cent per call. Want a free breakdown of three PI firms in your market?
+
 ### 23. Billow AI Labs: Philip Moniaga
 
 **LinkedIn:** https://www.linkedin.com/in/philipmon/ (Check: taken from Philip's Billow post; an older profile is at /in/philipmoniaga) · backup: Joanathan McIntosh
@@ -436,6 +526,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 25 companies that fit?
 
+**3. All-in-one message** (256 chars), to use instead of 1 + 2:
+
+> Hi Philip, Arsham from SpringBrand. From Bloomberg's data infrastructure to an AI firm closing books for Series B–D companies. Great story. Our AI tools find more of those companies with their CFO, at under a cent per call. Want a free list of 25 that fit?
+
 ### 24. Donkey: Benjamin Martindale *(batch 2)*
 
 **LinkedIn:** https://www.linkedin.com/in/benjamin-martindale/ (Verified) · backup: Minghao (James) Tan
@@ -453,6 +547,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > Donkey's sweet spot is importers too big for single pallets but too small for a full container. SpringBrand's AI tools can find those US businesses by product category, with the owner or buyer's contact, and push them into your CRM. Calls are under a cent, with no subscription.
 >
 > Want a free list of 25 US importers in a category you're targeting?
+
+**3. All-in-one message** (268 chars), to use instead of 1 + 2:
+
+> Hi Benjamin, Arsham from SpringBrand. Turning the shipping container into a cart for small importers is a great line. Our AI tools find US importers by product category with the buyer's contact at under a cent per call. Want a free list of 25 in a category you target?
 
 ## Consumer & creator
 
@@ -474,6 +572,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 20 creators who'd be a great fit to post their hands on Snap Poker?
 
+**3. All-in-one message** (256 chars), to use instead of 1 + 2:
+
+> Hi Neel, Arsham from SpringBrand. Hands as interactive reels with voiceover, and zero rake. Fresh take! Our AI tools find poker creators with 20K–100K followers on TikTok, YouTube and X at under a cent per call. Want a free list of 20 who'd fit Snap Poker?
+
 ### 26. Lumeria: Anthea Guo
 
 **LinkedIn:** https://www.linkedin.com/in/anthea-guo/ (Verified) · backup: Maryanne Alhallak
@@ -491,6 +593,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > As the Lumoscope ships, creator content could drive the next wave of orders. SpringBrand's AI tools find skincare and derm creators with 20K–100K followers, track which skin topics are trending, and turn product shots into short ads. Calls are under a cent, with no subscription.
 >
 > Want a free list of 20 creators who'd love the Lumoscope?
+
+**3. All-in-one message** (268 chars), to use instead of 1 + 2:
+
+> Hi Anthea, Arsham from SpringBrand. A clip-on camera that sees skin in visible, polarized and UV light is so cool. Our AI tools find skincare creators with 20K–100K followers and turn product shots into ads at under a cent per call. Want 20 creators for the Lumoscope?
 
 ### 27. Audora: Dhanush R.
 
@@ -510,6 +616,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 20 BookTok creators, plus three clip ideas?
 
+**3. All-in-one message** (254 chars), to use instead of 1 + 2:
+
+> Hi Dhanush, Arsham from SpringBrand. A distinct voice for every character is a lovely idea, and BookTok is made for it. Our AI tools find book creators and make short clips with voiceover at under a cent per call. Want a free list of 20 BookTok creators?
+
 ### 28. Tsenta: Agnay Srivastava
 
 **LinkedIn:** https://www.linkedin.com/in/agnay/ (Verified) · backup: Pulkit Gupta
@@ -527,6 +637,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > You built Tsenta after sending 3,000 applications yourselves, and that story is perfect for career creators. SpringBrand's AI tools find career creators with 20K–100K followers on TikTok and LinkedIn, and track what job seekers complain about on Reddit. Calls are under a cent, with no subscription.
 >
 > Want a free list of 20 creators who'd be a great fit for Tsenta?
+
+**3. All-in-one message** (245 chars), to use instead of 1 + 2:
+
+> Hi Agnay, Arsham from SpringBrand. 90K+ users in two months, plus an MCP server so agents can apply to jobs. Impressive. Our AI tools find career creators with 20K–100K followers at under a cent per call. Want a free list of 20 who'd fit Tsenta?
 
 ### 29. Gutgutgoose: Leon Mojarrabi *(batch 2)*
 
@@ -546,6 +660,10 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 20 creators who'd be a great fit for Gutgutgoose?
 
+**3. All-in-one message** (256 chars), to use instead of 1 + 2:
+
+> Hi Leon, Arsham from SpringBrand. Simulating which strains can actually colonize your gut is brilliant. Our AI tools find gut-health creators with 20K–100K followers and benchmark probiotic pricing at under a cent per call. Want a free list of 20 creators?
+
 ### 30. Wondering: Cheng-Wei Hu *(batch 2)*
 
 **LinkedIn:** https://www.linkedin.com/in/cwhu/ (Verified) · backup: Angelica Kosasih
@@ -563,3 +681,7 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > "Duolingo for anything" is made for short-form video. SpringBrand's AI tools find education creators with 20K–100K followers on TikTok, YouTube and Instagram, spot which topics people are curious about this week, and turn a lesson into a short clip with voiceover. Calls are under a cent.
 >
 > Want a free list of 20 creators who'd be a great fit for Wondering?
+
+**3. All-in-one message** (256 chars), to use instead of 1 + 2:
+
+> Hi Cheng-Wei, Arsham from SpringBrand. 12,000 learners and 42,000 lessons already. Wondering is great. Our AI tools find education creators with 20K–100K followers and turn lessons into short clips at under a cent per call. Want a free list of 20 creators?
