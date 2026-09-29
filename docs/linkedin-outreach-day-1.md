@@ -1,8 +1,10 @@
-# LinkedIn outreach: day 1 (20 companies)
+# LinkedIn outreach (30 companies)
+
+Batch 1: the first 20 companies. Batch 2: 10 more, marked *(batch 2)*.
 
 Two messages per contact: a **connection note** to send with the invite, and a **message after they accept**. Notes are at most 200 characters, so they fit on free and Premium accounts.
 
-**How to run it:** send the 20 invites today. When someone accepts, send the follow-up message the same day. If there's no reply after 4–5 days, like or comment on one of their posts, then send one short nudge: "Hi {name}, just bumping this. Happy to send the free sample whenever it's useful." Log everything in the tracker CSV.
+**How to run it:** send each batch of invites in one day. When someone accepts, send the follow-up message the same day. If there's no reply after 4–5 days, like or comment on one of their posts, then send one short nudge: "Hi {name}, just bumping this. Happy to send the free sample whenever it's useful." Log everything in the tracker CSV.
 
 **Research:** every note and follow-up cites specific, sourced facts about the company. Facts come from public web pages and LinkedIn as of September 2026, so skim the source before sending in case anything changed.
 
@@ -84,9 +86,45 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want free credits to test it on one of your client firms' markets?
 
+### 5. Grocalo: David Hwang *(batch 2)*
+
+**LinkedIn:** https://www.linkedin.com/in/david-hwang-b5301436/ (Verified) · backup: Alex Yee
+
+**Research:** Generated 2B views and 4M followers for creators in 2 months; clients include King Bach, Steven He, Jimmy O. Yang and Jeannie Mai; co-founder Alex Yee built and sold Onederful (YC W18). ([source](https://www.ycombinator.com/launches/Sxb-grocalo-ai-brain-that-runs-content-for-creators))
+
+**1. Connection note** (153 chars):
+
+> Hi David, 2B views and 4M followers for creators like King Bach and Steven He in two months is wild. Arsham from SpringBrand here. Would love to connect!
+
+**2. Message after they accept** (subject: *Trends and creators for Grocalo's next clients*):
+
+> Thanks for connecting, David!
+>
+> Grocalo already runs content for some of the biggest creators out there. SpringBrand could plug into that engine: trend tracking across TikTok, Instagram, YouTube and RedNote, creator discovery for your next clients, and video and voiceover generation, all per call at under a cent, with no subscription.
+>
+> Want free credits to test it on one creator's content pipeline?
+
+### 6. Chromie: Akshay Mistry *(batch 2)*
+
+**LinkedIn:** https://www.linkedin.com/in/akshaymistry-/ (Verified) · backup: Ananth Sankaralingam
+
+**Research:** AI operating system for government contracting; surfaces agency signals and expiring contracts months before the RFP; supports contractors with 100+ prime awards and $250M+ obligated value; customers 3x their proposal output; founders ex-Google, LinkedIn, Plaid and Amazon. ([source](https://www.chromie.dev/))
+
+**1. Connection note** (180 chars):
+
+> Hi Akshay, surfacing expiring contracts months before the RFP drops is a real edge, and $250M+ in obligated value already is impressive. Arsham, SpringBrand. Would love to connect!
+
+**2. Message after they accept** (subject: *Contractors who should be on Chromie*):
+
+> Thanks for connecting, Akshay!
+>
+> Chromie's buyers are government contractors, a crowd that's hard to find by job title alone. SpringBrand's AI tools can build lists of contracting firms by sector and size, with their BD and capture leads, and push them into your CRM. Calls are under a cent, with no subscription.
+>
+> Want a free list of 25 contractors that look like your best customers?
+
 ## AI agent infra & devtools
 
-### 5. HyperProbe: Shailendra Singh
+### 7. HyperProbe: Shailendra Singh
 
 **LinkedIn:** https://www.linkedin.com/in/shailendra-singh-6540b8b/ (Verified) · backup: Karan Raina
 
@@ -104,7 +142,7 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Can I send you a free snapshot of this week's conversations?
 
-### 6. Agnost AI: Parth Ajmera
+### 8. Agnost AI: Parth Ajmera
 
 **LinkedIn:** https://www.linkedin.com/in/parthajmera/ (Verified) · backup: Shubham Palriwala
 
@@ -122,7 +160,7 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 25 conversational AI companies to start?
 
-### 7. Mentlio: Ashank Shah
+### 9. Mentlio: Ashank Shah
 
 **LinkedIn:** https://www.linkedin.com/in/ashank-shah/ (Verified) · backup: Ahmet Demirbas
 
@@ -140,7 +178,7 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 25 teams that match Mentlio's ideal customer?
 
-### 8. Conifer: Michael Jeffords
+### 10. Conifer: Michael Jeffords
 
 **LinkedIn:** https://www.linkedin.com/in/michael-bryan-jeffords/ (Verified) · backup: Charles Muehlberger
 
@@ -158,9 +196,27 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want me to pull this week's threads for you, free?
 
+### 11. Agent FM: Mugdhaa Patankar *(batch 2)*
+
+**LinkedIn:** https://www.linkedin.com/in/mugdhaa-patankar/ (Verified) · backup: Aniket Deshpande
+
+**Research:** Desktop app where coding agents post progress, blockers and decisions to one group chat, with live text and audio updates on Mac and Windows; Mugdhaa led AI for developer productivity at Snowflake (also Twitch, AWS). ([source](https://www.linkedin.com/in/mugdhaa-patankar/))
+
+**1. Connection note** (191 chars):
+
+> Hi Mugdhaa, one group chat with live audio updates from your coding agents is a fun take, and it builds on your dev-productivity work at Snowflake. Arsham, SpringBrand. Would love to connect!
+
+**2. Message after they accept** (subject: *Where devs talk about running agent fleets*):
+
+> Thanks for connecting, Mugdhaa!
+>
+> Engineers running several coding agents at once are exactly who Agent FM is for, and they talk about it on X and Reddit. SpringBrand plugs GTM tools into Claude Code or Cursor: find those threads, see where competing tools get their traffic, and find eng teams that fit. Most calls cost under a cent.
+>
+> Can I send you a free snapshot of this week's conversations?
+
 ## B2B / enterprise AI SaaS
 
-### 9. Litmus: Elena Zhao
+### 12. Litmus: Elena Zhao
 
 **LinkedIn:** https://www.linkedin.com/in/elena-zhao-015353217/ (Verified) · backup: Shaivi Rau
 
@@ -178,7 +234,7 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 25 companies hiring engineers this week?
 
-### 10. Rence: Frans Paborn
+### 13. Rence: Frans Paborn
 
 **LinkedIn:** https://www.linkedin.com/in/frans-paborn-990120305/ (Verified) · backup: Jonas Rosengren
 
@@ -196,9 +252,27 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free sample of 25 field-sales companies to start with?
 
+### 14. Poth Labs: Matthew Wong *(batch 2)*
+
+**LinkedIn:** https://www.linkedin.com/in/matthew-wong-b56180277/ (Check: headline still shows Palantir, but Matthew's Poth launch posts come from this profile) · backup: Mojmír Horváth
+
+**Research:** Unifies analytics, call transcripts, support tickets, surveys and CRM notes into a model of the customer, then tests hypotheses with adaptive interviews; Matthew was a forward-deployed engineer at Palantir. ([source](https://yespress.io/poth-labs-yc-s26))
+
+**1. Connection note** (169 chars):
+
+> Hi Matthew, turning scattered analytics, tickets and CRM notes into tested hypotheses on why users churn is a sharp idea. Arsham from SpringBrand. Would love to connect!
+
+**2. Message after they accept** (subject: *Teams asking why their users churn*):
+
+> Thanks for connecting, Matthew!
+>
+> Poth's buyers are product and growth teams who know what users did but not why. SpringBrand's AI tools can find those teams at companies that fit your ideal customer, pull their product leads into your CRM, and track who's discussing churn and activation on X and Reddit. Calls are under a cent.
+>
+> Want a free list of 25 companies that fit?
+
 ## Vertical AI for SMBs
 
-### 11. CarSignal: Michael Muzzin
+### 15. CarSignal: Michael Muzzin
 
 **LinkedIn:** https://www.linkedin.com/in/mmuzzin/ (Verified) · backup: Junaid Popalzai
 
@@ -216,7 +290,7 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Pick a city and I'll send you a free list. Where should I start?
 
-### 12. Marble: Aakar Khanna
+### 16. Marble: Aakar Khanna
 
 **LinkedIn:** https://www.linkedin.com/in/aakarkhanna/ (Check: headline says Truffle (YC S26), possibly Marble's new name) · backup: Arjun Chaliha
 
@@ -234,7 +308,7 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 50 NYC multi-unit operators to test with?
 
-### 13. RealPact: Erik Peterson
+### 17. RealPact: Erik Peterson
 
 **LinkedIn:** https://www.linkedin.com/in/erik-peterson-mn/ (Verified) · backup: Ranvir Deshmukh
 
@@ -252,7 +326,7 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Pick a metro and I'll send you a free list. Which one?
 
-### 14. Zaplar: Douglas Solberg
+### 18. Zaplar: Douglas Solberg
 
 **LinkedIn:** https://www.linkedin.com/in/douglas-solberg/ (Verified) · backup: Axel Andersson Lingbert
 
@@ -270,9 +344,63 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list for Stockholm, or any city you're expanding to?
 
+### 19. Pango: Lukasz Reszczynski *(batch 2)*
+
+**LinkedIn:** https://www.linkedin.com/in/lukasz-reszczynski-bio/ (Verified) · backup: Steve Rahimi
+
+**Research:** AI agents run deliveries, tracking, returns, refunds and claims (about 99% without a human) across 100+ carriers; integrates with Shopify, WooCommerce and Magento; claims up to 30% fewer returns and 70% fewer delivery tickets; raised $550K. ([source](https://yespress.io/pango-yc-s26))
+
+**1. Connection note** (168 chars):
+
+> Hi Lukasz, AI agents running ~99% of deliveries, returns and claims across 100+ carriers is a big unlock for e-commerce. Arsham from SpringBrand. Would love to connect!
+
+**2. Message after they accept** (subject: *Online brands buried in returns*):
+
+> Thanks for connecting, Lukasz!
+>
+> Pango's best customers are online brands buried in returns and "where is my order" tickets. SpringBrand's AI tools can find e-commerce brands by category and size with their ops or CX leads, and show which ones shoppers complain about on Reddit and TikTok. Calls are under a cent, with no subscription.
+>
+> Want a free list of 25 brands to start?
+
+### 20. Luca IQ: Angelo Policicchio *(batch 2)*
+
+**LinkedIn:** https://www.linkedin.com/in/angelo-policicchio/ (Verified) · backup: Akash Sadashivapeth
+
+**Research:** Intake to a review-ready 1040 in 30 minutes; passed IRS Assurance Testing and is now an authorized IRS e-file provider; saved a 12-person CPA firm 1,100 hours; Angelo is a CPA (ex-EY, FBI forensic accounting). ([source](https://www.ycombinator.com/launches/SBo-luca-iq-an-api-for-u-s-tax-calculation-and-e-filing))
+
+**1. Connection note** (161 chars):
+
+> Hi Angelo, intake to a review-ready 1040 in 30 minutes, and now an authorized IRS e-file provider. Congrats! Arsham from SpringBrand here. Would love to connect.
+
+**2. Message after they accept** (subject: *Every CPA firm in one metro*):
+
+> Thanks for connecting, Angelo!
+>
+> With results like 1,100 hours saved for a twelve-person firm, the hard part is getting in front of more CPA firms before tax season. SpringBrand's AI tools build lists of small and mid-size CPA firms by metro with partner contacts, and show which tax keywords firms compete on. Calls are under a cent.
+>
+> Pick a metro and I'll send you a free list. Which one?
+
+### 21. Bernard: Dan Katzman *(batch 2)*
+
+**LinkedIn:** https://www.linkedin.com/in/dankatzman/ (Verified) · backup: David Goodfellow
+
+**Research:** AI handles phones, scheduling and dispatch for appliance repair companies; Pre-ID combines the appliance, symptoms, repair history and parts data so technicians arrive with the right parts; 9-person team in NYC. ([source](https://bernardhq.com/))
+
+**1. Connection note** (161 chars):
+
+> Hi Dan, Pre-ID sending technicians out with the right parts for a first-visit fix is such a practical wedge. Arsham from SpringBrand here. Would love to connect!
+
+**2. Message after they accept** (subject: *Appliance repair companies, one city at a time*):
+
+> Thanks for connecting, Dan!
+>
+> Appliance repair companies are local, owner-run and hard to reach at scale. SpringBrand's AI tools build lists of repair companies by city with owner contacts, show which local keywords they compete on, and make short demo videos of Pre-ID in action. Calls are under a cent, with no subscription.
+>
+> Pick a city and I'll send you a free list. Where should I start?
+
 ## AI-native service firms
 
-### 15. Wingman Law: Sunwoo Lee
+### 22. Wingman Law: Sunwoo Lee
 
 **LinkedIn:** https://www.linkedin.com/in/lsunwoo/ (Verified) · backup: Mohini Tangri
 
@@ -290,7 +418,7 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free breakdown of three PI firms in your market?
 
-### 16. Billow AI Labs: Philip Moniaga
+### 23. Billow AI Labs: Philip Moniaga
 
 **LinkedIn:** https://www.linkedin.com/in/philipmon/ (Check: taken from Philip's Billow post; an older profile is at /in/philipmoniaga) · backup: Joanathan McIntosh
 
@@ -308,9 +436,27 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 25 companies that fit?
 
+### 24. Donkey: Benjamin Martindale *(batch 2)*
+
+**LinkedIn:** https://www.linkedin.com/in/benjamin-martindale/ (Verified) · backup: Minghao (James) Tan
+
+**Research:** Buys factory-direct in Asia, takes title and delivers duty-paid at a locked price; targets small importers paying 15–30% to each middleman; Benjamin advised Sany and Zoomlion on selling into Western markets; team in SF and Wuhan. ([source](https://www.ycombinator.com/companies/donkey))
+
+**1. Connection note** (175 chars):
+
+> Hi Benjamin, turning the shipping container into a cart for small importers is a great line. Love the Sany and Zoomlion background. Arsham, SpringBrand. Would love to connect!
+
+**2. Message after they accept** (subject: *US importers paying three middlemen*):
+
+> Thanks for connecting, Benjamin!
+>
+> Donkey's sweet spot is importers too big for single pallets but too small for a full container. SpringBrand's AI tools can find those US businesses by product category, with the owner or buyer's contact, and push them into your CRM. Calls are under a cent, with no subscription.
+>
+> Want a free list of 25 US importers in a category you're targeting?
+
 ## Consumer & creator
 
-### 17. Snap Poker: Neel Gadde
+### 25. Snap Poker: Neel Gadde
 
 **LinkedIn:** https://www.linkedin.com/in/neel-gadde-491880377/ (Check: matches Neel's YC post, but the headline doesn't name Snap Poker) · backup: Dillon Mehta
 
@@ -328,7 +474,7 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 20 creators who'd be a great fit to post their hands on Snap Poker?
 
-### 18. Lumeria: Anthea Guo
+### 26. Lumeria: Anthea Guo
 
 **LinkedIn:** https://www.linkedin.com/in/anthea-guo/ (Verified) · backup: Maryanne Alhallak
 
@@ -346,7 +492,7 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 20 creators who'd love the Lumoscope?
 
-### 19. Audora: Dhanush R.
+### 27. Audora: Dhanush R.
 
 **LinkedIn:** https://www.linkedin.com/in/dhanushrv/ (Verified)
 
@@ -364,7 +510,7 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 >
 > Want a free list of 20 BookTok creators, plus three clip ideas?
 
-### 20. Tsenta: Agnay Srivastava
+### 28. Tsenta: Agnay Srivastava
 
 **LinkedIn:** https://www.linkedin.com/in/agnay/ (Verified) · backup: Pulkit Gupta
 
@@ -381,3 +527,39 @@ Two messages per contact: a **connection note** to send with the invite, and a *
 > You built Tsenta after sending 3,000 applications yourselves, and that story is perfect for career creators. SpringBrand's AI tools find career creators with 20K–100K followers on TikTok and LinkedIn, and track what job seekers complain about on Reddit. Calls are under a cent, with no subscription.
 >
 > Want a free list of 20 creators who'd be a great fit for Tsenta?
+
+### 29. Gutgutgoose: Leon Mojarrabi *(batch 2)*
+
+**LinkedIn:** https://www.linkedin.com/in/leon-moj/ (Verified) · backup: Anis Mihrshahi
+
+**Research:** Sequences a stool sample, builds a metabolic model of the gut and simulates which probiotic strains can colonize; raised $500K from YC; Leon started university at 14 and built a pharmacy doing $4M a year to fund the science. ([source](https://www.ycombinator.com/launches/SAP-gutgutgoose-personalized-probiotics))
+
+**1. Connection note** (174 chars):
+
+> Hi Leon, simulating which strains can actually colonize your gut is brilliant, and building a $4M pharmacy to fund it is bold. Arsham from SpringBrand. Would love to connect!
+
+**2. Message after they accept** (subject: *Gut-health creators for Gutgutgoose*):
+
+> Thanks for connecting, Leon!
+>
+> Gut health is huge on TikTok and Instagram, and personalized probiotics are a story creators love to tell. SpringBrand's AI tools find gut-health and wellness creators with 20K–100K followers, track which topics are trending, and benchmark your pricing against other probiotic brands. Calls are under a cent.
+>
+> Want a free list of 20 creators who'd be a great fit for Gutgutgoose?
+
+### 30. Wondering: Cheng-Wei Hu *(batch 2)*
+
+**LinkedIn:** https://www.linkedin.com/in/cwhu/ (Verified) · backup: Angelica Kosasih
+
+**Research:** Turns any topic into a path of short visual lessons with podcasts and interactive exercises; 12,000+ people have completed 42,000+ lessons; Cheng-Wei is ex-NotebookLM, Angelica ex-Meta; they met at Cornell Tech. ([source](https://x.com/HcwXd/status/2082874894308843939))
+
+**1. Connection note** (166 chars):
+
+> Hi Cheng-Wei, 12,000 learners and 42,000 lessons already, built by an ex-NotebookLM engineer. Wondering is great. Arsham from SpringBrand here. Would love to connect!
+
+**2. Message after they accept** (subject: *20 education creators for Wondering*):
+
+> Thanks for connecting, Cheng-Wei!
+>
+> "Duolingo for anything" is made for short-form video. SpringBrand's AI tools find education creators with 20K–100K followers on TikTok, YouTube and Instagram, spot which topics people are curious about this week, and turn a lesson into a short clip with voiceover. Calls are under a cent.
+>
+> Want a free list of 20 creators who'd be a great fit for Wondering?
