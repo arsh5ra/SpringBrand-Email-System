@@ -90,20 +90,18 @@ springbrand.ai
 
 **Angle:** You need pipeline after Demo Day, without paying for Apollo, Semrush and Similarweb separately.
 
-**Subject lines (A/B):** `50 target accounts for {company}` · `pipeline after Demo Day` · `{company}'s next customers`
+**Subject lines (A/B):** `25 target accounts for {company}` · `pipeline after Demo Day` · `{company}'s next customers`
 
 ### Email 1 (day 0)
 
 ```
 Hi {first_name},
 
-Arsham from SpringBrand here. I saw {company} in the S26 batch ("{tagline}"). Really cool.
+Arsham from SpringBrand here. I saw {company} in the S26 batch ("{tagline}").
 
-After Demo Day, most teams I talk to need pipeline fast but aren't ready to pay for separate lead, SEO and traffic tools. SpringBrand gives your AI agent all of them: find companies and decision-makers that fit, push them into HubSpot or Salesforce, and follow up on deals that went quiet.
+After Demo Day, most teams I talk to need pipeline fast but aren't ready to pay for separate lead, SEO and traffic tools. SpringBrand gives your AI agent all of them: find companies and decision-makers that fit, push them into HubSpot or Salesforce, and follow up on deals that went quiet. It's pay as you go, usually under a cent per call, all on one bill.
 
-It's pay as you go, usually under a cent per call, with everything on one bill.
-
-Tell me your ideal customer in one line and I'll send you a free sample list. Sound good?
+Reply with your ideal customer in one line and I'll send you a free list of 25 matching companies. Sound good?
 
 Best,
 Arsham
@@ -116,9 +114,26 @@ springbrand.ai
 ```
 Hi {first_name},
 
-One more thought: early B2B deals usually die from silence, not a "no." SpringBrand can spot deals that haven't moved in two weeks and draft the follow-ups for you.
+To make it easy: one line is enough, for example "Series A fintechs in New York, Head of Finance". You'd get 25 matching companies, each with the right decision-maker, ready to drop into your CRM.
 
-The free sample list is still yours. Just reply with your ideal customer and I'll get it started.
+Want me to start one for {company}?
+
+Best,
+Arsham
+Growth Marketing Manager, SpringBrand
+springbrand.ai
+```
+
+### Follow-up 2 (day 7, same thread)
+
+```
+Hi {first_name},
+
+Last note from me, promise. If pipeline isn't the bottleneck right now, I completely understand.
+
+The free list of 25 companies stays on offer whenever {company} is ready to scale outbound, along with starter credits to build more. And if someone else on the team owns sales, I'd really appreciate a pointer.
+
+Rooting for you this batch!
 
 Best,
 Arsham
