@@ -61,7 +61,7 @@ This is Arsham from SpringBrand. Congrats on S26!
 
 Devtools get won on X, Reddit and YouTube, and most technical founders don't have time to keep up. SpringBrand plugs GTM tools straight into the agent you already code in, so you can ask Claude Code or Cursor who's talking about {dev_topic}, where competitors get their traffic, or which AI teams fit your ideal customer. Most calls cost under a cent, with no subscription.
 
-Can I send you a free snapshot of this week's {dev_topic} conversations, plus a competitor traffic breakdown for {company}?
+Can I send you a free snapshot of this week's conversations about {dev_topic}, plus a competitor traffic breakdown for {company}?
 
 Best,
 Arsham
@@ -91,7 +91,7 @@ Hi {first_name},
 
 Last note from me, promise. If marketing isn't on your plate right now, I completely understand.
 
-The free snapshot of {dev_topic} conversations stays on offer whenever {company} gears up for its next launch, along with starter credits to run your own. And if someone else on the team owns growth, I'd really appreciate a pointer.
+The free snapshot of conversations about {dev_topic} stays on offer whenever {company} gears up for its next launch, along with starter credits to run your own. And if someone else on the team owns growth, I'd really appreciate a pointer.
 
 Rooting for you this batch!
 
