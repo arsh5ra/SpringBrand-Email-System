@@ -21,12 +21,12 @@ FIT_ORDER = {"High": 0, "Medium": 1, "Low": 2}
 PRIVATE = ("Contact first name", "Contact email", "Other founders")
 
 companies = json.load(open(ROOT / "private/companies.json"))
-merge = {r["Company"]: r for r in csv.DictReader(open(ROOT / "private/mail-merge.csv"))}
+merge = {r["CompanyKey"]: r for r in csv.DictReader(open(ROOT / "private/mail-merge.csv"))}
 companies.sort(key=lambda o: (o["Segment"] == "Needs review", o["Segment"], FIT_ORDER[o["Fit"]], o["Company"].lower()))
 
 rows = []
 for o in companies:
-    m = merge.get(o["Company"].split(" (")[0], {})
+    m = merge.get(o["Company"], {})
     rows.append({
         "Category": o["Segment"], "Company": o["Company"], "What they do": o["Description"],
         "Website": o["URL"], "Location": o["Location"], "Fit": o["Fit"],

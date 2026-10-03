@@ -75,6 +75,14 @@ DEV_TOPIC = {
     "Traceforce": "on-device AI security", "Tracer": "combining open-source models",
 }
 
+# Category 1: the data each GTM product runs on (keyed by full company name).
+DATA_NEED = {
+    "Chromie": "contractor and company data", "Grocalo": "creator and trend data",
+    "LemonLime": "lead and competitor data", "Nex": "company and contact data",
+    "Osmaura": "search and traffic data on law firms", "Palisade (sales agents)": "buyer and seller lead data",
+    "TryNearby": "local creator data", "Pluto": "professional and company data",
+}
+
 
 def tagline(desc):
     t = re.sub(r"[^\u0000-￿]", "", desc or "").strip().rstrip(".")
@@ -91,7 +99,7 @@ def render_md():
          "One sequence per YC S2026 category: first email, follow-up on day 3, break-up email on day 7.",
          "Sent by Arsham, Growth Marketing Manager, with a short personal intro. Offer: free starter credits plus a sample built around the company's needs.",
          "Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner from the YC list), "
-         "`{target}` (categories 4 and 5), `{agent_need}` (partner campaign), `{creator_niche}` (category 6), `{dev_topic}` (category 2).", "",
+         "`{target}` (categories 4 and 5), `{agent_need}` (partner campaign), `{creator_niche}` (category 6), `{dev_topic}` (category 2), `{data_need}` (category 1).", "",
          "**Writing rules used:** under ~110 words per email, a warm one-line intro, one specific offer, one question as the call to action. "
          "Every first email makes the price point (under a cent per call, no subscription); \"one bill\" appears only where "
          "consolidating tools is the pitch (GTM builders, B2B SaaS, partners).", ""]
@@ -99,7 +107,7 @@ def render_md():
         L += [f"## {t['category']}", "", f"**Angle:** {t['angle']}", "",
               "**Subject lines (A/B):** " + " · ".join(f"`{s}`" for s in t["subjects"]), "",
               "### Email 1 (day 0)", "", "```", fill(t["email_1"], first_name="{first_name}", company="{company}",
-              tagline="{tagline}", target="{target}", agent_need="{agent_need}", creator_niche="{creator_niche}", dev_topic="{dev_topic}"), "", SIGNATURE, "```", "",
+              tagline="{tagline}", target="{target}", agent_need="{agent_need}", creator_niche="{creator_niche}", dev_topic="{dev_topic}", data_need="{data_need}"), "", SIGNATURE, "```", "",
               "### Follow-up 1 (day 3, reply in the same thread)", "", "```", t["follow_up_1"], "", SIGNATURE, "```", ""]
         if "follow_up_2" in t:
             L += ["### Follow-up 2 (day 7, same thread)", "", "```", t["follow_up_2"], "", SIGNATURE, "```", ""]
@@ -121,16 +129,20 @@ def render_csv(sender):
         name = next((n for n, e in founders if e.lower() == email.lower()), None)
         if name is None:
             local = email.split("@")[0].lower()
-            name = next((n for n, _ in founders if n.split()[0].lower() == local), founders[0][0] if founders else "")
+            name = next((n for n, _ in founders if local in [t.lower() for t in n.split()]), founders[0][0] if founders else "")
+        parts = name.split()
+        if parts and parts[0].lower() == "fnu" and len(parts) > 1:  # "first name unknown" placeholder
+            name = " ".join(parts[1:])
         kw = dict(first_name=name.split()[0] if name else "there", company=o["Company"].split(" (")[0],
                   tagline=tagline(o["Description"]), target=TARGET.get(o["Company"], "your customers"),
                   agent_need=AGENT_NEED.get(o["Company"], "needs what you build"),
                   creator_niche=CREATOR_NICHE.get(o["Company"], "niche"),
                   dev_topic=DEV_TOPIC.get(o["Company"], "your category"),
+                  data_need=DATA_NEED.get(o["Company"], "good data"),
                   sender_name=sender)
         sig = SIGNATURE.format(**kw)
         out.append({
-            "Company": kw["company"], "Category": o["Segment"], "Template": key, "Fit": o["Fit"],
+            "Company": kw["company"], "CompanyKey": o["Company"], "Category": o["Segment"], "Template": key, "Fit": o["Fit"],
             "FirstName": kw["first_name"], "Email": email, "OtherFounders": "; ".join(o["Founders"].split(";")[1:]).strip(),
             "Subject": t["subjects"][0].format(**kw),
             "SubjectB": t["subjects"][1].format(**kw),

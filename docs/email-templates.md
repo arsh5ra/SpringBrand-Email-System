@@ -2,13 +2,13 @@
 
 One sequence per YC S2026 category: first email, follow-up on day 3, break-up email on day 7.
 Sent by Arsham, Growth Marketing Manager, with a short personal intro. Offer: free starter credits plus a sample built around the company's needs.
-Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner from the YC list), `{target}` (categories 4 and 5), `{agent_need}` (partner campaign), `{creator_niche}` (category 6), `{dev_topic}` (category 2).
+Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner from the YC list), `{target}` (categories 4 and 5), `{agent_need}` (partner campaign), `{creator_niche}` (category 6), `{dev_topic}` (category 2), `{data_need}` (category 1).
 
 **Writing rules used:** under ~110 words per email, a warm one-line intro, one specific offer, one question as the call to action. Every first email makes the price point (under a cent per call, no subscription); "one bill" appears only where consolidating tools is the pitch (GTM builders, B2B SaaS, partners).
 
 ## 1. GTM & growth builders
 
-**Angle:** Your product runs on GTM data. Use SpringBrand for your own pipeline, or call it inside your product.
+**Angle:** Your product runs on GTM data. Get it behind one connection your agents can call, per use, instead of a contract with each data vendor.
 
 **Subject lines (A/B):** `the data behind {company}` · `{company} + SpringBrand` · `five data vendors, or one`
 
@@ -17,11 +17,11 @@ Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner 
 ```
 Hi {first_name},
 
-Arsham here, growth marketing manager at SpringBrand. I came across {company} in the S26 batch ("{tagline}") and had to reach out.
+Arsham from SpringBrand here. I came across {company} in the S26 batch ("{tagline}") and had to reach out.
 
-Products like yours run on data: leads, traffic, social signals, content. We put all of it behind one connection your agents can call. A typical call costs less than a cent, with no subscriptions, no contract with each data vendor, and everything on one bill.
+Products like {company} run on data, and for you that means {data_need}. SpringBrand puts lead, traffic, social and content tools behind one connection your agents can call, at under a cent per typical call, with no subscription and no contract with each data vendor.
 
-I'd love to set you up with free starter credits and build a quick sample around a workflow you care about. Worth a look?
+Want free starter credits to test it inside one of {company}'s workflows?
 
 Best,
 Arsham
@@ -34,11 +34,26 @@ springbrand.ai
 ```
 Hi {first_name},
 
-Here's what I had in mind for {company}: 50 companies that match your ideal customer, with decision-maker contacts and a first-touch draft, all from one request.
-
-If it's more useful as a product feature, I can show you the same thing running through the API instead.
+Here's what I had in mind for {company}: 50 companies that match your ideal customer, with decision-maker contacts and a first-touch draft, all from one request. If you'd rather test it as a data source inside your product, the same request runs through our MCP connector.
 
 Just reply "yes" and I'll send it over.
+
+Best,
+Arsham
+Growth Marketing Manager, SpringBrand
+springbrand.ai
+```
+
+### Follow-up 2 (day 7, same thread)
+
+```
+Hi {first_name},
+
+Last note from me, promise. If adding a new data source isn't a priority right now, I completely understand.
+
+Your free starter credits stay open whenever {company} needs {data_need}, and so does the sample run. And if someone else on the team owns data or growth, I'd really appreciate a pointer.
+
+Rooting for you this batch!
 
 Best,
 Arsham

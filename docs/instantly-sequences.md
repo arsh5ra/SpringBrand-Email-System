@@ -1,7 +1,7 @@
 # Instantly sequences
 
 One Instantly campaign per lead file in `private/instantly/`. Paste each step below into the campaign's sequence.
-Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{agent_need}}`, `{{creator_niche}}`, `{{dev_topic}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).
+Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{agent_need}}`, `{{creator_niche}}`, `{{dev_topic}}`, `{{data_need}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).
 Use subject A and B as two variants of step 1 to A/B test. Steps 2 and 3 are sent as replies in the same thread (leave their subject blank).
 
 ## 01-gtm-growth-builders (1. GTM & growth builders)
@@ -11,11 +11,11 @@ Use subject A and B as two variants of step 1 to A/B test. Steps 2 and 3 are sen
 ```
 Hi {{firstName}},
 
-Arsham here, growth marketing manager at SpringBrand. I came across {{companyName}} in the S26 batch ("{{tagline}}") and had to reach out.
+Arsham from SpringBrand here. I came across {{companyName}} in the S26 batch ("{{tagline}}") and had to reach out.
 
-Products like yours run on data: leads, traffic, social signals, content. We put all of it behind one connection your agents can call. A typical call costs less than a cent, with no subscriptions, no contract with each data vendor, and everything on one bill.
+Products like {{companyName}} run on data, and for you that means {{data_need}}. SpringBrand puts lead, traffic, social and content tools behind one connection your agents can call, at under a cent per typical call, with no subscription and no contract with each data vendor.
 
-I'd love to set you up with free starter credits and build a quick sample around a workflow you care about. Worth a look?
+Want free starter credits to test it inside one of {{companyName}}'s workflows?
 
 Best,
 Arsham
@@ -28,9 +28,7 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Here's what I had in mind for {{companyName}}: 50 companies that match your ideal customer, with decision-maker contacts and a first-touch draft, all from one request.
-
-If it's more useful as a product feature, I can show you the same thing running through the API instead.
+Here's what I had in mind for {{companyName}}: 50 companies that match your ideal customer, with decision-maker contacts and a first-touch draft, all from one request. If you'd rather test it as a data source inside your product, the same request runs through our MCP connector.
 
 Just reply "yes" and I'll send it over.
 
@@ -45,9 +43,9 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Last note from me, promise. If growth tooling isn't a priority right now, I totally understand.
+Last note from me, promise. If adding a new data source isn't a priority right now, I completely understand.
 
-Your free starter credits aren't going anywhere, so they're there whenever {{companyName}} needs a lead list, a competitor scan or some fresh content. And if someone else on the team owns growth, I'd really appreciate a pointer.
+Your free starter credits stay open whenever {{companyName}} needs {{data_need}}, and so does the sample run. And if someone else on the team owns data or growth, I'd really appreciate a pointer.
 
 Rooting for you this batch!
 

@@ -15,7 +15,7 @@ import csv, json, re
 from collections import Counter
 from pathlib import Path
 from templates import TEMPLATES, SIGNATURE, FOLLOW_UP_2
-from render import TARGET, AGENT_NEED, CREATOR_NICHE, DEV_TOPIC, tagline
+from render import TARGET, AGENT_NEED, CREATOR_NICHE, DEV_TOPIC, DATA_NEED, tagline
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "private/instantly"
@@ -27,7 +27,7 @@ CAMPAIGN = {
 }
 # Our merge fields -> Instantly variables.
 VARS = {"{first_name}": "{{firstName}}", "{company}": "{{companyName}}", "{tagline}": "{{tagline}}", "{target}": "{{target}}",
-        "{agent_need}": "{{agent_need}}", "{creator_niche}": "{{creator_niche}}", "{dev_topic}": "{{dev_topic}}"}
+        "{agent_need}": "{{agent_need}}", "{creator_niche}": "{{creator_niche}}", "{dev_topic}": "{{dev_topic}}", "{data_need}": "{{data_need}}"}
 
 
 def to_instantly(text):
@@ -37,7 +37,7 @@ def to_instantly(text):
 
 
 def main():
-    companies = {o["Company"].split(" (")[0]: o for o in json.load(open(ROOT / "private/companies.json"))}
+    companies = {o["Company"]: o for o in json.load(open(ROOT / "private/companies.json"))}
     merge = list(csv.DictReader(open(ROOT / "private/mail-merge.csv")))
     OUT.mkdir(parents=True, exist_ok=True)
 
@@ -47,7 +47,7 @@ def main():
         if not email or email in seen:
             continue
         seen.add(email)
-        o = companies[m["Company"]]
+        o = companies[m["CompanyKey"]]
         founders = [g.groups() for g in re.finditer(r"([^;<]+?) <([^>]*)>", o["Founders"])]
         full = next((n.strip() for n, e in founders if e.lower() == email), None) or \
             next((n.strip() for n, _ in founders if n.split()[0] == m["FirstName"]), m["FirstName"])
@@ -57,10 +57,11 @@ def main():
             "Website": o["URL"], "Location": o["Location"],
             "Personalization": f'I came across {m["Company"]} in the S26 batch ("{tagline(o["Description"])}").',
             "campaign": CAMPAIGN[m["Template"]], "category": m["Category"], "fit": m["Fit"],
-            "tagline": tagline(o["Description"]), "target": TARGET.get(m["Company"], "your customers"),
-            "agent_need": AGENT_NEED.get(m["Company"], ""),
-            "creator_niche": CREATOR_NICHE.get(m["Company"], ""),
-            "dev_topic": DEV_TOPIC.get(m["Company"], ""),
+            "tagline": tagline(o["Description"]), "target": TARGET.get(m["CompanyKey"], "your customers"),
+            "agent_need": AGENT_NEED.get(m["CompanyKey"], ""),
+            "creator_niche": CREATOR_NICHE.get(m["CompanyKey"], ""),
+            "dev_topic": DEV_TOPIC.get(m["CompanyKey"], ""),
+            "data_need": DATA_NEED.get(m["CompanyKey"], ""),
             "subject_a": m["Subject"], "subject_b": m["SubjectB"],
             "lead_scenario": o["PrimaryScenario"], "second_scenario": o["SecondaryScenario"],
             "other_founders": m["OtherFounders"],
@@ -79,7 +80,7 @@ def main():
     # Sequence copy to paste into each Instantly campaign.
     L = ["# Instantly sequences", "",
          "One Instantly campaign per lead file in `private/instantly/`. Paste each step below into the campaign's sequence.",
-         "Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{agent_need}}`, `{{creator_niche}}`, `{{dev_topic}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).",
+         "Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{agent_need}}`, `{{creator_niche}}`, `{{dev_topic}}`, `{{data_need}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).",
          "Use subject A and B as two variants of step 1 to A/B test. Steps 2 and 3 are sent as replies in the same thread (leave their subject blank).", ""]
     for t in TEMPLATES:
         L += [f"## {CAMPAIGN[t['key']]} ({t['category']})", "",
