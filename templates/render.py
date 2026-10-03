@@ -84,6 +84,12 @@ DATA_NEED = {
 }
 
 
+def start_city(location):
+    """Category 4: suggest the company's own HQ city as the first free list."""
+    city = (location or "").split(",")[0].replace(" QLD", "").strip()
+    return {"New York City": "New York"}.get(city, city) or "your home city"
+
+
 def tagline(desc):
     t = re.sub(r"[^\u0000-￿]", "", desc or "").strip().rstrip(".")
     t = t.split(". ")[0]  # long descriptions: first sentence only
@@ -99,7 +105,7 @@ def render_md():
          "One sequence per YC S2026 category: first email, follow-up on day 3, break-up email on day 7.",
          "Sent by Arsham, Growth Marketing Manager, with a short personal intro. Offer: free starter credits plus a sample built around the company's needs.",
          "Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner from the YC list), "
-         "`{target}` (categories 4 and 5), `{agent_need}` (partner campaign), `{creator_niche}` (category 6), `{dev_topic}` (category 2), `{data_need}` (category 1).", "",
+         "`{target}` (categories 4 and 5), `{agent_need}` (partner campaign), `{creator_niche}` (category 6), `{dev_topic}` (category 2), `{data_need}` (category 1), `{start_city}` (category 4).", "",
          "**Writing rules used:** under ~110 words per email, a warm one-line intro, one specific offer, one question as the call to action. "
          "Every first email makes the price point (under a cent per call, no subscription); \"one bill\" appears only where "
          "consolidating tools is the pitch (GTM builders, B2B SaaS, partners).", ""]
@@ -107,7 +113,7 @@ def render_md():
         L += [f"## {t['category']}", "", f"**Angle:** {t['angle']}", "",
               "**Subject lines (A/B):** " + " · ".join(f"`{s}`" for s in t["subjects"]), "",
               "### Email 1 (day 0)", "", "```", fill(t["email_1"], first_name="{first_name}", company="{company}",
-              tagline="{tagline}", target="{target}", agent_need="{agent_need}", creator_niche="{creator_niche}", dev_topic="{dev_topic}", data_need="{data_need}"), "", SIGNATURE, "```", "",
+              tagline="{tagline}", target="{target}", agent_need="{agent_need}", creator_niche="{creator_niche}", dev_topic="{dev_topic}", data_need="{data_need}", start_city="{start_city}"), "", SIGNATURE, "```", "",
               "### Follow-up 1 (day 3, reply in the same thread)", "", "```", t["follow_up_1"], "", SIGNATURE, "```", ""]
         if "follow_up_2" in t:
             L += ["### Follow-up 2 (day 7, same thread)", "", "```", t["follow_up_2"], "", SIGNATURE, "```", ""]
@@ -139,6 +145,7 @@ def render_csv(sender):
                   creator_niche=CREATOR_NICHE.get(o["Company"], "niche"),
                   dev_topic=DEV_TOPIC.get(o["Company"], "your category"),
                   data_need=DATA_NEED.get(o["Company"], "good data"),
+                  start_city=start_city(o["Location"]),
                   sender_name=sender)
         sig = SIGNATURE.format(**kw)
         out.append({

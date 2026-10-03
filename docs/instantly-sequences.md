@@ -1,7 +1,7 @@
 # Instantly sequences
 
 One Instantly campaign per lead file in `private/instantly/`. Paste each step below into the campaign's sequence.
-Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{agent_need}}`, `{{creator_niche}}`, `{{dev_topic}}`, `{{data_need}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).
+Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{agent_need}}`, `{{creator_niche}}`, `{{dev_topic}}`, `{{data_need}}`, `{{start_city}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).
 Use subject A and B as two variants of step 1 to A/B test. Steps 2 and 3 are sent as replies in the same thread (leave their subject blank).
 
 ## 01-gtm-growth-builders (1. GTM & growth builders)
@@ -164,11 +164,11 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-I'm Arsham, growth marketing manager at SpringBrand. {{companyName}} caught my eye in the S26 batch ("{{tagline}}").
+I'm Arsham from SpringBrand. {{companyName}} caught my eye in the S26 batch ("{{tagline}}").
 
-Selling to {{target}} is a numbers game: long lists, local search and a lot of follow-up. Our AI tools do the heavy lifting. They build a list of {{target}} in any city with owner contacts, find the local keywords competitors rank for, and make short demo videos owners actually watch. Most calls cost less than a cent.
+Selling to {{target}} is a numbers game: long lists, local search and a lot of follow-up. Our AI tools do the heavy lifting. They build a list of {{target}} in any city with owner contacts, find the local keywords competitors rank for, and make short demo videos owners actually watch. Most calls cost under a cent, with no subscription.
 
-Pick a city and I'll send you a free list of {{target}} there, contacts included. Where should I start?
+I'd be happy to send you a free list of {{target}} in one city, contacts included. Should I start with {{start_city}}?
 
 Best,
 Arsham
@@ -183,7 +183,7 @@ Hi {{firstName}},
 
 One thing I forgot to mention: owners buy what they can see. SpringBrand can turn a product screenshot into a 15-second demo video with voiceover, ready for Facebook, Instagram or your next email.
 
-The free lead list still stands. Just name a city.
+The free list of {{target}} still stands. Just reply "yes" for {{start_city}}, or name any other city.
 
 Best,
 Arsham
@@ -196,9 +196,9 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Last note from me, promise. If growth tooling isn't a priority right now, I totally understand.
+Last note from me, promise. If outbound isn't a priority right now, I completely understand.
 
-Your free starter credits aren't going anywhere, so they're there whenever {{companyName}} needs a lead list, a competitor scan or some fresh content. And if someone else on the team owns growth, I'd really appreciate a pointer.
+The free list of {{target}} stays on offer whenever {{companyName}} is ready to expand to a new city, along with starter credits to build more. And if someone else on the team owns sales, I'd really appreciate a pointer.
 
 Rooting for you this batch!
 

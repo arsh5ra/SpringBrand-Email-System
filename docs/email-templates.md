@@ -2,7 +2,7 @@
 
 One sequence per YC S2026 category: first email, follow-up on day 3, break-up email on day 7.
 Sent by Arsham, Growth Marketing Manager, with a short personal intro. Offer: free starter credits plus a sample built around the company's needs.
-Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner from the YC list), `{target}` (categories 4 and 5), `{agent_need}` (partner campaign), `{creator_niche}` (category 6), `{dev_topic}` (category 2), `{data_need}` (category 1).
+Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner from the YC list), `{target}` (categories 4 and 5), `{agent_need}` (partner campaign), `{creator_niche}` (category 6), `{dev_topic}` (category 2), `{data_need}` (category 1), `{start_city}` (category 4).
 
 **Writing rules used:** under ~110 words per email, a warm one-line intro, one specific offer, one question as the call to action. Every first email makes the price point (under a cent per call, no subscription); "one bill" appears only where consolidating tools is the pitch (GTM builders, B2B SaaS, partners).
 
@@ -175,18 +175,18 @@ springbrand.ai
 
 **Angle:** Selling to small operators is a volume game. Build city-by-city lead lists and local content.
 
-**Subject lines (A/B):** `{company}'s first city` · `{company}'s next 500 leads` · `a lead list of {target}`
+**Subject lines (A/B):** `{target} in {start_city}` · `{company}'s next 500 leads` · `a lead list of {target}`
 
 ### Email 1 (day 0)
 
 ```
 Hi {first_name},
 
-I'm Arsham, growth marketing manager at SpringBrand. {company} caught my eye in the S26 batch ("{tagline}").
+I'm Arsham from SpringBrand. {company} caught my eye in the S26 batch ("{tagline}").
 
-Selling to {target} is a numbers game: long lists, local search and a lot of follow-up. Our AI tools do the heavy lifting. They build a list of {target} in any city with owner contacts, find the local keywords competitors rank for, and make short demo videos owners actually watch. Most calls cost less than a cent.
+Selling to {target} is a numbers game: long lists, local search and a lot of follow-up. Our AI tools do the heavy lifting. They build a list of {target} in any city with owner contacts, find the local keywords competitors rank for, and make short demo videos owners actually watch. Most calls cost under a cent, with no subscription.
 
-Pick a city and I'll send you a free list of {target} there, contacts included. Where should I start?
+I'd be happy to send you a free list of {target} in one city, contacts included. Should I start with {start_city}?
 
 Best,
 Arsham
@@ -201,7 +201,24 @@ Hi {first_name},
 
 One thing I forgot to mention: owners buy what they can see. SpringBrand can turn a product screenshot into a 15-second demo video with voiceover, ready for Facebook, Instagram or your next email.
 
-The free lead list still stands. Just name a city.
+The free list of {target} still stands. Just reply "yes" for {start_city}, or name any other city.
+
+Best,
+Arsham
+Growth Marketing Manager, SpringBrand
+springbrand.ai
+```
+
+### Follow-up 2 (day 7, same thread)
+
+```
+Hi {first_name},
+
+Last note from me, promise. If outbound isn't a priority right now, I completely understand.
+
+The free list of {target} stays on offer whenever {company} is ready to expand to a new city, along with starter credits to build more. And if someone else on the team owns sales, I'd really appreciate a pointer.
+
+Rooting for you this batch!
 
 Best,
 Arsham

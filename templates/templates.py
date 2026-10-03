@@ -104,19 +104,26 @@ Rooting for you this batch!""",
         "key": "smb",
         "category": "4. Vertical AI for SMBs & local operators",
         "angle": "Selling to small operators is a volume game. Build city-by-city lead lists and local content.",
-        "subjects": ["{company}'s first city", "{company}'s next 500 leads", "a lead list of {target}"],
+        "subjects": ["{target} in {start_city}", "{company}'s next 500 leads", "a lead list of {target}"],
         "email_1": """Hi {first_name},
 
-I'm Arsham, growth marketing manager at SpringBrand. {company} caught my eye in the S26 batch ("{tagline}").
+I'm Arsham from SpringBrand. {company} caught my eye in the S26 batch ("{tagline}").
 
-Selling to {target} is a numbers game: long lists, local search and a lot of follow-up. Our AI tools do the heavy lifting. They build a list of {target} in any city with owner contacts, find the local keywords competitors rank for, and make short demo videos owners actually watch. Most calls cost less than a cent.
+Selling to {target} is a numbers game: long lists, local search and a lot of follow-up. Our AI tools do the heavy lifting. They build a list of {target} in any city with owner contacts, find the local keywords competitors rank for, and make short demo videos owners actually watch. Most calls cost under a cent, with no subscription.
 
-Pick a city and I'll send you a free list of {target} there, contacts included. Where should I start?""",
+I'd be happy to send you a free list of {target} in one city, contacts included. Should I start with {start_city}?""",
         "follow_up_1": """Hi {first_name},
 
 One thing I forgot to mention: owners buy what they can see. SpringBrand can turn a product screenshot into a 15-second demo video with voiceover, ready for Facebook, Instagram or your next email.
 
-The free lead list still stands. Just name a city.""",
+The free list of {target} still stands. Just reply "yes" for {start_city}, or name any other city.""",
+        "follow_up_2": """Hi {first_name},
+
+Last note from me, promise. If outbound isn't a priority right now, I completely understand.
+
+The free list of {target} stays on offer whenever {company} is ready to expand to a new city, along with starter credits to build more. And if someone else on the team owns sales, I'd really appreciate a pointer.
+
+Rooting for you this batch!""",
     },
     {
         "key": "svc",
