@@ -49,21 +49,26 @@ Just reply "yes" and I'll send it over.""",
         "key": "dev",
         "category": "2. AI agent infra & devtools",
         "angle": "Developer tools are won on X, Reddit and YouTube. Do your GTM research from inside the coding agent you already use.",
-        "subjects": ["who's talking about {company}'s space", "GTM from inside Claude Code", "your competitors' traffic, in your terminal"],
+        "subjects": ["who's talking about {dev_topic}", "GTM from inside Claude Code", "{company}'s competitors' traffic"],
         "email_1": """Hi {first_name},
 
-This is Arsham from SpringBrand. Congrats on S26! "{tagline}" is a sharp pitch.
+This is Arsham from SpringBrand. Congrats on S26!
 
-Devtools get won on X, Reddit and YouTube, and most technical founders don't have time to keep up. SpringBrand plugs GTM tools straight into the agent you already code in, so you can ask Claude Code or Cursor who's talking about your category, where competitors get their traffic, or which AI teams fit your ideal customer.
+Devtools get won on X, Reddit and YouTube, and most technical founders don't have time to keep up. SpringBrand plugs GTM tools straight into the agent you already code in, so you can ask Claude Code or Cursor who's talking about {dev_topic}, where competitors get their traffic, or which AI teams fit your ideal customer. Most calls cost under a cent, with no subscription.
 
-Most calls cost less than a cent, and there's no subscription.
-
-Can I send you a free sample of this week's conversations in your space, plus a competitor traffic breakdown?""",
+Can I send you a free snapshot of this week's {dev_topic} conversations, plus a competitor traffic breakdown for {company}?""",
         "follow_up_1": """Hi {first_name},
 
-Quick follow-up: setup is one line (npx add-mcp https://connector.springbrand.ai/mcp), then you just ask your agent something like "Show me this week's Reddit threads about [your category], and where [competitor] gets its traffic."
+Quick follow-up: setup is one line (npx add-mcp https://connector.springbrand.ai/mcp), then you just ask your agent something like "Show me this week's Reddit threads about {dev_topic} and where our top competitor gets its traffic."
 
 Happy to run it for {company} first and send you the results. Want me to?""",
+        "follow_up_2": """Hi {first_name},
+
+Last note from me, promise. If marketing isn't on your plate right now, I completely understand.
+
+The free snapshot of {dev_topic} conversations stays on offer whenever {company} gears up for its next launch, along with starter credits to run your own. And if someone else on the team owns growth, I'd really appreciate a pointer.
+
+Rooting for you this batch!""",
     },
     {
         "key": "b2b",

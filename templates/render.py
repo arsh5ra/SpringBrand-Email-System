@@ -55,6 +55,26 @@ CREATOR_NICHE = {
     "Paperboy Products, Inc.": "productivity",
 }
 
+# Category 2: the topic developers discuss around each devtools company.
+DEV_TOPIC = {
+    "Agent FM": "running multiple coding agents", "Agnost AI": "AI agent analytics", "Archal": "agent evals",
+    "Buildbox": "AI agent user experience", "Bullet": "coding agents", "Conifer": "LLM token costs",
+    "Dialogus": "voice agents", "Experiential Labs": "fine-tuning your own models", "GitCafe": "Git hosting for AI-written code",
+    "Glen": "agent memory", "Hoplite": "autonomous software factories", "HyperProbe": "AI debugging in production",
+    "Indexable": "agent sandboxes", "Jcode": "parallel coding agents", "machine0": "cloud computers for agents",
+    "Mentlio": "AI coding spend", "OneCLI": "agent identity and auth", "Prized": "internal tool builders",
+    "screenpipe": "screen-aware AI", "Supapool": "parallel coding agents", "Tibero": "agent optimization",
+    "Understudy Labs": "moving to open-weight models", "Vendo": "letting users extend your product",
+    "Akon Labs": "AI agent infrastructure", "Amulet": "agent file systems", "Belvedir": "private AI models",
+    "Caution": "secure hosting", "Coasty": "computer-use agent evals", "Codag": "agent logging",
+    "Computable": "GPU compute pricing", "Datoric": "secure training data", "Fabraix": "AI agent security",
+    "hiloop": "recursive self-improvement", "Inner": "supply chain attacks", "Lamb Labs": "fast AI inference",
+    "Markov": "computer-use training data", "Mireye": "physical-world AI agents", "Nebula Security": "AI-powered security",
+    "Ooak Data": "RL environments", "OpenRelay": "distributed AI inference", "Osseus": "robotics development",
+    "Paraloft": "autonomous AI agents", "SpaceFlow Technologies, Inc.": "running AI agents in production",
+    "Traceforce": "on-device AI security", "Tracer": "combining open-source models",
+}
+
 
 def tagline(desc):
     t = re.sub(r"[^\u0000-￿]", "", desc or "").strip().rstrip(".")
@@ -71,7 +91,7 @@ def render_md():
          "One sequence per YC S2026 category: first email, follow-up on day 3, break-up email on day 7.",
          "Sent by Arsham, Growth Marketing Manager, with a short personal intro. Offer: free starter credits plus a sample built around the company's needs.",
          "Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner from the YC list), "
-         "`{target}` (categories 4 and 5), `{agent_need}` (partner campaign), `{creator_niche}` (category 6).", "",
+         "`{target}` (categories 4 and 5), `{agent_need}` (partner campaign), `{creator_niche}` (category 6), `{dev_topic}` (category 2).", "",
          "**Writing rules used:** under ~110 words per email, a warm one-line intro, one specific offer, one question as the call to action. "
          "Every first email makes the price point (under a cent per call, no subscription); \"one bill\" appears only where "
          "consolidating tools is the pitch (GTM builders, B2B SaaS, partners).", ""]
@@ -79,7 +99,7 @@ def render_md():
         L += [f"## {t['category']}", "", f"**Angle:** {t['angle']}", "",
               "**Subject lines (A/B):** " + " · ".join(f"`{s}`" for s in t["subjects"]), "",
               "### Email 1 (day 0)", "", "```", fill(t["email_1"], first_name="{first_name}", company="{company}",
-              tagline="{tagline}", target="{target}", agent_need="{agent_need}", creator_niche="{creator_niche}"), "", SIGNATURE, "```", "",
+              tagline="{tagline}", target="{target}", agent_need="{agent_need}", creator_niche="{creator_niche}", dev_topic="{dev_topic}"), "", SIGNATURE, "```", "",
               "### Follow-up 1 (day 3, reply in the same thread)", "", "```", t["follow_up_1"], "", SIGNATURE, "```", ""]
         if "follow_up_2" in t:
             L += ["### Follow-up 2 (day 7, same thread)", "", "```", t["follow_up_2"], "", SIGNATURE, "```", ""]
@@ -106,6 +126,7 @@ def render_csv(sender):
                   tagline=tagline(o["Description"]), target=TARGET.get(o["Company"], "your customers"),
                   agent_need=AGENT_NEED.get(o["Company"], "needs what you build"),
                   creator_niche=CREATOR_NICHE.get(o["Company"], "niche"),
+                  dev_topic=DEV_TOPIC.get(o["Company"], "your category"),
                   sender_name=sender)
         sig = SIGNATURE.format(**kw)
         out.append({

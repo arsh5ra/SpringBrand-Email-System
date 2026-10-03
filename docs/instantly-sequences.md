@@ -1,7 +1,7 @@
 # Instantly sequences
 
 One Instantly campaign per lead file in `private/instantly/`. Paste each step below into the campaign's sequence.
-Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{agent_need}}`, `{{creator_niche}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).
+Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{agent_need}}`, `{{creator_niche}}`, `{{dev_topic}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).
 Use subject A and B as two variants of step 1 to A/B test. Steps 2 and 3 are sent as replies in the same thread (leave their subject blank).
 
 ## 01-gtm-growth-builders (1. GTM & growth builders)
@@ -64,13 +64,11 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-This is Arsham from SpringBrand. Congrats on S26! "{{tagline}}" is a sharp pitch.
+This is Arsham from SpringBrand. Congrats on S26!
 
-Devtools get won on X, Reddit and YouTube, and most technical founders don't have time to keep up. SpringBrand plugs GTM tools straight into the agent you already code in, so you can ask Claude Code or Cursor who's talking about your category, where competitors get their traffic, or which AI teams fit your ideal customer.
+Devtools get won on X, Reddit and YouTube, and most technical founders don't have time to keep up. SpringBrand plugs GTM tools straight into the agent you already code in, so you can ask Claude Code or Cursor who's talking about {{dev_topic}}, where competitors get their traffic, or which AI teams fit your ideal customer. Most calls cost under a cent, with no subscription.
 
-Most calls cost less than a cent, and there's no subscription.
-
-Can I send you a free sample of this week's conversations in your space, plus a competitor traffic breakdown?
+Can I send you a free snapshot of this week's {{dev_topic}} conversations, plus a competitor traffic breakdown for {{companyName}}?
 
 Best,
 Arsham
@@ -83,7 +81,7 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Quick follow-up: setup is one line (npx add-mcp https://connector.springbrand.ai/mcp), then you just ask your agent something like "Show me this week's Reddit threads about [your category], and where [competitor] gets its traffic."
+Quick follow-up: setup is one line (npx add-mcp https://connector.springbrand.ai/mcp), then you just ask your agent something like "Show me this week's Reddit threads about {{dev_topic}} and where our top competitor gets its traffic."
 
 Happy to run it for {{companyName}} first and send you the results. Want me to?
 
@@ -98,9 +96,9 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Last note from me, promise. If growth tooling isn't a priority right now, I totally understand.
+Last note from me, promise. If marketing isn't on your plate right now, I completely understand.
 
-Your free starter credits aren't going anywhere, so they're there whenever {{companyName}} needs a lead list, a competitor scan or some fresh content. And if someone else on the team owns growth, I'd really appreciate a pointer.
+The free snapshot of {{dev_topic}} conversations stays on offer whenever {{companyName}} gears up for its next launch, along with starter credits to run your own. And if someone else on the team owns growth, I'd really appreciate a pointer.
 
 Rooting for you this batch!
 

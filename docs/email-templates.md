@@ -2,7 +2,7 @@
 
 One sequence per YC S2026 category: first email, follow-up on day 3, break-up email on day 7.
 Sent by Arsham, Growth Marketing Manager, with a short personal intro. Offer: free starter credits plus a sample built around the company's needs.
-Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner from the YC list), `{target}` (categories 4 and 5), `{agent_need}` (partner campaign), `{creator_niche}` (category 6).
+Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner from the YC list), `{target}` (categories 4 and 5), `{agent_need}` (partner campaign), `{creator_niche}` (category 6), `{dev_topic}` (category 2).
 
 **Writing rules used:** under ~110 words per email, a warm one-line intro, one specific offer, one question as the call to action. Every first email makes the price point (under a cent per call, no subscription); "one bill" appears only where consolidating tools is the pitch (GTM builders, B2B SaaS, partners).
 
@@ -50,20 +50,18 @@ springbrand.ai
 
 **Angle:** Developer tools are won on X, Reddit and YouTube. Do your GTM research from inside the coding agent you already use.
 
-**Subject lines (A/B):** `who's talking about {company}'s space` · `GTM from inside Claude Code` · `your competitors' traffic, in your terminal`
+**Subject lines (A/B):** `who's talking about {dev_topic}` · `GTM from inside Claude Code` · `{company}'s competitors' traffic`
 
 ### Email 1 (day 0)
 
 ```
 Hi {first_name},
 
-This is Arsham from SpringBrand. Congrats on S26! "{tagline}" is a sharp pitch.
+This is Arsham from SpringBrand. Congrats on S26!
 
-Devtools get won on X, Reddit and YouTube, and most technical founders don't have time to keep up. SpringBrand plugs GTM tools straight into the agent you already code in, so you can ask Claude Code or Cursor who's talking about your category, where competitors get their traffic, or which AI teams fit your ideal customer.
+Devtools get won on X, Reddit and YouTube, and most technical founders don't have time to keep up. SpringBrand plugs GTM tools straight into the agent you already code in, so you can ask Claude Code or Cursor who's talking about {dev_topic}, where competitors get their traffic, or which AI teams fit your ideal customer. Most calls cost under a cent, with no subscription.
 
-Most calls cost less than a cent, and there's no subscription.
-
-Can I send you a free sample of this week's conversations in your space, plus a competitor traffic breakdown?
+Can I send you a free snapshot of this week's {dev_topic} conversations, plus a competitor traffic breakdown for {company}?
 
 Best,
 Arsham
@@ -76,9 +74,26 @@ springbrand.ai
 ```
 Hi {first_name},
 
-Quick follow-up: setup is one line (npx add-mcp https://connector.springbrand.ai/mcp), then you just ask your agent something like "Show me this week's Reddit threads about [your category], and where [competitor] gets its traffic."
+Quick follow-up: setup is one line (npx add-mcp https://connector.springbrand.ai/mcp), then you just ask your agent something like "Show me this week's Reddit threads about {dev_topic} and where our top competitor gets its traffic."
 
 Happy to run it for {company} first and send you the results. Want me to?
+
+Best,
+Arsham
+Growth Marketing Manager, SpringBrand
+springbrand.ai
+```
+
+### Follow-up 2 (day 7, same thread)
+
+```
+Hi {first_name},
+
+Last note from me, promise. If marketing isn't on your plate right now, I completely understand.
+
+The free snapshot of {dev_topic} conversations stays on offer whenever {company} gears up for its next launch, along with starter credits to run your own. And if someone else on the team owns growth, I'd really appreciate a pointer.
+
+Rooting for you this batch!
 
 Best,
 Arsham
