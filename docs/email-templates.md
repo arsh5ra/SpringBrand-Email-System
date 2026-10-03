@@ -242,7 +242,7 @@ springbrand.ai
 
 ## 7. Deep tech, hardware, defense & bio
 
-**Angle:** You need GTM research in bursts. Pay for it only when you use it.
+**Angle:** You need market research in bursts. Pay for it only when you use it.
 
 **Subject lines (A/B):** `buyer research for {company}` · `a buyer list for {company}` · `research you only need twice a year`
 
@@ -251,11 +251,11 @@ springbrand.ai
 ```
 Hi {first_name},
 
-This is Arsham, growth marketing manager at SpringBrand. I came across {company} in the S26 batch ("{tagline}"). Impressive work.
+Arsham from SpringBrand here. I came across {company} in the S26 batch ("{tagline}").
 
-Deep-tech teams usually need GTM research in bursts: a buyer list before a pilot push, a competitor scan before a raise, a demo video for launch. Paying monthly for tools you use twice a quarter rarely makes sense. With SpringBrand you pay only when you use it, usually under a cent per call.
+Deep-tech teams usually need market research in bursts: a buyer list before a pilot push, a competitor scan before a raise. Paying monthly for tools you use twice a quarter rarely makes sense. With SpringBrand, your AI agent runs that research on demand, usually for under a cent per call, with no subscription.
 
-Tell me one type of buyer you're after and I'll put together a free list of organizations and contacts. Useful?
+Name one type of buyer you're after and I'll send you a free list of organizations and decision-makers. Want one?
 
 Best,
 Arsham
@@ -268,9 +268,26 @@ springbrand.ai
 ```
 Hi {first_name},
 
-Just to make it concrete: for {company}, I'd pull the procurement and R&D leads at 25 target organizations, plus a one-page competitor scan.
+To make it concrete: for {company}, the free sample would be 25 target organizations with their procurement or R&D leads, plus a one-page scan of who else is selling to them.
 
-It's free to try. Want me to put it together?
+Just reply with the buyer type, for example "Tier 1 auto suppliers" or "US utilities", and I'll take it from there.
+
+Best,
+Arsham
+Growth Marketing Manager, SpringBrand
+springbrand.ai
+```
+
+### Follow-up 2 (day 7, same thread)
+
+```
+Hi {first_name},
+
+Last note from me, promise. If buyer research isn't a priority right now, I completely understand.
+
+The offer stands whenever {company} gears up for a pilot push or a raise: one free buyer list, plus starter credits to run your own. And if someone else on the team leads business development, I'd really appreciate a pointer.
+
+Rooting for you this batch!
 
 Best,
 Arsham

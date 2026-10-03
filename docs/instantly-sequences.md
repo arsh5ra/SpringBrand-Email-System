@@ -323,11 +323,11 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-This is Arsham, growth marketing manager at SpringBrand. I came across {{companyName}} in the S26 batch ("{{tagline}}"). Impressive work.
+Arsham from SpringBrand here. I came across {{companyName}} in the S26 batch ("{{tagline}}").
 
-Deep-tech teams usually need GTM research in bursts: a buyer list before a pilot push, a competitor scan before a raise, a demo video for launch. Paying monthly for tools you use twice a quarter rarely makes sense. With SpringBrand you pay only when you use it, usually under a cent per call.
+Deep-tech teams usually need market research in bursts: a buyer list before a pilot push, a competitor scan before a raise. Paying monthly for tools you use twice a quarter rarely makes sense. With SpringBrand, your AI agent runs that research on demand, usually for under a cent per call, with no subscription.
 
-Tell me one type of buyer you're after and I'll put together a free list of organizations and contacts. Useful?
+Name one type of buyer you're after and I'll send you a free list of organizations and decision-makers. Want one?
 
 Best,
 Arsham
@@ -340,9 +340,9 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Just to make it concrete: for {{companyName}}, I'd pull the procurement and R&D leads at 25 target organizations, plus a one-page competitor scan.
+To make it concrete: for {{companyName}}, the free sample would be 25 target organizations with their procurement or R&D leads, plus a one-page scan of who else is selling to them.
 
-It's free to try. Want me to put it together?
+Just reply with the buyer type, for example "Tier 1 auto suppliers" or "US utilities", and I'll take it from there.
 
 Best,
 Arsham
@@ -355,9 +355,9 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Last note from me, promise. If growth tooling isn't a priority right now, I totally understand.
+Last note from me, promise. If buyer research isn't a priority right now, I completely understand.
 
-Your free starter credits aren't going anywhere, so they're there whenever {{companyName}} needs a lead list, a competitor scan or some fresh content. And if someone else on the team owns growth, I'd really appreciate a pointer.
+The offer stands whenever {{companyName}} gears up for a pilot push or a raise: one free buyer list, plus starter credits to run your own. And if someone else on the team leads business development, I'd really appreciate a pointer.
 
 Rooting for you this batch!
 
