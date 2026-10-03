@@ -280,7 +280,7 @@ springbrand.ai
 
 ## ★ Partner candidates (any category)
 
-**Angle:** Your product is a capability agents go looking for. List it on SpringBrand and get found at the moment an agent needs it.
+**Angle:** Your product is a capability agents go looking for. List it on SpringBrand to get discovered by agent users at the moment they need it (listed tools are not paid per call).
 
 **Subject lines (A/B):** `agents looking for {company}` · `{company} on SpringBrand` · `a new channel for {company}`
 
@@ -291,7 +291,7 @@ Hi {first_name},
 
 Arsham from SpringBrand here. I saw {company} in the S26 batch and immediately thought of our marketplace.
 
-SpringBrand is where AI agents find tools. People in Claude Code, Cursor and Codex describe what they need, and their agent picks the right tool and pays per call. Listing {company} puts it in front of those agents the moment one of them {agent_need}, and we handle discovery and billing.
+SpringBrand is where AI agents find tools. People in Claude Code, Cursor and Codex describe what they need, and their agent picks the right tool for the job. Listing {company} puts it in front of those agents the moment one of them {agent_need}.
 
 Worth a quick chat about listing {company}?
 
@@ -306,7 +306,7 @@ springbrand.ai
 ```
 Hi {first_name},
 
-Quick follow-up. Listing {company} means no extra sales work on your side: agents find tools by the outcome they need, and we take care of per-call billing.
+Quick follow-up. Listing {company} is a new way to get discovered with no extra sales work: agents search by the outcome they need, so {company} shows up exactly when it's relevant.
 
 Would 15 minutes this week work for a walkthrough? If you'd rather look first, I can send free credits so you can try SpringBrand as a user.
 

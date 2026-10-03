@@ -376,7 +376,7 @@ Hi {{firstName}},
 
 Arsham from SpringBrand here. I saw {{companyName}} in the S26 batch and immediately thought of our marketplace.
 
-SpringBrand is where AI agents find tools. People in Claude Code, Cursor and Codex describe what they need, and their agent picks the right tool and pays per call. Listing {{companyName}} puts it in front of those agents the moment one of them {{agent_need}}, and we handle discovery and billing.
+SpringBrand is where AI agents find tools. People in Claude Code, Cursor and Codex describe what they need, and their agent picks the right tool for the job. Listing {{companyName}} puts it in front of those agents the moment one of them {{agent_need}}.
 
 Worth a quick chat about listing {{companyName}}?
 
@@ -391,7 +391,7 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Quick follow-up. Listing {{companyName}} means no extra sales work on your side: agents find tools by the outcome they need, and we take care of per-call billing.
+Quick follow-up. Listing {{companyName}} is a new way to get discovered with no extra sales work: agents search by the outcome they need, so {{companyName}} shows up exactly when it's relevant.
 
 Would 15 minutes this week work for a walkthrough? If you'd rather look first, I can send free credits so you can try SpringBrand as a user.
 
