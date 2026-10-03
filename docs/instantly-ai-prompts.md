@@ -642,16 +642,16 @@ You are helping me get my Instantly campaign "08-partner-candidates" ready to la
 ## 1. Sequence
 Replace the campaign's sequence with exactly these 3 steps. Keep the wording, line breaks and {{variables}} exactly as written. Use plain text, no images or links in step 1.
 
-Step 1 (day 0). Subject variant A: agents looking for {{companyName}} | Subject variant B: {{companyName}} on SpringBrand
+Step 1 (day 0). Subject variant A: who's talking about {{dev_topic}} | Subject variant B: {{companyName}} + SpringBrand
 Body:
 ```
 Hi {{firstName}},
 
-Arsham from SpringBrand here. I saw {{companyName}} in the S26 batch and immediately thought of our marketplace.
+Arsham from SpringBrand here. I saw {{companyName}} in the S26 batch. Tools like yours win when developers hear about them at the right moment.
 
-SpringBrand is where AI agents find tools. People in Claude Code, Cursor and Codex describe what they need, and their agent picks the right tool for the job. Listing {{companyName}} puts it in front of those agents the moment one of them {{agent_need}}.
+SpringBrand plugs GTM tools straight into Claude Code or Cursor: see who's talking about {{dev_topic}} on X and Reddit, where competing tools get their traffic, and which AI teams fit your ideal customer. Most calls cost under a cent, with no subscription.
 
-Worth a quick chat about listing {{companyName}}?
+Can I send you a free snapshot of this week's conversations about {{dev_topic}}? I'd also love to hear whether {{companyName}} could fit on the SpringBrand marketplace down the line.
 
 Best,
 Arsham
@@ -664,9 +664,9 @@ Body:
 ```
 Hi {{firstName}},
 
-Quick follow-up. Listing {{companyName}} is a new way to get discovered with no extra sales work: agents search by the outcome they need, so {{companyName}} shows up exactly when it's relevant.
+Quick follow-up: setup is one line (npx add-mcp https://connector.springbrand.ai/mcp), then you just ask your agent something like "Show me this week's Reddit threads about {{dev_topic}} and where our top competitor gets its traffic."
 
-Would 15 minutes this week work for a walkthrough? If you'd rather look first, I can send free credits so you can try SpringBrand as a user.
+Happy to run it for {{companyName}} first and send you the results. Want me to?
 
 Best,
 Arsham
@@ -679,9 +679,9 @@ Body:
 ```
 Hi {{firstName}},
 
-Last note from me, promise. If a new distribution channel isn't a priority right now, I completely understand.
+Last note from me, promise. If marketing isn't on your plate right now, I completely understand.
 
-The offer to list {{companyName}} stays open, and so do your free credits. And if someone else on the team handles partnerships, I'd really appreciate a pointer.
+The free snapshot of conversations about {{dev_topic}} stays on offer whenever {{companyName}} gears up for its next launch, along with starter credits to run your own. And if someone else on the team owns growth or partnerships, I'd really appreciate a pointer.
 
 Rooting for you this batch!
 
@@ -692,23 +692,23 @@ springbrand.ai
 ```
 
 ## 2. Variables
-The sequence uses these variables: {{firstName}}, {{companyName}}, {{agent_need}}. firstName and companyName are built-in lead fields. The others are custom variables on each lead.
+The sequence uses these variables: {{firstName}}, {{companyName}}, {{dev_topic}}. firstName and companyName are built-in lead fields. The others are custom variables on each lead.
 
-The custom variable `agent_need` is new, so my leads may not have it yet. Set `agent_need` on each lead to the value below, matching by company name:
+The custom variable `dev_topic` is new, so my leads may not have it yet. Set `dev_topic` on each lead to the value below, matching by company name:
 
-- Agentcard: needs to pay for something
-- Amorphic Labs: needs to buy or sell software
-- Click: needs deep research done
-- Context.dev: needs live web context
-- Executor: needs a new integration
-- Financial Datasets: needs live market data
-- Inkbox: needs to email, text or call someone
-- Magma: needs high-quality trace data
-- Rindler: needs to act on a website
-- Speko: needs speech or a voice model
-- Praxis Robotics: needs company data
+- Agentcard: agent payments
+- Amorphic Labs: agentic commerce
+- Click: AI research tools
+- Context.dev: web context for agents
+- Executor: AI integrations
+- Financial Datasets: financial data for agents
+- Inkbox: agent communication
+- Magma: agent trace data
+- Rindler: browser agents
+- Speko: voice AI models
+- Praxis Robotics: data marketplaces
 
-If you cannot set custom variables on leads, replace every {{agent_need}} in the subjects and bodies with "needs what you've built" instead, so no email has a blank.
+If you cannot set custom variables on leads, replace every {{dev_topic}} in the subjects and bodies with "your space" instead, so no email has a blank.
 
 Check every lead: if any variable used above is empty for a lead, tell me which leads and which variable. Do not send to leads with an empty tagline or target; list them for me instead.
 

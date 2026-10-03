@@ -15,7 +15,7 @@ NEW_VAR = {
     "dev": ("dev_topic", "your space"),
     "smb": ("start_city", "your home city"),
     "con": ("creator_niche", None),
-    "partner": ("agent_need", "needs what you've built"),
+    "partner": ("dev_topic", "your space"),
 }
 CON_FALLBACK = [('20 {{creator_niche}} creators', '20 creators in your niche'),
                 ("this week's {{creator_niche}} trends", "this week's trends in your space"),

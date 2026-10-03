@@ -73,6 +73,11 @@ DEV_TOPIC = {
     "Ooak Data": "RL environments", "OpenRelay": "distributed AI inference", "Osseus": "robotics development",
     "Paraloft": "autonomous AI agents", "SpaceFlow Technologies, Inc.": "running AI agents in production",
     "Traceforce": "on-device AI security", "Tracer": "combining open-source models",
+    # Partner candidates (pitched as devtools customers)
+    "Agentcard": "agent payments", "Amorphic Labs": "agentic commerce", "Click": "AI research tools",
+    "Context.dev": "web context for agents", "Executor": "AI integrations", "Financial Datasets": "financial data for agents",
+    "Inkbox": "agent communication", "Magma": "agent trace data", "Praxis Robotics": "data marketplaces",
+    "Rindler": "browser agents", "Speko": "voice AI models",
 }
 
 # Category 1: the data each GTM product runs on (keyed by full company name).

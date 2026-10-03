@@ -368,11 +368,11 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Arsham from SpringBrand here. I saw {{companyName}} in the S26 batch and immediately thought of our marketplace.
+Arsham from SpringBrand here. I saw {{companyName}} in the S26 batch. Tools like yours win when developers hear about them at the right moment.
 
-SpringBrand is where AI agents find tools. People in Claude Code, Cursor and Codex describe what they need, and their agent picks the right tool for the job. Listing {{companyName}} puts it in front of those agents the moment one of them {{agent_need}}.
+SpringBrand plugs GTM tools straight into Claude Code or Cursor: see who's talking about {{dev_topic}} on X and Reddit, where competing tools get their traffic, and which AI teams fit your ideal customer. Most calls cost under a cent, with no subscription.
 
-Worth a quick chat about listing {{companyName}}?
+Can I send you a free snapshot of this week's conversations about {{dev_topic}}? I'd also love to hear whether {{companyName}} could fit on the SpringBrand marketplace down the line.
 
 Best,
 Arsham
@@ -385,9 +385,9 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Quick follow-up. Listing {{companyName}} is a new way to get discovered with no extra sales work: agents search by the outcome they need, so {{companyName}} shows up exactly when it's relevant.
+Quick follow-up: setup is one line (npx add-mcp https://connector.springbrand.ai/mcp), then you just ask your agent something like "Show me this week's Reddit threads about {{dev_topic}} and where our top competitor gets its traffic."
 
-Would 15 minutes this week work for a walkthrough? If you'd rather look first, I can send free credits so you can try SpringBrand as a user.
+Happy to run it for {{companyName}} first and send you the results. Want me to?
 
 Best,
 Arsham
@@ -400,9 +400,9 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Last note from me, promise. If a new distribution channel isn't a priority right now, I completely understand.
+Last note from me, promise. If marketing isn't on your plate right now, I completely understand.
 
-The offer to list {{companyName}} stays open, and so do your free credits. And if someone else on the team handles partnerships, I'd really appreciate a pointer.
+The free snapshot of conversations about {{dev_topic}} stays on offer whenever {{companyName}} gears up for its next launch, along with starter credits to run your own. And if someone else on the team owns growth or partnerships, I'd really appreciate a pointer.
 
 Rooting for you this batch!
 
