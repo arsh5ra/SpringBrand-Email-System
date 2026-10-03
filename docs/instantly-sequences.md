@@ -1,7 +1,7 @@
 # Instantly sequences
 
 One Instantly campaign per lead file in `private/instantly/`. Paste each step below into the campaign's sequence.
-Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{agent_need}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).
+Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{agent_need}}`, `{{creator_niche}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).
 Use subject A and B as two variants of step 1 to A/B test. Steps 2 and 3 are sent as replies in the same thread (leave their subject blank).
 
 ## 01-gtm-growth-builders (1. GTM & growth builders)
@@ -272,11 +272,11 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-It's Arsham from SpringBrand. I just saw {{companyName}} in the S26 batch ("{{tagline}}") and loved it.
+Arsham from SpringBrand here. I just saw {{companyName}} in the S26 batch ("{{tagline}}").
 
-Consumer growth today runs on creators and short video, and both take a ton of time. SpringBrand's AI tools find creators with 20K–100K followers already talking about your space, spot what's trending, and turn a product shot into a 15-second ad. Most calls cost less than a cent, and there's no subscription.
+Consumer growth today runs on creators and short video, and both take a ton of time. SpringBrand's AI tools find {{creator_niche}} creators with 20K–100K followers who already talk about your space, spot what's trending, and turn a screenshot or product shot into a 15-second ad. Most calls cost under a cent, with no subscription.
 
-Want me to send 20 creators who'd be a great fit for {{companyName}}, plus three ad ideas? Free, of course.
+Want me to send you 20 {{creator_niche}} creators who'd be a great fit for {{companyName}}, plus three ad ideas? Free, of course.
 
 Best,
 Arsham
@@ -289,9 +289,9 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-One more idea: SpringBrand can also pull your best-performing posts from the last 30 days and turn this week's trends into ready-to-post content, so you always know what to make next.
+Quick idea while you think it over: SpringBrand can also show your best-performing posts from the last 30 days and turn this week's {{creator_niche}} trends into ready-to-post content, so you always know what to make next.
 
-The free creator list is still yours. Just say the word.
+The 20 free creators are still yours. Just reply "yes".
 
 Best,
 Arsham
@@ -304,9 +304,9 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Last note from me, promise. If growth tooling isn't a priority right now, I totally understand.
+Last note from me, promise. If creator marketing isn't a priority right now, I completely understand.
 
-Your free starter credits aren't going anywhere, so they're there whenever {{companyName}} needs a lead list, a competitor scan or some fresh content. And if someone else on the team owns growth, I'd really appreciate a pointer.
+The offer stands whenever {{companyName}} is ready for its next push: 20 free {{creator_niche}} creators, plus starter credits to find more. And if someone else on the team runs growth or social, I'd really appreciate a pointer.
 
 Rooting for you this batch!
 

@@ -2,7 +2,7 @@
 
 One sequence per YC S2026 category: first email, follow-up on day 3, break-up email on day 7.
 Sent by Arsham, Growth Marketing Manager, with a short personal intro. Offer: free starter credits plus a sample built around the company's needs.
-Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner from the YC list), `{target}` (categories 4 and 5), `{agent_need}` (partner campaign).
+Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner from the YC list), `{target}` (categories 4 and 5), `{agent_need}` (partner campaign), `{creator_niche}` (category 6).
 
 **Writing rules used:** under ~110 words per email, a warm one-line intro, one specific offer, one question as the call to action. Every first email makes the price point (under a cent per call, no subscription); "one bill" appears only where consolidating tools is the pitch (GTM builders, B2B SaaS, partners).
 
@@ -204,20 +204,20 @@ springbrand.ai
 
 ## 6. Consumer, health & creator apps
 
-**Angle:** Consumer growth runs on creators and short video. Find the creators, see the trends, make the content.
+**Angle:** Consumer growth runs on creators and short video. Find the creators in your niche, see the trends, make the content.
 
-**Subject lines (A/B):** `20 creators for {company}` · `{company} on TikTok` · `UGC ideas for {company}`
+**Subject lines (A/B):** `20 {creator_niche} creators for {company}` · `{company} on TikTok` · `UGC ideas for {company}`
 
 ### Email 1 (day 0)
 
 ```
 Hi {first_name},
 
-It's Arsham from SpringBrand. I just saw {company} in the S26 batch ("{tagline}") and loved it.
+Arsham from SpringBrand here. I just saw {company} in the S26 batch ("{tagline}").
 
-Consumer growth today runs on creators and short video, and both take a ton of time. SpringBrand's AI tools find creators with 20K–100K followers already talking about your space, spot what's trending, and turn a product shot into a 15-second ad. Most calls cost less than a cent, and there's no subscription.
+Consumer growth today runs on creators and short video, and both take a ton of time. SpringBrand's AI tools find {creator_niche} creators with 20K–100K followers who already talk about your space, spot what's trending, and turn a screenshot or product shot into a 15-second ad. Most calls cost under a cent, with no subscription.
 
-Want me to send 20 creators who'd be a great fit for {company}, plus three ad ideas? Free, of course.
+Want me to send you 20 {creator_niche} creators who'd be a great fit for {company}, plus three ad ideas? Free, of course.
 
 Best,
 Arsham
@@ -230,9 +230,26 @@ springbrand.ai
 ```
 Hi {first_name},
 
-One more idea: SpringBrand can also pull your best-performing posts from the last 30 days and turn this week's trends into ready-to-post content, so you always know what to make next.
+Quick idea while you think it over: SpringBrand can also show your best-performing posts from the last 30 days and turn this week's {creator_niche} trends into ready-to-post content, so you always know what to make next.
 
-The free creator list is still yours. Just say the word.
+The 20 free creators are still yours. Just reply "yes".
+
+Best,
+Arsham
+Growth Marketing Manager, SpringBrand
+springbrand.ai
+```
+
+### Follow-up 2 (day 7, same thread)
+
+```
+Hi {first_name},
+
+Last note from me, promise. If creator marketing isn't a priority right now, I completely understand.
+
+The offer stands whenever {company} is ready for its next push: 20 free {creator_niche} creators, plus starter credits to find more. And if someone else on the team runs growth or social, I'd really appreciate a pointer.
+
+Rooting for you this batch!
 
 Best,
 Arsham

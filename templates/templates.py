@@ -124,20 +124,27 @@ The free breakdown of three {target} is still on the table. Just reply "send it"
     {
         "key": "con",
         "category": "6. Consumer, health & creator apps",
-        "angle": "Consumer growth runs on creators and short video. Find the creators, see the trends, make the content.",
-        "subjects": ["20 creators for {company}", "{company} on TikTok", "UGC ideas for {company}"],
+        "angle": "Consumer growth runs on creators and short video. Find the creators in your niche, see the trends, make the content.",
+        "subjects": ["20 {creator_niche} creators for {company}", "{company} on TikTok", "UGC ideas for {company}"],
         "email_1": """Hi {first_name},
 
-It's Arsham from SpringBrand. I just saw {company} in the S26 batch ("{tagline}") and loved it.
+Arsham from SpringBrand here. I just saw {company} in the S26 batch ("{tagline}").
 
-Consumer growth today runs on creators and short video, and both take a ton of time. SpringBrand's AI tools find creators with 20K–100K followers already talking about your space, spot what's trending, and turn a product shot into a 15-second ad. Most calls cost less than a cent, and there's no subscription.
+Consumer growth today runs on creators and short video, and both take a ton of time. SpringBrand's AI tools find {creator_niche} creators with 20K–100K followers who already talk about your space, spot what's trending, and turn a screenshot or product shot into a 15-second ad. Most calls cost under a cent, with no subscription.
 
-Want me to send 20 creators who'd be a great fit for {company}, plus three ad ideas? Free, of course.""",
+Want me to send you 20 {creator_niche} creators who'd be a great fit for {company}, plus three ad ideas? Free, of course.""",
         "follow_up_1": """Hi {first_name},
 
-One more idea: SpringBrand can also pull your best-performing posts from the last 30 days and turn this week's trends into ready-to-post content, so you always know what to make next.
+Quick idea while you think it over: SpringBrand can also show your best-performing posts from the last 30 days and turn this week's {creator_niche} trends into ready-to-post content, so you always know what to make next.
 
-The free creator list is still yours. Just say the word.""",
+The 20 free creators are still yours. Just reply "yes".""",
+        "follow_up_2": """Hi {first_name},
+
+Last note from me, promise. If creator marketing isn't a priority right now, I completely understand.
+
+The offer stands whenever {company} is ready for its next push: 20 free {creator_niche} creators, plus starter credits to find more. And if someone else on the team runs growth or social, I'd really appreciate a pointer.
+
+Rooting for you this batch!""",
     },
     {
         "key": "deep",
