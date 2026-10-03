@@ -175,11 +175,11 @@ springbrand.ai
 ```
 Hi {first_name},
 
-Arsham from SpringBrand here. I saw {company} in the S26 batch ("{tagline}") and loved the idea.
+Arsham from SpringBrand here. I saw {company} in the S26 batch ("{tagline}").
 
-Winning clients from {target} often comes down to search. They've owned the keywords your future clients type for years. SpringBrand shows you exactly where they get their traffic and which keywords you can realistically win. At less than a cent per call, it's cheap to find out.
+Winning clients from {target} often comes down to search. They've owned the keywords your future clients type for years. SpringBrand shows you exactly where they get their traffic and which keywords you can realistically win. At under a cent per call with no subscription, it's cheap to find out.
 
-Can I send you a free breakdown for three {target} in your market?
+Can I send you a free breakdown of three {target} in your market?
 
 Best,
 Arsham
@@ -192,9 +192,26 @@ springbrand.ai
 ```
 Hi {first_name},
 
-As client volume grows, unanswered questions start piling up in the inbox and DMs. SpringBrand can find them, draft replies to the common ones, and summarize the week's complaints, alongside the search research.
+To show what you'd get: the free breakdown lists the keywords bringing three {target} the most traffic, roughly how many visits each one drives, and which of their pages rank for them. You'd see exactly where {company} can compete.
 
-The free breakdown of three {target} is still on the table. Just reply "send it".
+Just reply "send it" and I'll put it together.
+
+Best,
+Arsham
+Growth Marketing Manager, SpringBrand
+springbrand.ai
+```
+
+### Follow-up 2 (day 7, same thread)
+
+```
+Hi {first_name},
+
+Last note from me, promise. If search isn't a priority right now, I completely understand.
+
+The free breakdown of three {target} stays on offer whenever {company} is ready to grow inbound, along with starter credits to run your own research. And if someone else on the team owns marketing, I'd really appreciate a pointer.
+
+Rooting for you this batch!
 
 Best,
 Arsham
