@@ -15,7 +15,7 @@ import csv, json, re
 from collections import Counter
 from pathlib import Path
 from templates import TEMPLATES, SIGNATURE, FOLLOW_UP_2
-from render import TARGET, tagline
+from render import TARGET, AGENT_NEED, tagline
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "private/instantly"
@@ -26,7 +26,8 @@ CAMPAIGN = {
     "deep": "07-deep-tech-hardware-bio", "partner": "08-partner-candidates",
 }
 # Our merge fields -> Instantly variables.
-VARS = {"{first_name}": "{{firstName}}", "{company}": "{{companyName}}", "{tagline}": "{{tagline}}", "{target}": "{{target}}"}
+VARS = {"{first_name}": "{{firstName}}", "{company}": "{{companyName}}", "{tagline}": "{{tagline}}", "{target}": "{{target}}",
+        "{agent_need}": "{{agent_need}}"}
 
 
 def to_instantly(text):
@@ -57,6 +58,7 @@ def main():
             "Personalization": f'I came across {m["Company"]} in the S26 batch ("{tagline(o["Description"])}").',
             "campaign": CAMPAIGN[m["Template"]], "category": m["Category"], "fit": m["Fit"],
             "tagline": tagline(o["Description"]), "target": TARGET.get(m["Company"], "your customers"),
+            "agent_need": AGENT_NEED.get(m["Company"], ""),
             "subject_a": m["Subject"], "subject_b": m["SubjectB"],
             "lead_scenario": o["PrimaryScenario"], "second_scenario": o["SecondaryScenario"],
             "other_founders": m["OtherFounders"],
@@ -75,14 +77,14 @@ def main():
     # Sequence copy to paste into each Instantly campaign.
     L = ["# Instantly sequences", "",
          "One Instantly campaign per lead file in `private/instantly/`. Paste each step below into the campaign's sequence.",
-         "Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).",
+         "Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{agent_need}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).",
          "Use subject A and B as two variants of step 1 to A/B test. Steps 2 and 3 are sent as replies in the same thread (leave their subject blank).", ""]
     for t in TEMPLATES:
         L += [f"## {CAMPAIGN[t['key']]} ({t['category']})", "",
               "**Step 1 (day 0)**, subject variant A: `{{subject_a}}`, variant B: `{{subject_b}}`", "",
               "```", to_instantly(t["email_1"]), "", SIGNATURE, "```", "",
               "**Step 2 (wait 3 days, same thread)**", "", "```", to_instantly(t["follow_up_1"]), "", SIGNATURE, "```", "",
-              "**Step 3 (wait 4 more days, same thread)**", "", "```", to_instantly(FOLLOW_UP_2), "", SIGNATURE, "```", ""]
+              "**Step 3 (wait 4 more days, same thread)**", "", "```", to_instantly(t.get("follow_up_2", FOLLOW_UP_2)), "", SIGNATURE, "```", ""]
     (ROOT / "docs/instantly-sequences.md").write_text("\n".join(L))
 
     print(len(leads), "leads;", len(merge) - len(leads), "duplicates skipped")

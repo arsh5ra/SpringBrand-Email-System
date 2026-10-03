@@ -36,7 +36,7 @@ merge = list(csv.DictReader(open(ROOT / 'private/mail-merge.csv')))
 doc = SimpleDocTemplate(str(ROOT / 'docs/springbrand-email-templates.pdf'), pagesize=letter, leftMargin=0.65 * inch, rightMargin=0.65 * inch,
                         topMargin=0.6 * inch, bottomMargin=0.65 * inch, title='SpringBrand Outreach Email Templates', author='SpringBrand')
 S = [Paragraph('SpringBrand Outreach Email Templates', H1), Spacer(1, 4),
-     Paragraph('One sequence per YC S2026 category, sent by Arsham (Marketing Director) with a short personal intro. Every sequence offers free starter credits plus a sample built for the company\'s needs, and makes the core point: <b>calls cost under a cent, with no subscription</b>. "One bill" is used only where replacing a stack of tools is the pitch (GTM builders, B2B SaaS, partners).', B), Spacer(1, 8),
+     Paragraph('One sequence per YC S2026 category, sent by Arsham (Growth Marketing Manager) with a short personal intro. Every sequence offers free starter credits plus a sample built for the company\'s needs, and makes the core point: <b>calls cost under a cent, with no subscription</b>. "One bill" is used only where replacing a stack of tools is the pitch (GTM builders, B2B SaaS, partners).', B), Spacer(1, 8),
      Paragraph('Sequence', H3),
      Paragraph('<b>Day 0:</b> Email 1, the offer. <b>Day 3:</b> Follow-up 1 in the same thread, adding one new use case and repeating the offer. <b>Day 7:</b> Follow-up 2, the break-up email, which asks for a referral if they\'re not the right person.', B),
      Paragraph('Merge fields', H3),
@@ -56,7 +56,9 @@ for t in TEMPLATES:
           Paragraph('<b>Subject lines (A/B/C):</b> ' + ' · '.join(escape(s) for s in t['subjects']), B),
           Paragraph('Email 1 (day 0)', H3), box(t['email_1'].replace('{price}', PRICE_LINE) + '\n\n' + SIGNATURE),
           KeepTogether([Paragraph('Follow-up 1 (day 3, same thread)', H3), box(t['follow_up_1'] + '\n\n' + SIGNATURE)])]
+    if 'follow_up_2' in t:
+        S.append(KeepTogether([Paragraph('Follow-up 2 (day 7, same thread)', H3), box(t['follow_up_2'] + '\n\n' + SIGNATURE)]))
     if ex:
         S.append(KeepTogether([Paragraph(f'Filled-in example: {escape(ex["Company"])}', H3), Paragraph('<b>Subject:</b> ' + escape(ex['Subject']), EM), Spacer(1, 3), box(ex['Email1'], TINT)]))
-S += [PageBreak(), Paragraph('Follow-up 2: break-up email (day 7, all categories)', H2), Spacer(1, 6), box(FOLLOW_UP_2 + '\n\n' + SIGNATURE)]
+S += [PageBreak(), Paragraph('Follow-up 2: break-up email (day 7, all customer categories)', H2), Spacer(1, 6), box(FOLLOW_UP_2 + '\n\n' + SIGNATURE)]
 doc.build(S, onFirstPage=footer, onLaterPages=footer)

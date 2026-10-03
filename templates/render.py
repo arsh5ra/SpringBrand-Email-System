@@ -34,6 +34,16 @@ TARGET = {
     "Prescience, Inc.": "traditional healthcare providers",
 }
 
+# Partner campaign: the moment an agent would reach for each company's product.
+AGENT_NEED = {
+    "Agentcard": "needs to pay for something", "Amorphic Labs": "needs to buy or sell software",
+    "Click": "needs deep research done", "Context.dev": "needs live web context",
+    "Executor": "needs a new integration", "Financial Datasets": "needs live market data",
+    "Inkbox": "needs to email, text or call someone", "Magma": "needs high-quality trace data",
+    "Praxis Robotics": "needs company data", "Rindler": "needs to act on a website",
+    "Speko": "needs speech or a voice model",
+}
+
 
 def tagline(desc):
     t = re.sub(r"[^\u0000-￿]", "", desc or "").strip().rstrip(".")
@@ -48,9 +58,9 @@ def fill(text, **kw):
 def render_md():
     L = ["# SpringBrand outreach email templates", "",
          "One sequence per YC S2026 category: first email, follow-up on day 3, break-up email on day 7.",
-         "Sent by Arsham, Marketing Director, with a short personal intro. Offer: free starter credits plus a sample built around the company's needs.",
+         "Sent by Arsham, Growth Marketing Manager, with a short personal intro. Offer: free starter credits plus a sample built around the company's needs.",
          "Merge fields: `{first_name}`, `{company}`, `{tagline}` (the company's one-liner from the YC list), "
-         "`{target}` (categories 4 and 5).", "",
+         "`{target}` (categories 4 and 5), `{agent_need}` (partner campaign).", "",
          "**Writing rules used:** under ~110 words per email, a warm one-line intro, one specific offer, one question as the call to action. "
          "Every first email makes the price point (under a cent per call, no subscription); \"one bill\" appears only where "
          "consolidating tools is the pitch (GTM builders, B2B SaaS, partners).", ""]
@@ -58,9 +68,11 @@ def render_md():
         L += [f"## {t['category']}", "", f"**Angle:** {t['angle']}", "",
               "**Subject lines (A/B):** " + " · ".join(f"`{s}`" for s in t["subjects"]), "",
               "### Email 1 (day 0)", "", "```", fill(t["email_1"], first_name="{first_name}", company="{company}",
-              tagline="{tagline}", target="{target}"), "", SIGNATURE, "```", "",
+              tagline="{tagline}", target="{target}", agent_need="{agent_need}"), "", SIGNATURE, "```", "",
               "### Follow-up 1 (day 3, reply in the same thread)", "", "```", t["follow_up_1"], "", SIGNATURE, "```", ""]
-    L += ["## Follow-up 2: break-up email (day 7, all categories)", "", "```", FOLLOW_UP_2, "", SIGNATURE, "```", ""]
+        if "follow_up_2" in t:
+            L += ["### Follow-up 2 (day 7, same thread)", "", "```", t["follow_up_2"], "", SIGNATURE, "```", ""]
+    L += ["## Follow-up 2: break-up email (day 7, all customer categories)", "", "```", FOLLOW_UP_2, "", SIGNATURE, "```", ""]
     (ROOT / "docs/email-templates.md").write_text("\n".join(L))
 
 
@@ -81,6 +93,7 @@ def render_csv(sender):
             name = next((n for n, _ in founders if n.split()[0].lower() == local), founders[0][0] if founders else "")
         kw = dict(first_name=name.split()[0] if name else "there", company=o["Company"].split(" (")[0],
                   tagline=tagline(o["Description"]), target=TARGET.get(o["Company"], "your customers"),
+                  agent_need=AGENT_NEED.get(o["Company"], "needs what you build"),
                   sender_name=sender)
         sig = SIGNATURE.format(**kw)
         out.append({
@@ -90,7 +103,7 @@ def render_csv(sender):
             "SubjectB": t["subjects"][1].format(**kw),
             "Email1": fill(t["email_1"], **kw) + "\n\n" + sig,
             "FollowUp1": t["follow_up_1"].format(**kw) + "\n\n" + sig,
-            "FollowUp2": FOLLOW_UP_2.format(**kw) + "\n\n" + sig,
+            "FollowUp2": t.get("follow_up_2", FOLLOW_UP_2).format(**kw) + "\n\n" + sig,
         })
     order = {"High": 0, "Medium": 1, "Low": 2}
     out.sort(key=lambda r: (order[r["Fit"]], r["Category"], r["Company"].lower()))

@@ -1,7 +1,7 @@
 # Instantly sequences
 
 One Instantly campaign per lead file in `private/instantly/`. Paste each step below into the campaign's sequence.
-Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).
+Variables: `{{firstName}}`, `{{companyName}}` (built in), `{{tagline}}`, `{{target}}`, `{{agent_need}}`, `{{subject_a}}`, `{{subject_b}}` (custom columns in the lead file).
 Use subject A and B as two variants of step 1 to A/B test. Steps 2 and 3 are sent as replies in the same thread (leave their subject blank).
 
 ## 01-gtm-growth-builders (1. GTM & growth builders)
@@ -11,14 +11,15 @@ Use subject A and B as two variants of step 1 to A/B test. Steps 2 and 3 are sen
 ```
 Hi {{firstName}},
 
-Arsham here, marketing director at SpringBrand. I came across {{companyName}} in the S26 batch ("{{tagline}}") and had to reach out.
+Arsham here, growth marketing manager at SpringBrand. I came across {{companyName}} in the S26 batch ("{{tagline}}") and had to reach out.
 
 Products like yours run on data: leads, traffic, social signals, content. We put all of it behind one connection your agents can call. A typical call costs less than a cent, with no subscriptions, no contract with each data vendor, and everything on one bill.
 
 I'd love to set you up with free starter credits and build a quick sample around a workflow you care about. Worth a look?
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -33,8 +34,9 @@ If it's more useful as a product feature, I can show you the same thing running 
 
 Just reply "yes" and I'll send it over.
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -49,8 +51,9 @@ Your free starter credits aren't going anywhere, so they're there whenever {{com
 
 Rooting for you this batch!
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -69,8 +72,9 @@ Most calls cost less than a cent, and there's no subscription.
 
 Can I send you a free sample of this week's conversations in your space, plus a competitor traffic breakdown?
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -83,8 +87,9 @@ Quick follow-up: setup is one line (npx add-mcp https://connector.springbrand.ai
 
 Happy to run it for {{companyName}} first and send you the results. Want me to?
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -99,8 +104,9 @@ Your free starter credits aren't going anywhere, so they're there whenever {{com
 
 Rooting for you this batch!
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -119,8 +125,9 @@ It's pay as you go, usually under a cent per call, with everything on one bill.
 
 Tell me your ideal customer in one line and I'll send you a free sample list. Sound good?
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -133,8 +140,9 @@ One more thought: early B2B deals usually die from silence, not a "no." SpringBr
 
 The free sample list is still yours. Just reply with your ideal customer and I'll get it started.
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -149,8 +157,9 @@ Your free starter credits aren't going anywhere, so they're there whenever {{com
 
 Rooting for you this batch!
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -161,14 +170,15 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-I'm Arsham, marketing director at SpringBrand. {{companyName}} caught my eye in the S26 batch ("{{tagline}}").
+I'm Arsham, growth marketing manager at SpringBrand. {{companyName}} caught my eye in the S26 batch ("{{tagline}}").
 
 Selling to {{target}} is a numbers game: long lists, local search and a lot of follow-up. Our AI tools do the heavy lifting. They build a list of {{target}} in any city with owner contacts, find the local keywords competitors rank for, and make short demo videos owners actually watch. Most calls cost less than a cent.
 
 Pick a city and I'll send you a free list of {{target}} there, contacts included. Where should I start?
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -181,8 +191,9 @@ One thing I forgot to mention: owners buy what they can see. SpringBrand can tur
 
 The free lead list still stands. Just name a city.
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -197,8 +208,9 @@ Your free starter credits aren't going anywhere, so they're there whenever {{com
 
 Rooting for you this batch!
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -215,8 +227,9 @@ Winning clients from {{target}} often comes down to search. They've owned the ke
 
 Can I send you a free breakdown for three {{target}} in your market?
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -229,8 +242,9 @@ As client volume grows, unanswered questions start piling up in the inbox and DM
 
 The free breakdown of three {{target}} is still on the table. Just reply "send it".
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -245,8 +259,9 @@ Your free starter credits aren't going anywhere, so they're there whenever {{com
 
 Rooting for you this batch!
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -263,8 +278,9 @@ Consumer growth today runs on creators and short video, and both take a ton of t
 
 Want me to send 20 creators who'd be a great fit for {{companyName}}, plus three ad ideas? Free, of course.
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -277,8 +293,9 @@ One more idea: SpringBrand can also pull your best-performing posts from the las
 
 The free creator list is still yours. Just say the word.
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -293,8 +310,9 @@ Your free starter credits aren't going anywhere, so they're there whenever {{com
 
 Rooting for you this batch!
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -305,14 +323,15 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-This is Arsham, marketing director at SpringBrand. I came across {{companyName}} in the S26 batch ("{{tagline}}"). Impressive work.
+This is Arsham, growth marketing manager at SpringBrand. I came across {{companyName}} in the S26 batch ("{{tagline}}"). Impressive work.
 
 Deep-tech teams usually need GTM research in bursts: a buyer list before a pilot push, a competitor scan before a raise, a demo video for launch. Paying monthly for tools you use twice a quarter rarely makes sense. With SpringBrand you pay only when you use it, usually under a cent per call.
 
 Tell me one type of buyer you're after and I'll put together a free list of organizations and contacts. Useful?
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -325,8 +344,9 @@ Just to make it concrete: for {{companyName}}, I'd pull the procurement and R&D 
 
 It's free to try. Want me to put it together?
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -341,8 +361,9 @@ Your free starter credits aren't going anywhere, so they're there whenever {{com
 
 Rooting for you this batch!
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -353,16 +374,15 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Arsham from SpringBrand here. I saw {{companyName}} in the S26 batch ("{{tagline}}") and immediately thought of our marketplace.
+Arsham from SpringBrand here. I saw {{companyName}} in the S26 batch and immediately thought of our marketplace.
 
-SpringBrand is a capability marketplace for AI agents. People in Claude Code, Cursor or Codex describe what they need, and their agent finds the right tool and pays for it per call, all on one bill. {{companyName}} is exactly the kind of tool those agents go looking for.
+SpringBrand is where AI agents find tools. People in Claude Code, Cursor and Codex describe what they need, and their agent picks the right tool and pays per call. Listing {{companyName}} puts it in front of those agents the moment one of them {{agent_need}}, and we handle discovery and billing.
 
-Two ideas: list {{companyName}} so agents can discover and pay for it, and grab free starter credits to use our GTM tools for your own launch.
+Worth a quick chat about listing {{companyName}}?
 
-Open to a quick chat?
-
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -371,12 +391,13 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Following up on listing {{companyName}}. Agents on SpringBrand search by outcome, so a clear listing gets found right when someone needs it, and we handle the per-call billing.
+Quick follow-up. Listing {{companyName}} means no extra sales work on your side: agents find tools by the outcome they need, and we take care of per-call billing.
 
-Happy to walk you through it in 15 minutes, or send credits so you can try it as a user first. Whichever you prefer.
+Would 15 minutes this week work for a walkthrough? If you'd rather look first, I can send free credits so you can try SpringBrand as a user.
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
 
@@ -385,13 +406,14 @@ springbrand.ai
 ```
 Hi {{firstName}},
 
-Last note from me, promise. If growth tooling isn't a priority right now, I totally understand.
+Last note from me, promise. If a new distribution channel isn't a priority right now, I completely understand.
 
-Your free starter credits aren't going anywhere, so they're there whenever {{companyName}} needs a lead list, a competitor scan or some fresh content. And if someone else on the team owns growth, I'd really appreciate a pointer.
+The offer to list {{companyName}} stays open, and so do your free credits. And if someone else on the team handles partnerships, I'd really appreciate a pointer.
 
 Rooting for you this batch!
 
+Best,
 Arsham
-Marketing Director, SpringBrand
+Growth Marketing Manager, SpringBrand
 springbrand.ai
 ```
