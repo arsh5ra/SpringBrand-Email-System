@@ -633,3 +633,92 @@ Check every lead: if any variable used above is empty for a lead, tell me which 
 ## 4. Final check
 Preview the full sequence (all 3 steps and both subject variants) for three different leads. Confirm there are no blanks, no leftover {{...}}, and no doubled spaces. Then report back.
 ````
+
+## 08-partner-candidates (★ Partner candidates (any category), 11 leads)
+
+````
+You are helping me get my Instantly campaign "08-partner-candidates" ready to launch. Do not launch or schedule it; stop when everything is ready and give me a short report of what you changed and anything you couldn't do.
+
+## 1. Sequence
+Replace the campaign's sequence with exactly these 3 steps. Keep the wording, line breaks and {{variables}} exactly as written. Use plain text, no images or links in step 1.
+
+Step 1 (day 0). Subject variant A: agents looking for {{companyName}} | Subject variant B: {{companyName}} on SpringBrand
+Body:
+```
+Hi {{firstName}},
+
+Arsham from SpringBrand here. I saw {{companyName}} in the S26 batch and immediately thought of our marketplace.
+
+SpringBrand is where AI agents find tools. People in Claude Code, Cursor and Codex describe what they need, and their agent picks the right tool for the job. Listing {{companyName}} puts it in front of those agents the moment one of them {{agent_need}}.
+
+Worth a quick chat about listing {{companyName}}?
+
+Best,
+Arsham
+Growth Marketing Manager, SpringBrand
+springbrand.ai
+```
+
+Step 2 (wait 3 days). Leave the subject EMPTY so it sends as a reply in the same thread.
+Body:
+```
+Hi {{firstName}},
+
+Quick follow-up. Listing {{companyName}} is a new way to get discovered with no extra sales work: agents search by the outcome they need, so {{companyName}} shows up exactly when it's relevant.
+
+Would 15 minutes this week work for a walkthrough? If you'd rather look first, I can send free credits so you can try SpringBrand as a user.
+
+Best,
+Arsham
+Growth Marketing Manager, SpringBrand
+springbrand.ai
+```
+
+Step 3 (wait 4 days after step 2). Leave the subject EMPTY so it sends as a reply in the same thread.
+Body:
+```
+Hi {{firstName}},
+
+Last note from me, promise. If a new distribution channel isn't a priority right now, I completely understand.
+
+The offer to list {{companyName}} stays open, and so do your free credits. And if someone else on the team handles partnerships, I'd really appreciate a pointer.
+
+Rooting for you this batch!
+
+Best,
+Arsham
+Growth Marketing Manager, SpringBrand
+springbrand.ai
+```
+
+## 2. Variables
+The sequence uses these variables: {{firstName}}, {{companyName}}, {{agent_need}}. firstName and companyName are built-in lead fields. The others are custom variables on each lead.
+
+The custom variable `agent_need` is new, so my leads may not have it yet. Set `agent_need` on each lead to the value below, matching by company name:
+
+- Agentcard: needs to pay for something
+- Amorphic Labs: needs to buy or sell software
+- Click: needs deep research done
+- Context.dev: needs live web context
+- Executor: needs a new integration
+- Financial Datasets: needs live market data
+- Inkbox: needs to email, text or call someone
+- Magma: needs high-quality trace data
+- Rindler: needs to act on a website
+- Speko: needs speech or a voice model
+- Praxis Robotics: needs company data
+
+If you cannot set custom variables on leads, replace every {{agent_need}} in the subjects and bodies with "needs what you've built" instead, so no email has a blank.
+
+Check every lead: if any variable used above is empty for a lead, tell me which leads and which variable. Do not send to leads with an empty tagline or target; list them for me instead.
+
+## 3. Settings
+- Open tracking: off. Link tracking: off.
+- Stop the sequence for a lead when they reply: on.
+- Sending days: Monday to Friday. Sending window: 8:00 to 11:00 in the lead's time zone if supported, otherwise 8:00 to 11:00 US Pacific.
+- Daily limit: no more than 30 new leads per sending inbox per day.
+- Text only (no HTML formatting, images or unsubscribe banners added to the body).
+
+## 4. Final check
+Preview the full sequence (all 3 steps and both subject variants) for three different leads. Confirm there are no blanks, no leftover {{...}}, and no doubled spaces. Then report back.
+````

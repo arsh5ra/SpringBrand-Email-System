@@ -15,6 +15,7 @@ NEW_VAR = {
     "dev": ("dev_topic", "your space"),
     "smb": ("start_city", "your home city"),
     "con": ("creator_niche", None),
+    "partner": ("agent_need", "needs what you've built"),
 }
 CON_FALLBACK = [('20 {{creator_niche}} creators', '20 creators in your niche'),
                 ("this week's {{creator_niche}} trends", "this week's trends in your space"),
@@ -27,8 +28,6 @@ def main():
          "Paste one prompt per campaign into Instantly's AI assistant, inside that campaign. "
          "Each prompt is self-contained. None of them launch anything.", ""]
     for t in TEMPLATES:
-        if t["key"] == "partner":
-            continue
         name = CAMPAIGN[t["key"]]
         rows = [r for r in leads if r["campaign"] == name]
         subj = [to_instantly(s) for s in t["subjects"][:2]]
@@ -43,7 +42,7 @@ def main():
              "Body:", "```", to_instantly(t["follow_up_1"]), "", SIGNATURE, "```", "",
              "Step 3 (wait 4 days after step 2). Leave the subject EMPTY so it sends as a reply in the same thread.",
              "Body:", "```", to_instantly(t.get("follow_up_2", FOLLOW_UP_2)), "", SIGNATURE, "```", ""]
-        used = ["firstName", "companyName"] + [v for v in ("tagline", "target", "data_need", "dev_topic", "start_city", "creator_niche")
+        used = ["firstName", "companyName"] + [v for v in ("tagline", "target", "data_need", "dev_topic", "start_city", "creator_niche", "agent_need")
                                               if "{{%s}}" % v in to_instantly(t["email_1"] + t["follow_up_1"] + t.get("follow_up_2", "") + " ".join(t["subjects"]))]
         p += ["## 2. Variables",
               "The sequence uses these variables: " + ", ".join("{{%s}}" % v for v in used) + ". "
