@@ -1,132 +1,142 @@
-company,program,batch,focus,source_type,notes
-Ajiwow,Techstars Tokyo,Fall 2026,Foodtech (ROKU SHOKU brand),Official/company,Demo Day Nov 10 2026
-AraBat,Techstars Tokyo,Fall 2026,Battery and e-waste material recovery from agricultural waste,Official showcase,Demo Day Nov 10 2026
-Borderless,Techstars Tokyo,Fall 2026,AI mentor for college and career choices,Official showcase,Demo Day Nov 10 2026
-FeatureBox AI,Techstars Tokyo,Fall 2026,Recovers F&B brand revenue lost to invalid retailer deductions,Official showcase,Demo Day Nov 10 2026
-Verba,Techstars Tokyo,Fall 2026,AI growth platform for video creators,Official showcase,Demo Day Nov 10 2026
-VidiLabs,Techstars Tokyo,Fall 2026,Turns video content into usable data,Official showcase,Demo Day Nov 10 2026
-Wiillow,Techstars Tokyo,Fall 2026,Healthtech,Press,Demo Day Nov 10 2026
-Arcus Dental,Permanente Medicine Mid-Atlantic Healthcare,Fall 2026,At-home digital dental imaging,Official/press,Demo Day Dec 9 2026 Washington DC
-Brainbox,Permanente Medicine Mid-Atlantic Healthcare,Fall 2026,Detects cognitive decline from language,Official/press,Demo Day Dec 9 2026 Washington DC
-DICEtech,Permanente Medicine Mid-Atlantic Healthcare,Fall 2026,MRI-based virtual biopsy for prostate cancer,Press,Demo Day Dec 9 2026 Washington DC
-Edulis Therapeutics,Permanente Medicine Mid-Atlantic Healthcare,Fall 2026,Drug delivery for chronic GI disease (CMU spinout),Press,Demo Day Dec 9 2026 Washington DC
-Aiir,ABN AMRO Future of Finance (Amsterdam),Fall 2026,Fintech,Official,
-BaseComp AI,ABN AMRO Future of Finance (Amsterdam),Fall 2026,Fintech AI,Official,
-FopsAI,ABN AMRO Future of Finance (Amsterdam),Fall 2026,Fintech AI,Official,
-HEDI,ABN AMRO Future of Finance (Amsterdam),Fall 2026,Fintech,Official,
-Insaio,ABN AMRO Future of Finance (Amsterdam),Fall 2026,Fintech,Official,
-Meridyan,ABN AMRO Future of Finance (Amsterdam),Fall 2026,Fintech,Official,
-Umbra AI,ABN AMRO Future of Finance (Amsterdam),Fall 2026,Fintech AI,Official,
-Marx Finance,ABN AMRO Future of Finance (Amsterdam),Fall 2026,Agent-first finance platform,Official,
-Tessera Defense Systems,Techstars Space,Fall 2026,Space and defense,Official,
-Extraterrestrial Power,Techstars Space,Fall 2026,Space power systems,Third-party,
-MARASA Corporation,Techstars Space,Fall 2026,Space,Third-party,
-Multiscale Space Systems,Techstars Space,Fall 2026,Space,Third-party,
-EmptoSight,Founder Catalyst Global,Fall 2026,Pre-accelerator,Official,
-Harmona AI,Founder Catalyst Global,Fall 2026,AI (pre-accelerator),Official,
-AiMED,Founder Catalyst Global,Fall 2026,Health AI (pre-accelerator),Official,
-Enzo Clean,Founder Catalyst Global,Fall 2026,Pre-accelerator (Omaha or Belfast),Third-party,
-Breadly,Founder Catalyst Global,Fall 2026,Pre-accelerator (Omaha or Belfast),Third-party,
-Cohesive Robotics,Techstars Anywhere,Spring 2026,Industrial robots for sanding and welding,Official,
-Indora,Techstars Anywhere,Spring 2026,Compliance infrastructure,Official,
-Nukleas,Techstars Anywhere,Spring 2026,Operating system for government contractors,Official,
-PizzaBox,Techstars Anywhere,Spring 2026,Prepaid restaurant subscriptions,Official,Name per Techstars June 2026 update. Also seen as PizzaTech
-Safety Bolt,Techstars (program unconfirmed),Spring 2026,Unknown,Official newsroom mention,Confirm program
-AnalogCraft,Techstars NYC,Spring 2026,AI for chip design,Official,Class announced Jun 2 2026
-Arcticar,Techstars NYC,Spring 2026,Electric cooling and batteries for cold chains,Official,Class announced Jun 2 2026
-BuiltBlock,Techstars NYC,Spring 2026,Automated workspaces for B2B customer-facing teams,Official,Class announced Jun 2 2026
-Chain,Techstars NYC,Spring 2026,Payments for solopreneurs inside WhatsApp,Official,Class announced Jun 2 2026
-Papr,Techstars NYC,Spring 2026,Unknown,Third-party tracker,Not on official snippet so unverified
-Power Dime,Techstars NYC,Spring 2026,Unknown,Third-party tracker,Not on official snippet so unverified
-QLUU,Techstars NYC,Spring 2026,Autonomous AI to intercept drone and missile threats,Official,Class announced Jun 2 2026
-Percy,Techstars Chicago,Spring 2026,Unknown,Third-party tracker,
-LineSight,Techstars Chicago,Spring 2026,Unknown,Third-party tracker,
-Offline,Techstars Chicago,Spring 2026,Unknown,Third-party tracker,
-WattShift,Techstars Chicago,Spring 2026,Energy,Third-party tracker,
-CloudReno,Techstars Chicago,Spring 2026,Unknown,Third-party tracker,
-ForgeBee,Techstars Chicago,Spring 2026,Unknown,Third-party tracker,
-Kaizen Design,Techstars Chicago,Spring 2026,Unknown,Third-party tracker,
-Auron Solutions,Techstars London,Spring 2026,Unknown,Third-party tracker,
-Kensai,Techstars London,Spring 2026,Unknown,Third-party tracker,
-Neurotype,Techstars London,Spring 2026,Unknown,Third-party tracker,Also listed in AI Health Baltimore Spring 2026 so confirm program
-SimicX,Techstars London,Spring 2026,Unknown,Third-party tracker,
-Stemma AI,Techstars London,Spring 2026,AI,Third-party tracker,
-Systellar Space,Techstars London,Spring 2026,Space,Official/company,Confirmed by company release
-Arul Health,Northwestern Medicine Healthcare (Chicago),Spring 2026,Oncology support,Official/press,Previously listed under LA. Corrected
-Jam,Techstars Los Angeles,Spring 2026,Unknown,Techstars blog,
-Plexus,Techstars Los Angeles,Spring 2026,Unknown,Techstars blog,Also listed under Chicago by a tracker so confirm program
-Avarie Femcare,Techstars Los Angeles,Spring 2026,Femcare,Techstars blog,
-Pikkolo Assembly,Techstars Boulder,Fall 2026,Automated low-volume PCB assembly,Official (partial),Demo Day Dec 7 2026. 9 companies total
-2DaLoop,Future of Food (Minneapolis),Fall 2026,Supply chain data collection automation,Official,Demo Day Dec 9 2026
-Shelflife,Future of Food (Minneapolis),Fall 2026,Expiration tracking for perishable inventory,Official,Won Groceryshop 2026 pitch
-Greazly,Future of Food (Minneapolis),Fall 2026,Grease buildup monitoring for machines,Official,
-VERDE Biomaterials,Future of Food (Minneapolis),Fall 2026,Biodegradable plastic from agricultural waste,Official,
-NanoFreeze,Future of Food (Minneapolis),Fall 2026,Lower energy commercial refrigeration,Official,
-Pinto Robotics,Future of Food (Minneapolis),Fall 2026,Countertop restaurant prep robots,Official,
-Oscar AI,Future of Food (Minneapolis),Fall 2026,Retail data unification and alerts,Official,Good SpringBrand fit
-SkyAcres,Future of Food (Minneapolis),Fall 2026,Indoor farm hardware and AI,Official,
-MayimFlow,Alabama EnergyTech (Birmingham),Fall 2026,AI leak and cooling failure detection,Official,
-Znrg Innovations,Alabama EnergyTech (Birmingham),Fall 2026,Grid-responsive water heaters,Official,
-Synapse Thermal,Alabama EnergyTech (Birmingham),Fall 2026,Cooling for AI data centers,Official,
-Utilyst,Alabama EnergyTech (Birmingham),Fall 2026,On-premises AI for utilities,Official,
-Orbyfy Earthflow,Alabama EnergyTech (Birmingham),Fall 2026,Predicts buried cable failures,Official,
-Coulomb Technology,Alabama EnergyTech (Birmingham),Fall 2026,Sodium-ion batteries for military vehicles,Official,
-SEALUMBER,Alabama EnergyTech (Birmingham),Fall 2026,Building panels from seaweed and recycled plastic,Official,
-Aneko AI,AI Health Baltimore,Fall 2026,Health AI,Event listing,Demo Day Dec 3 2026
-HealthMosaic,AI Health Baltimore,Fall 2026,Health AI,Event listing,Demo Day Dec 3 2026
-Resolve Together,AI Health Baltimore,Fall 2026,Health,Event listing,Demo Day Dec 3 2026
-Sweetling Health,AI Health Baltimore,Fall 2026,Health,Event listing,Demo Day Dec 3 2026
-Lumenate Medical,AI Health Baltimore,Fall 2026,Medical,Event listing,Demo Day Dec 3 2026
-Zeus Robotics,AI Health Baltimore,Fall 2026,Health robotics,Event listing,Demo Day Dec 3 2026
-Amissa Health,AI Health Baltimore,Spring 2026,Health AI,Event listing,Demo Day Jun 3 2026
-Biolinco,AI Health Baltimore,Spring 2026,Health,Event listing,Demo Day Jun 3 2026
-Cerevanta AI,AI Health Baltimore,Spring 2026,Health AI,Event listing,Demo Day Jun 3 2026
-Citrus Oncology,AI Health Baltimore,Spring 2026,Oncology,Event listing,Demo Day Jun 3 2026
-Concordare Trials,AI Health Baltimore,Spring 2026,Clinical trials,Event listing,Demo Day Jun 3 2026
-Intelizen,AI Health Baltimore,Spring 2026,Health AI,Event listing,Demo Day Jun 3 2026
-ImmPro,Northwestern Medicine Healthcare (Chicago),Spring 2026,Healthtech,Official/press,
-Verbal AI,Northwestern Medicine Healthcare (Chicago),Spring 2026,Health AI,Official/press,
-Slideflow Labs,Northwestern Medicine Healthcare (Chicago),Spring 2026,AI digital pathology,Press,Least certain of the five
-Soihtu DTx,Northwestern Medicine Healthcare (Chicago),Spring 2026,Digital therapeutics,Official/press,
-Obert,Workforce Development (Boulder),Spring 2026,Workwear for women in trades (LA based),Official,
-Peak Mojo,Workforce Development (Boulder),Spring 2026,Caregiving workforce operating system,Official,
-Sumly,Workforce Development (Boulder),Spring 2026,AI tax and finance for solopreneurs,Official,Good SpringBrand fit
-Gild,Workforce Development (Boulder),Spring 2026,AI workforce OS for the trades,Official,
-Hive Ownership,Workforce Development (Boulder),Spring 2026,Employee ownership,Official,
-AskSAMIE,Workforce Development (Boulder),Spring 2026,Workforce,Official,
-Utiva,Workforce Development (Boulder),Spring 2026,Tech talent training,Official,
-LollyLab,USC University Catalyst (LA),Fall 2026,Non-invasive health monitoring,Official,Pre-accelerator. Pitch Day Nov 5 2026
-MEDICIPHER,USC University Catalyst (LA),Fall 2026,Medicaid and Medicare revenue for nursing homes,Official,Pre-accelerator
-213Deli,USC University Catalyst (LA),Fall 2026,Beauty subscription by text,Official,Pre-accelerator
-Betta,USC University Catalyst (LA),Fall 2026,Shooting sleeve,Official,Pre-accelerator
-Coddi,USC University Catalyst (LA),Fall 2026,Group trip planning app,Official,Pre-accelerator
-Earthia Bio,USC University Catalyst (LA),Fall 2026,Feedstock software for biorefineries,Official,Pre-accelerator
-dotNex,USC University Catalyst (LA),Fall 2026,Unknown,Official,Pre-accelerator
-Cogitatis AI,USC University Catalyst (LA),Fall 2026,AI,Official,Pre-accelerator
-Drafted,USC and Techstars Accelerator (LA),Spring 2026,HR and talent matching,Third-party,
-Relic,Founder Catalyst Global (Sarajevo),Fall 2026,AI second brain,Official blog,Pre-accelerator
-Seated with Love,Techstars Chicago,Spring 2026,Unknown,Third-party tracker,
-CoordiCare,Techstars Los Angeles (program unconfirmed),2026,Care coordination,Third-party tracker,
-Nara,Techstars Los Angeles (program unconfirmed),2026,Unknown,Third-party tracker,
-Stellerian,Techstars Los Angeles (program unconfirmed),2026,Aerospace and defense,Third-party tracker,
-Translunar,Techstars Los Angeles (program unconfirmed),2026,Aerospace,Third-party tracker,
-Pensata,Techstars Tokyo,Fall 2026,Unknown,Press (Dealroom),Raised $246K pre-seed
-Rosalind Dx,Permanente Medicine Mid-Atlantic Healthcare,Fall 2026,Prenatal test for chromosomal abnormalities,Press,Demo Day Dec 9 2026 Washington DC
-Shepherd Space Systems,Techstars Space,Fall 2026,3D printed solid rocket propellant,Official (partial),
-Cadynce,Founder Catalyst Alabama (Tuscaloosa),Fall 2026,AI takeoffs and bid workflow for construction,Official,Pre-accelerator. 19 companies total. Showcase Nov 17 2026
-Aulendur Labs,Founder Catalyst Global (Omaha),Spring 2026,Defense AI or agtech,Press,Pre-accelerator
-FuturHerd Solutions,Founder Catalyst Global (Omaha),Spring 2026,Agricultural precision tech,Press,Pre-accelerator
-Ayni Solutions,EIT Urban Mobility Founder Catalyst,Fall 2026,Micromobility data to financial intelligence (UK),Official,Demo Day Barcelona Dec 3 2026
-Celtrix,EIT Urban Mobility Founder Catalyst,Fall 2026,Battery systems for drones and EVs (Germany),Official,Demo Day Barcelona Dec 3 2026
-dropick,EIT Urban Mobility Founder Catalyst,Fall 2026,B2B marketplace for parcel delivery points (Spain),Official,Demo Day Barcelona Dec 3 2026
-VEDU,EIT Urban Mobility Founder Catalyst,Fall 2026,Child mobility platform with screened drivers,Official,Demo Day Barcelona Dec 3 2026
-Fleevigo,EIT Urban Mobility Founder Catalyst,Fall 2026,Mobility (Malta),Official,Demo Day Barcelona Dec 3 2026
-Naistaxi,EIT Urban Mobility Founder Catalyst,Fall 2026,Mobility (Finland),Official,Demo Day Barcelona Dec 3 2026
-Quantisage,Founder Catalyst WaterTech and Sustainability (Tuscaloosa),Spring 2026,Scope 3 carbon compliance platform,Official,Pre-accelerator. Good SpringBrand fit
-Aquafer Technologies,Founder Catalyst WaterTech and Sustainability (Tuscaloosa),Spring 2026,Materials that capture water contaminants,Official,Pre-accelerator
-GridSpot,Founder Catalyst WaterTech and Sustainability (Tuscaloosa),Spring 2026,Energy tech,Company post,Pre-accelerator
-Snowbotix,Techstars Anywhere,Spring 2026,Robotics,Official (June 2026 update),
-Volumes,Techstars Anywhere,Spring 2026,Unknown,Official,
-AeroDeliver,Techstars Boston (unverified),2026,Unknown,Third-party tracker,Low confidence. Another directory says Boston ran no 2026 cohort
-SynthBio Labs,Techstars Boston (unverified),2026,Unknown,Third-party tracker,Low confidence. Another directory says Boston ran no 2026 cohort
-OptiSurg,Techstars Boston (unverified),2026,Unknown,Third-party tracker,Low confidence. Another directory says Boston ran no 2026 cohort
+company,program,batch,focus,source_type,verification,notes
+Ajiwow,Techstars Tokyo,Fall 2026,Foodtech (ROKU SHOKU brand),Official/company,Verified,Demo Day Nov 10 2026
+AraBat,Techstars Tokyo,Fall 2026,Battery and e-waste material recovery from agricultural waste,Official showcase,Verified,Demo Day Nov 10 2026
+Borderless,Techstars Tokyo,Fall 2026,AI mentor for college and career choices,Official showcase,Verified,Demo Day Nov 10 2026
+FeatureBox,Techstars Tokyo,Fall 2026,AI revenue operations for CPG brands,Official showcase,Verified,Demo Day Nov 10 2026
+Verba,Techstars Tokyo,Fall 2026,AI growth platform for video creators,Official showcase,Verified,Demo Day Nov 10 2026
+VidiLabs,Techstars Tokyo,Fall 2026,Turns video content into usable data,Official showcase,Verified,Demo Day Nov 10 2026
+Wiillow,Techstars Tokyo,Fall 2026,Healthtech,Press,Likely,Demo Day Nov 10 2026
+Arcus Dental,Permanente Medicine Mid-Atlantic Healthcare,Fall 2026,At-home digital dental imaging,Official/press,Verified,Demo Day Dec 9 2026 Washington DC
+Brainbox,Permanente Medicine Mid-Atlantic Healthcare,Fall 2026,Detects cognitive decline from language,Official/press,Verified,Demo Day Dec 9 2026 Washington DC
+DICEtech,Permanente Medicine Mid-Atlantic Healthcare,Fall 2026,MRI-based virtual biopsy for prostate cancer,Press,Likely,Demo Day Dec 9 2026 Washington DC
+Edulis Therapeutics,Permanente Medicine Mid-Atlantic Healthcare,Fall 2026,Drug delivery for chronic GI disease (CMU spinout),Press,Likely,Demo Day Dec 9 2026 Washington DC
+Aiir,ABN AMRO Future of Finance (Amsterdam),Fall 2026,AI investor relations for asset managers,Official,Likely,
+BaseComp AI,ABN AMRO Future of Finance (Amsterdam),Fall 2026,Fintech AI,Official,Likely,
+FopsAI,ABN AMRO Future of Finance (Amsterdam),Fall 2026,Fintech AI,Official,Likely,
+HEDI,ABN AMRO Future of Finance (Amsterdam),Fall 2026,Fintech,Official,Likely,
+Insaio,ABN AMRO Future of Finance (Amsterdam),Fall 2026,AI and human conversations that fill advisor calendars,Official,Verified,
+Meridyan,ABN AMRO Future of Finance (Amsterdam),Fall 2026,API linking regulated banks to blockchain rails,Official,Likely,
+Umbra AI,ABN AMRO Future of Finance (Amsterdam),Fall 2026,AI compliance operating system for financial services,Official,Verified,
+Marx Finance,ABN AMRO Future of Finance (Amsterdam),Fall 2026,Agent-first finance platform,Official,Likely,
+Tessera Defense Systems,Techstars Space,Fall 2026,Space and defense,Official,Verified,
+Extraterrestrial Power,Techstars Space,Fall 2026,Low-cost radiation-tolerant space solar panels,Official,Verified,
+MARASA Corporation,Techstars Space,Fall 2026,Self-healing chips for space and extreme environments,Official,Verified,
+Multiscale Space Systems,Techstars Space,Fall 2026,Morphing aerodynamic shields for spacecraft,Official,Verified,
+EmptoSight,Founder Catalyst Global (Istanbul),Fall 2026,AI synthetic consumer and marketing intelligence,Official,Verified,Strong SpringBrand fit
+Harmona AI,Founder Catalyst Global (Istanbul),Fall 2026,No-prompt AI workforce from company data,Official,Verified,
+AiMED,Founder Catalyst Global (Sarajevo),Fall 2026,AI clinical documentation and patient calls,Official,Verified,
+Enzo Clean,Founder Catalyst Global,Fall 2026,Pre-accelerator (Omaha or Belfast),Third-party,Unverified,No confirming source found
+Breadly,Founder Catalyst Global,Fall 2026,Pre-accelerator (Omaha or Belfast),Third-party,Unverified,No confirming source found
+Cohesive Robotics,Techstars Anywhere,Spring 2026,Industrial robots for sanding and welding,Official,Verified,
+Indora,Techstars Anywhere,Spring 2026,Compliance infrastructure,Official,Verified,
+Nukleas,Techstars Anywhere,Spring 2026,Operating system for government contractors,Official,Verified,
+PizzaBox,Techstars Anywhere,Spring 2026,Prepaid restaurant subscriptions,Official,Verified,Name per Techstars June 2026 update. Also seen as PizzaTech
+Safety Bolt,Techstars (program unconfirmed),Spring 2026,Sensors for remote structural bolt monitoring (Stockholm),Official newsroom mention,Verified,Program not named
+AnalogCraft,Techstars NYC,Spring 2026,AI for chip design,Official,Verified,Class announced Jun 2 2026
+Arcticar,Techstars NYC,Spring 2026,Electric cooling and batteries for cold chains,Official,Verified,Class announced Jun 2 2026
+BuiltBlock,Techstars NYC,Spring 2026,Automated workspaces for B2B customer-facing teams,Official,Verified,Class announced Jun 2 2026
+Chain,Techstars NYC,Spring 2026,Payments for solopreneurs inside WhatsApp,Official,Verified,Class announced Jun 2 2026
+Papr,Techstars NYC,Spring 2026,Graph-native retrieval and memory for AI agents,Official,Verified,CEO Shawkat Kabbara. Strong Super Link fit
+Power Dime,Techstars NYC,Spring 2026,Data center energy procurement platform,Official,Verified,CEO Harleen Sindhu
+QLUU,Techstars NYC,Spring 2026,Autonomous AI to intercept drone and missile threats,Official,Verified,Class announced Jun 2 2026
+Percy,AI Health Baltimore,Spring 2026,Health AI,Techstars June 2026 update,Verified,Moved from Chicago. Earlier tracker was wrong
+LineSight,Techstars Chicago,Spring 2026,Decision intelligence for metal service centers,Long Chicago portfolio,Likely,
+Offline,Techstars Chicago,Spring 2026,IRL advertising platform,Long Chicago portfolio,Likely,
+WattShift,Techstars Chicago,Spring 2026,Making devices energy-smart,Long Chicago portfolio,Likely,
+CloudReno,Techstars Chicago,Spring 2026,AI-enabled renovation roll-up (Chicago),Long Chicago portfolio,Likely,
+ForgeBee,Techstars Chicago,Spring 2026,Automated honey bee production and pollination,Long Chicago portfolio,Likely,
+Kaizen Design,Techstars Chicago,Spring 2026,Building standards governance for healthcare facilities,Long Chicago portfolio,Likely,
+Auron Solutions,Techstars London,Spring 2026,AI RF warfare that disables hostile drone links,Official,Verified,
+Kensai,Techstars London,Spring 2026,Infrastructure for consumer health brands to launch internationally,Official,Verified,
+Neurotype,Techstars London,Spring 2026,AI operating system for neurodiversity care,Official,Verified,Confirmed London. Baltimore mention looks like an error
+SimicX,Techstars London,Spring 2026,Autonomous AI scientists for mathematical research,Official,Verified,
+Stemma AI,Techstars London,Spring 2026,Fixes claims leakage in transport insurance,Official,Verified,
+Systellar Space,Techstars London,Spring 2026,Space,Official/company,Verified,Confirmed by company release
+Arul Health,Northwestern Medicine Healthcare (Chicago),Spring 2026,Oncology support,Official/press,Verified,Previously listed under LA. Corrected
+Jam (Jam Family Calendar),USC and Techstars Accelerator (LA),Spring 2026,AI chief of staff for families,USC and Techstars,Verified,Demo Day Jun 9 2026
+Plexus,Techstars Chicago,Spring 2026,AI observability for hardware and physical systems,Techstars newsroom and Long Chicago,Verified,Moved from LA. Came through Founder Catalyst
+Avarie Femcare,USC and Techstars Accelerator (LA),Spring 2026,Period care for heavy and postpartum flow,USC and Techstars,Verified,Founder Charlyn Bender. Demo Day Jun 9 2026
+Pikkolo Assembly,Techstars Boulder,Fall 2026,Automated low-volume PCB assembly,Official (partial),Verified,Demo Day Dec 7 2026. 9 companies total
+2DaLoop,Future of Food (Minneapolis),Fall 2026,Supply chain data collection automation,Official,Verified,Demo Day Dec 9 2026
+Shelflife,Future of Food (Minneapolis),Fall 2026,Expiration tracking for perishable inventory,Official,Verified,Won Groceryshop 2026 pitch
+Greazly,Future of Food (Minneapolis),Fall 2026,Grease buildup monitoring for machines,Official,Verified,
+VERDE Biomaterials,Future of Food (Minneapolis),Fall 2026,Biodegradable plastic from agricultural waste,Official,Verified,
+NanoFreeze,Future of Food (Minneapolis),Fall 2026,Lower energy commercial refrigeration,Official,Verified,
+Pinto Robotics,Future of Food (Minneapolis),Fall 2026,Countertop restaurant prep robots,Official,Verified,
+Oscar AI,Future of Food (Minneapolis),Fall 2026,Retail data unification and alerts,Official,Verified,Good SpringBrand fit
+SkyAcres,Future of Food (Minneapolis),Fall 2026,Indoor farm hardware and AI,Official,Verified,
+MayimFlow,Alabama EnergyTech (Birmingham),Fall 2026,AI leak and cooling failure detection,Official,Verified,
+Znrg Innovations,Alabama EnergyTech (Birmingham),Fall 2026,Grid-responsive water heaters,Official,Verified,
+Synapse Thermal,Alabama EnergyTech (Birmingham),Fall 2026,Cooling for AI data centers,Official,Verified,
+Utilyst,Alabama EnergyTech (Birmingham),Fall 2026,On-premises AI for utilities,Official,Verified,
+Orbyfy Earthflow,Alabama EnergyTech (Birmingham),Fall 2026,Predicts buried cable failures,Official,Verified,
+Coulomb Technology,Alabama EnergyTech (Birmingham),Fall 2026,Sodium-ion batteries for military vehicles,Official,Verified,
+SEALUMBER,Alabama EnergyTech (Birmingham),Fall 2026,Building panels from seaweed and recycled plastic,Official,Verified,
+Aneko AI,AI Health Baltimore,Fall 2026,Health AI,Event listing,Likely,Demo Day Dec 3 2026
+HealthMosaic,AI Health Baltimore,Fall 2026,Health AI,Event listing,Likely,Demo Day Dec 3 2026
+Resolve Together,AI Health Baltimore,Fall 2026,Health,Event listing,Likely,Demo Day Dec 3 2026
+Sweetling Health,AI Health Baltimore,Fall 2026,Health,Event listing,Likely,Demo Day Dec 3 2026
+Lumenate Medical,AI Health Baltimore,Fall 2026,Medical,Event listing,Likely,Demo Day Dec 3 2026
+Zeus Robotics,AI Health Baltimore,Fall 2026,Health robotics,Event listing,Likely,Demo Day Dec 3 2026
+Amissa Health,AI Health Baltimore,Spring 2026,Health AI,Event listing,Likely,Demo Day Jun 3 2026
+Biolinco,AI Health Baltimore,Spring 2026,Health,Event listing,Likely,Demo Day Jun 3 2026
+Cerevanta AI,AI Health Baltimore,Spring 2026,Health AI,Event listing,Unverified,Only on one event listing
+Citrus Oncology,AI Health Baltimore,Spring 2026,Oncology,Event listing,Likely,Demo Day Jun 3 2026
+Concordare Trials,AI Health Baltimore,Spring 2026,Clinical trials,Event listing,Likely,Demo Day Jun 3 2026
+Intelizen,AI Health Baltimore,Spring 2026,Health AI,Event listing,Likely,Demo Day Jun 3 2026
+ImmPro,Northwestern Medicine Healthcare (Chicago),Spring 2026,Healthtech,Official/press,Verified,
+Verbal AI,Northwestern Medicine Healthcare (Chicago),Spring 2026,Health AI,Official/press,Verified,
+Slideflow Labs,Northwestern Medicine Healthcare (Chicago),Spring 2026,AI digital pathology,Press,Likely,Least certain of the five
+Soihtu DTx,Northwestern Medicine Healthcare (Chicago),Spring 2026,Digital therapeutics,Official/press,Verified,
+Obert,Workforce Development (Boulder),Spring 2026,Workwear for women in trades (LA based),Official,Verified,
+Peak Mojo,Workforce Development (Boulder),Spring 2026,Caregiving workforce operating system,Official,Verified,
+Sumly,Workforce Development (Boulder),Spring 2026,AI tax and finance for solopreneurs,Official,Verified,Good SpringBrand fit
+Gild,Workforce Development (Boulder),Spring 2026,AI workforce OS for the trades,Official,Verified,
+Hive Ownership,Workforce Development (Boulder),Spring 2026,Employee ownership,Official,Verified,
+AskSAMIE,Workforce Development (Boulder),Spring 2026,Workforce,Official,Verified,
+Utiva,Workforce Development (Boulder),Spring 2026,Tech talent training,Official,Verified,
+LollyLab,USC University Catalyst (LA),Fall 2026,Non-invasive health monitoring,Official,Verified,Pre-accelerator. Pitch Day Nov 5 2026
+MEDICIPHER,USC University Catalyst (LA),Fall 2026,Medicaid and Medicare revenue for nursing homes,Official,Verified,Pre-accelerator
+213Deli,USC University Catalyst (LA),Fall 2026,Beauty subscription by text,Official,Verified,Pre-accelerator
+Betta,USC University Catalyst (LA),Fall 2026,Shooting sleeve,Official,Verified,Pre-accelerator
+Coddi,USC University Catalyst (LA),Fall 2026,Group trip planning app,Official,Verified,Pre-accelerator
+Earthia Bio,USC University Catalyst (LA),Fall 2026,Feedstock software for biorefineries,Official,Verified,Pre-accelerator
+dotNex,USC University Catalyst (LA),Fall 2026,Unknown,Official,Verified,Pre-accelerator
+Cogitatis AI,USC University Catalyst (LA),Fall 2026,AI,Official,Verified,Pre-accelerator
+Drafted,USC and Techstars Accelerator (LA),Spring 2026,HR and talent matching,USC and Techstars,Verified,
+Relic,Founder Catalyst Global (Sarajevo),Fall 2026,AI second brain,Official blog,Verified,Pre-accelerator
+Seated with Love,Techstars Chicago,Spring 2026,Unknown,Third-party tracker,Unverified,Only one tracker lists it
+CoordiCare,USC University Catalyst (LA),Fall 2025,Healthcare coordination platform,USC research office,Likely,Likely the 2025 Catalyst class not 2026
+Nara,USC University Catalyst (LA),Fall 2025,Accessible digital tools for daily living,USC research office,Likely,Likely the 2025 Catalyst class not 2026
+Stellerian,Techstars Space,Fall 2025,Space domain awareness cameras and on-orbit servicing,Press,Likely,Completed program Jan 2026. May be the same company as Translunar
+Translunar,Techstars Los Angeles (program unconfirmed),2026,Aerospace and defense,Founder case study,Likely,Possibly an alternate name for Stellerian
+Pensata,Techstars Tokyo,Fall 2026,Unknown,Press (Dealroom),Likely,Raised $246K pre-seed
+Rosalind Dx,Permanente Medicine Mid-Atlantic Healthcare,Fall 2026,Prenatal test for chromosomal abnormalities,Press,Likely,Named by one report only
+Shepherd Space Systems,Techstars Space,Fall 2026,3D printed solid rocket propellant,Official (partial),Verified,
+Cadynce,Founder Catalyst Alabama (Tuscaloosa),Fall 2026,AI takeoffs and bid workflow for construction,Official,Verified,Pre-accelerator. 19 companies total. Showcase Nov 17 2026
+Aulendur Labs,Founder Catalyst Global (Omaha),Spring 2026,Defense AI or agtech,Press,Likely,Pre-accelerator
+FuturHerd Solutions,Founder Catalyst Global (Omaha),Spring 2026,Agricultural precision tech,Press,Likely,Pre-accelerator
+Ayni Solutions,EIT Urban Mobility Founder Catalyst,Fall 2026,Micromobility data to financial intelligence (UK),Official,Verified,Demo Day Barcelona Dec 3 2026
+Celtrix,EIT Urban Mobility Founder Catalyst,Fall 2026,Battery systems for drones and EVs (Germany),Official,Verified,Demo Day Barcelona Dec 3 2026
+dropick,EIT Urban Mobility Founder Catalyst,Fall 2026,B2B marketplace for parcel delivery points (Spain),Official,Verified,Demo Day Barcelona Dec 3 2026
+VEDU,EIT Urban Mobility Founder Catalyst,Fall 2026,Child mobility platform with screened drivers,Official,Verified,Demo Day Barcelona Dec 3 2026
+Fleevigo,EIT Urban Mobility Founder Catalyst,Fall 2026,Mobility (Malta),Official,Verified,Demo Day Barcelona Dec 3 2026
+Naistaxi,EIT Urban Mobility Founder Catalyst,Fall 2026,Mobility (Finland),Official,Verified,Demo Day Barcelona Dec 3 2026
+Quantisage,Founder Catalyst WaterTech and Sustainability (Tuscaloosa),Spring 2026,Scope 3 carbon compliance platform,Official,Verified,Pre-accelerator. Good SpringBrand fit
+Aquafer Technologies,Founder Catalyst WaterTech and Sustainability (Tuscaloosa),Spring 2026,Materials that capture water contaminants,Official,Verified,Pre-accelerator
+GridSpot,Founder Catalyst WaterTech and Sustainability (Tuscaloosa),Spring 2026,Energy tech,Company post,Likely,Pre-accelerator
+Snowbotix,Techstars Anywhere,Spring 2026,Autonomous robots for snow removal and sweeping,Official (June 2026 update),Verified,
+Volumes,Techstars Anywhere,Spring 2026,Unknown,Official,Likely,Listed in Techstars June update but program unclear
+AeroDeliver,Techstars Boston (unverified),2026,Unknown,Third-party tracker,Do not use,Unreliable tracker. Boston likely had no 2026 cohort
+SynthBio Labs,Techstars Boston (unverified),2026,Unknown,Third-party tracker,Do not use,Unreliable tracker. Boston likely had no 2026 cohort
+OptiSurg,Techstars Boston (unverified),2026,Unknown,Third-party tracker,Do not use,Unreliable tracker. Boston likely had no 2026 cohort
+illumifyDx,AI Health Baltimore,Spring 2026,Health diagnostics,Techstars June 2026 update,Verified,
+FlexTogether,USC and Techstars Accelerator (LA),Spring 2026,Virtual pulmonary rehab,USC and Techstars,Verified,Demo Day Jun 9 2026
+Claimio (formerly Blue Navy Recovery),USC and Techstars Accelerator (LA),Spring 2026,Recovers unclaimed property for clients,Company press release,Verified,Good SpringBrand fit
+VascAI,USC and Techstars Accelerator (LA),Spring 2026,AI care coordination for community health workers,USC and Techstars,Verified,
+Sensate Robotics,USC and Techstars Accelerator (LA),Spring 2026,Tactile sensors and robotic grippers,USC and Techstars,Verified,
+nowfluence,USC and Techstars Accelerator (LA),Spring 2026,AI influencer marketing platform,USC and Techstars,Verified,Strong SpringBrand fit
+Navi,Techstars Boulder,Fall 2026,AI,Press (Colorado AI News),Likely,Demo Day Dec 7 2026
+Patrol 6,Techstars Boulder,Fall 2026,AI,Press (Colorado AI News),Likely,Demo Day Dec 7 2026
+Sunzu,Techstars Boulder,Fall 2026,Behavioral engine,Press (Colorado AI News),Likely,Demo Day Dec 7 2026
+Nuvante,ABN AMRO Future of Finance (Amsterdam),Fall 2026,Fintech,Official,Likely,
